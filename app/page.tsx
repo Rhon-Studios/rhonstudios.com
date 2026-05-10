@@ -9,10 +9,7 @@ import { Legacy } from "@/app/components/legacy";
 import { Team } from "@/app/components/team";
 import {NewsLetter} from "@/app/components/newsLetter";
 import {OurVision} from "@/app/components/ourvision";
-
 export default function App() {
-
-    
     return (
             <div className="bg-black snap-y snap-mandatory">
                 <Hero />

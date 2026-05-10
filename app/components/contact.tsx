@@ -5,10 +5,10 @@ import {Facebook, Github, Heart, Instagram, Linkedin, Mail, Twitter} from 'lucid
 import React, {useState, useEffect} from "react";
 import {useLanguage} from "@/app/language/LanguageProvider";
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyUETV-GaOVz8eX01wyb8q9cZA74EsMZsGbQSg6i6OGqMLdOttyrkNSi9HwvQFfKnAZ/exec"
 export function Contact(){
     
     const { t } = useLanguage();
+    const GOOGLE_API = process.env.GOOGLE_API;
 
     const [formData, setFormData] = useState({
         Name: "",
@@ -56,6 +56,12 @@ export function Contact(){
     };
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        if (!GOOGLE_API) {
+            setStatus("error");
+            setErrorMessage("Missing GOOGLE_API environment variable");
+            return;
+        }
+        
         const validationError = validateForm();
         if (validationError) {
             setStatus("invalid");
@@ -65,7 +71,7 @@ export function Contact(){
         setErrorMessage("");
         setStatus("sending")
         try {
-            await fetch(GOOGLE_SCRIPT_URL, {
+            await fetch(GOOGLE_API, {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams(formData)
