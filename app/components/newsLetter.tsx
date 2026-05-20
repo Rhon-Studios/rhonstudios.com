@@ -9,10 +9,7 @@ export function NewsLetter() {
         >
             <div className="max-w-6xl mx-auto">
                 <div className="mt-11 text-center border-2 border-white/50 p-12">
-                    <h3
-                        className="text-3xl mb-4 tracking-wider"
-                        style={{ fontFamily: "Rye" }}
-                    >
+                    <h3 className="text-3xl mb-4 tracking-wider font-rye">
                         {t.newsLetter.title}
                     </h3>
                     <p

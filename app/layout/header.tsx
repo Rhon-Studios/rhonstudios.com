@@ -89,11 +89,9 @@ export function Header() {
                         <nav className="container mx-auto py-4 flex items-center justify-between relative">
                             <div className="flex items-center">
                                 <div className="relative flex items-center border-2 border-white rounded-sm overflow-hidden">
-
                                     <button
                                         onClick={() => setLanguage("en")}
-                                        className="relative flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
-                                        style={{ fontFamily: "Cinzel" }}
+                                        className="relative font-cinzel flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
                                     >
                                         <p className="text-white text-center text-sm">
                                             EN
@@ -107,8 +105,7 @@ export function Header() {
                                     <div className="w-px h-6 bg-white/40" />
                                     <button
                                         onClick={() => setLanguage("es")}
-                                        className="relative flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
-                                        style={{ fontFamily: "Cinzel" }}
+                                        className="relative font-cinzel flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
                                     >
                                         <p className="text-white text-center text-sm">
                                             ES
@@ -123,8 +120,8 @@ export function Header() {
                             </div>
                             <div className="flex items-center gap-4 absolute left-1/3 transform -translate-x-full">
                                 <h1
-                                    className="text-white text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInLeft"
-                                    style={{ fontFamily: "Rye", textShadow: "0 4px 20px rgba(255,255,255,0.15)" }}
+                                    className="text-white font-rye text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInLeft"
+                                    style={{ textShadow: "0 4px 20px rgba(255,255,255,0.15)" }}
                                 >
                                     Rhon
                                 </h1>
@@ -139,10 +136,7 @@ export function Header() {
                                 </a>
                             </div>
                             <div className="flex items-center gap-4 absolute right-1/3 transform translate-x-full">
-                                <h1
-                                    className="text-white text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInRight"
-                                    style={{ fontFamily: "Rye" }}
-                                >
+                                <h1 className="text-white text-4xl lg:text-5xl font-rye tracking-widest opacity-0 animate-fadeInRight">
                                     Studios
                                 </h1>
                             </div>
