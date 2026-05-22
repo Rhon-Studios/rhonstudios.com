@@ -2,7 +2,7 @@
 import { Footer } from "./layout/footer";
 import { LanguageProvider } from "@/app/language/LanguageProvider";
 
-import { Rye, Cinzel, Cormorant_Garamond  } from "next/font/google";
+import { Rye, Cinzel, Cormorant_Garamond, Skranji, Cinzel_Decorative  } from "next/font/google";
 
 const rye = Rye({
     subsets: ["latin"],
@@ -19,6 +19,18 @@ const cormorant = Cormorant_Garamond({
     subsets: ["latin"],
     variable: "--font-cinzel",
 });
+
+const cinzel_decorative = Cinzel_Decorative({
+    subsets: ["latin"],
+    weight: ["400"],
+    variable: "--font-cinzel_decorative",
+})
+
+const skranji = Skranji({
+    subsets: ["latin"],
+    weight: ["400"],
+    variable: "--font-skranji",
+})
 
 
 import './styles/theme.css';

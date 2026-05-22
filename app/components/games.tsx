@@ -21,7 +21,7 @@ export function Games(){
                 minHeight: '100vh',
             }}
         >
-            <div className="container mx-auto px-8 lg:px-16">
+            <div className="container mx-auto p-4 md:p-8 lg:px-16">
                 <div className="text-center">
                     <div className="inline-block border-2 border-white px-10 py-3 mb-8">
                         <p
@@ -48,7 +48,7 @@ export function Games(){
                         <div className="w-100 h-[2px] bg-white"/>
                     </div>
                 </div>
-                <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
                     {gamesData.map((game, index) => {
                         const gameT = t.game_list[game.id];
                         return (
@@ -66,7 +66,7 @@ export function Games(){
                                 }}
                                 onClick={() => setSelectedGame(game)}
                                 key={game.id}
-                                className="relative border-2 border-white p-8 overflow-hidden group h-[350px] flex flex-col justify-center cursor-pointer hover:bg-white/5 transition-all duration-300"
+                                className="relative border-2 border-white p-6 md:p-8 overflow-hidden group h-auto md:h-[350px] flex flex-col justify-center cursor-pointer hover:bg-white/5 transition-all duration-300"
                             >
                                 <div
                                     className="absolute inset-0 bg-cover bg-center opacity-40"
@@ -83,7 +83,7 @@ export function Games(){
                                     </h3>
                                 </div>
                                 <p
-                                    className="text-lg tracking-wide opacity-70 pl-5"
+                                    className="text-base sm:text-lg leading-relaxed tracking-wide text-white/70 mb-8"
                                     style={{ fontFamily: "Cinzel" }}
                                 >
                                     {gameT.subtitle}
@@ -114,13 +114,11 @@ export function Games(){
                             onClick={() => setSelectedGame(null)}
                             onMouseLeave={() => setSelectedGame(null)}
                         >
-                            <div
-                                className="relative max-w-6xl w-full bg-black border-2 border-white/20 p-10 grid md:grid-cols-2 gap-12 items-center"
-                            >
+                            <div className="relative max-w-6xl w-full bg-black border-2 border-white/20 p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
                                 <div>
                                     <motion.div 
                                         whileHover={{ scale: 1.05 }}
-                                        className="group relative aspect-video bg-black border-2 border-white/20 flex items-center justify-center overflow-hidden">
+                                        className="group relative aspect-video md:aspect-[16/9] bg-black border-2 border-white/20 flex items-center justify-center overflow-hidden">
                                         {selectedGame.heroImage ? (
                                             <img
                                                 src={selectedGame.heroImage}

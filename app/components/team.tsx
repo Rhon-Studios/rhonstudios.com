@@ -24,7 +24,7 @@ export function Team() {
                 minHeight: '20vh',
             }}
         >
-            <div className="container mx-auto px-8 lg:px-16">
+            <div className="container mx-auto p-4 md:p-8 lg:px-16">
                 <div className="max-w-3xl mx-auto">
                     <div className="border-t-2 border-white/20 pt-12">
                         <div className="text-center mb-8">

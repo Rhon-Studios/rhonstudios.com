@@ -25,7 +25,7 @@ export function About() {
                             </p>
                         </div>
                         <h2
-                            className="text-6xl lg:text-7xl mb-8 tracking-wider"
+                            className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-8 tracking-wider"
                             style={{ fontFamily: "Rye" }}
                         >
                             {t.about.title}
@@ -44,7 +44,7 @@ export function About() {
                     <div className="grid md:grid-cols-2 gap-16 mt-7">
                         <div>
                             <h3
-                                className="text-2xl mb-6 tracking-wider"
+                                className="text-2xl sm:text-3xl md:text-5xl mb-3 tracking-wide"
                                 style={{ fontFamily: "Cinzel", fontWeight: "bold" }}
                             >
                                 {t.about.section_1.title}
@@ -64,7 +64,7 @@ export function About() {
                         </div>
                         <div>
                             <h3
-                                className="text-2xl mb-6 tracking-wider"
+                                className="text-2xl sm:text-3xl md:text-5xl mb-3 tracking-wide"
                                 style={{ fontFamily: "Cinzel", fontWeight: "bold" }}
                             >
                                 {t.about.section_2.title}
