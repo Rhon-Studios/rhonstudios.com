@@ -11,6 +11,12 @@ export function Header() {
     const params = useParams();
     const gameId = params?.id as string;
     const game = gameId ? getGameById(gameId) : null;
+    const headerLogo = isIdPage && game?.logo
+        ? game.logo
+        : "/logos/RhonStudiosCircleLogo.png";
+    const headerLogoLarge = isIdPage && game?.logo
+        ? game.logo
+        : "/logos/IconHeader.png";
     const router = useRouter();
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -196,25 +202,32 @@ export function Header() {
                         <>
                             
                             <div className="lg:hidden flex items-center justify-between px-4 py-2">
-                                <img src="/logos/RhonStudiosCircleLogo.png" alt="Rhon Studios" className="h-12 w-auto" />
+                                <img
+                                    src={headerLogo}
+                                    alt={game?.title ?? "Rhon Studios"}
+                                    className="h-12 w-auto"
+                                />
                                 <div className="flex items-center gap-3">
                                     <LangSwitcherMobile />
                                     <HamburgerBtn />
                                 </div>
                             </div>
-                            
                             <nav className="hidden lg:flex container mx-auto py-4 items-center justify-between relative">
                                 <LangSwitcherDesktop />
                                 <div className="hidden xl:flex items-center gap-4 absolute left-[32%] -translate-x-full">
-                                    <h1 className="text-white text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInLeft" style={{ fontFamily: "Rye", textShadow: "0 4px 20px rgba(255,255,255,0.15)" }}>Rhon</h1>
+                                    <h1 className="text-white text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInLeft" style={{ fontFamily: game?.theme.fontTitle, textShadow: "0 4px 20px rgba(255,255,255,0.15)" }}>{game?.title}</h1>
                                 </div>
                                 <div className="absolute left-1/2 transform -translate-x-1/2">
                                     <a href="#">
-                                        <img src="/logos/RhonStudiosCircleLogo.png" alt="Rhon Studios" className="h-[90px] transition-all duration-500 ease-out scale-90 opacity-0 animate-logoPop" />
+                                        <img
+                                            src={headerLogo}
+                                            alt={game?.title ?? "Rhon Studios"}
+                                            className="h-[90px] transition-all duration-500 ease-out scale-90 opacity-0 animate-logoPop"
+                                        />
                                     </a>
                                 </div>
                                 <div className="hidden xl:flex items-center gap-4 absolute right-[32%] translate-x-full">
-                                    <h1 className="text-white text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInRight" style={{ fontFamily: "Rye", textShadow: "0 4px 20px rgba(255,255,255,0.15)" }}>Studios</h1>
+                                    <h1 className="text-white text-4xl lg:text-5xl tracking-widest opacity-0 animate-fadeInRight" style={{ fontFamily: game?.theme.fontTitle, textShadow: "0 4px 20px rgba(255,255,255,0.15)" }}>Rhon Studios</h1>
                                 </div>
                                 <div className="flex items-center gap-6 ml-auto">
                                     <HamburgerBtn border2 />
@@ -223,52 +236,58 @@ export function Header() {
                         </>
                     ) : (
                         <>
-                            
                             <div
                                 className={`lg:hidden flex items-center justify-between px-4 py-2 transition-all duration-500 ${isInHero ? "opacity-0 pointer-events-none -translate-y-2" : "opacity-100 pointer-events-auto translate-y-0"}`}
                             >
-                                <img src="/logos/RhonStudiosCircleLogo.png" alt="Rhon Studios" className="h-12 w-auto" />
+                                <img
+                                    src={headerLogo}
+                                    alt={game?.title ?? "Rhon Studios"}
+                                    className="h-[90px] transition-all duration-500 ease-out scale-90 opacity-0 animate-logoPop"
+                                />
                                 <div className="flex items-center gap-3">
                                     <LangSwitcherMobile />
                                     <HamburgerBtn />
                                 </div>
                             </div>
-                            
                             <div className="hidden lg:grid grid-cols-3 items-center">
                                 <ul className="flex gap-8 xl:gap-12 items-center text-white justify-start">
                                     <li>
-                                        <button onClick={() => router.push(`/#games`)} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
+                                        <button onClick={() => router.push(`/#games`)} style={{ fontFamily: game?.theme.fontTitle }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
                                             {t.game_menu.home}
                                         </button>
                                     </li>
                                     <li>
-                                        <button onClick={() => scrollTo("vision")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
+                                        <button onClick={() => scrollTo("vision")} style={{ fontFamily: game?.theme.fontTitle }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
                                             {t.game_menu.vision}
                                         </button>
                                     </li>
                                     <li>
-                                        <button onClick={() => scrollTo("roadmap")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
+                                        <button onClick={() => scrollTo("roadmap")} style={{ fontFamily: game?.theme.fontTitle }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
                                             {t.game_menu.roadmap}
                                         </button>
                                     </li>
                                 </ul>
                                 <div className="flex flex-col items-center justify-center -mt-4 gap-4">
-                                    <img src="/logos/IconHeader.png" alt="Rhon Studios" className="block w-auto h-[90px] lg:h-[130px] xl:h-[155px] shrink-0 transition-all duration-500 ease-out scale-90" />
+                                    <img
+                                        src={headerLogoLarge}
+                                        alt={game?.title ?? "Rhon Studios"}
+                                        className="block w-auto h-[90px] lg:h-[130px] xl:h-[155px] shrink-0 transition-all duration-500 ease-out scale-90"
+                                    />
                                     <LangSwitcherDesktop />
                                 </div>
                                 <ul className="flex gap-5 xl:gap-8 items-center text-white justify-end">
                                     <li>
-                                        <button onClick={() => scrollTo("investment")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
+                                        <button onClick={() => scrollTo("investment")} style={{ fontFamily: game?.theme.fontTitle }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
                                             {t.game_menu.investment}
                                         </button>
                                     </li>
                                     <li>
-                                        <button onClick={() => scrollTo("gallery")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
+                                        <button onClick={() => scrollTo("gallery")} style={{ fontFamily: game?.theme.fontTitle }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
                                             {t.game_menu.gallery}
                                         </button>
                                     </li>
                                     <li>
-                                        <button onClick={() => scrollTo("contact")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
+                                        <button onClick={() => scrollTo("contact")} style={{ fontFamily: game?.theme.fontTitle }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
                                             {t.game_menu.contact}
                                         </button>
                                     </li>

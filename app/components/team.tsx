@@ -25,7 +25,7 @@ export function Team() {
     return (
         <section
             id="team"
-            className="snap-center scroll-mt-[200px] relative bg-black text-white pb-16 sm:pb-32"
+            className="snap-center scroll-mt-[250px] relative bg-black text-white pb-16 sm:pb-32"
             style={{ minHeight: '20vh' }}
         >
             <div className="container mx-auto px-4 sm:p-8 lg:px-16">

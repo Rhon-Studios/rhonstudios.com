@@ -10,7 +10,6 @@ export function Games(){
 
     const router = useRouter();
     const [selectedGame, setSelectedGame] = useState<GameData | null>(null);
-    const hoverTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
     const { t } = useLanguage();
 
     return (
@@ -51,17 +50,6 @@ export function Games(){
                         const gameT = t.game_list[game.id];
                         return (
                             <div
-                                onMouseEnter={() => {
-                                    hoverTimeout.current = setTimeout(() => {
-                                        setSelectedGame(game);
-                                    }, 500);
-                                }}
-                                onMouseLeave={() => {
-                                    if (hoverTimeout.current) {
-                                        clearTimeout(hoverTimeout.current);
-                                        hoverTimeout.current = null;
-                                    }
-                                }}
                                 onClick={() => setSelectedGame(game)}
                                 key={game.id}
                                 className="relative border-2 border-white p-5 sm:p-6 md:p-8 overflow-hidden group h-auto md:h-[350px] flex flex-col justify-center cursor-pointer hover:bg-white/5 transition-all duration-300"
@@ -111,7 +99,6 @@ export function Games(){
                         <div
                             className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 px-4 sm:px-6 overflow-y-auto py-6"
                             onClick={() => setSelectedGame(null)}
-                            onMouseLeave={() => setSelectedGame(null)}
                         >
                             <div
                                 className="relative max-w-6xl w-full bg-black border-2 border-white/20 p-5 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center my-auto"

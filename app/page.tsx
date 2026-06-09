@@ -9,9 +9,12 @@ import { Legacy } from "@/app/components/legacy";
 import { Team } from "@/app/components/team";
 import {NewsLetter} from "@/app/components/newsLetter";
 import {OurVision} from "@/app/components/ourvision";
+import {usePathname} from "next/navigation";
 export default function App() {
+    const pathname = usePathname();
+    const isHome = pathname === "/"
     return (
-            <div className="bg-black snap-y snap-mandatory">
+            <div className={isHome ? "bg-black snap-y snap-mandatory" : "bg-black"}>
                 <Hero />
                 <Highlight/>
                 <Games/>
@@ -20,7 +23,7 @@ export default function App() {
                 <About/>
                 <Team/> 
                 <Contact/>
-                <NewsLetter/>
+                {/* <NewsLetter/> */}
             </div>
     );
 }

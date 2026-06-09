@@ -3,101 +3,127 @@
     "tonkori":
     {
       "subtitle": "¿Prefieres salvar el mundo... o salvarte a ti?",
-      "description": "La gran estrella de Rhon.",
-      "description2": "Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges vivir.",
+      "description": "Tonkori es la gran estrella de Rhon, un juego que llevamos desarrollando desde 2024. Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
+      "description2": "Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
       "status": "En Desarrollo",
-      "genre": "RPG narrativo",
+      "genre": "RPG Narrativo",
       "year": "Próximamente",
-      "pitch": "Tus decisiones cambiaran el mundo",
+      "pitch": "Tus decisiones cambian el mundo y las relaciones con tus compañeros.",
       "mechanics": [
         {
-          "title": "Sistema de Decisiones",
-          "description": "Las decisiones son un elemento clave en el mundo de Arceon, en Tonkori no solo decides la historia, si no quien eres, como eres y quien quieres ser."
+          "title": "Decision con peso real",
+          "description": "Cada elección, quién eres o cómo te comportas, redefine la historia, las relaciones y el mundo de Arceon que te rodea."
         },
         {
-          "title": "Tus Compañeros",
-          "description": "Cada compañero tiene su personalidad y actuará en función de la tuya. Dependiendo de tus decisiones y de cómo te comportes, tus compañeros pueden convertirse en tus mejor amigos, tus amantes o incluso tus enemigos."
+          "title": "Compañeros con memoria",
+          "description": "Los compañeros recuerdan todo. Pueden convertirse en aliados, amantes o enemigos según cómo los trates."
         },
-        { "title": "Mundo Reactivo",
-          "description": "Cada acción del jugador tiene consecuencias permanentes en el mundo del juego."
+        { "title": "Sin respuestas correctas",
+          "description": "Narrativa en tres actos con libertad de orden. Toda pregunta tiene respuesta; el camino lo eliges tú."
         }
       ],
       "market": [
         {
-          "title": "Audiencia Objetivo",
-          "description": "Jugadores hardcore de RPG entre 18-35 años, con enfoque en mercados de NA, EU y APAC"
-        },
-        {
-          "title": "Tamaño del Mercado",
-          "description": "El mercado global de RPG se valúa en $28.7B USD con crecimiento proyectado del 12% anual"
+          "title": "Métricas",
+          "description": "16–35 · $28.7B USD · 12% · NA · EU · APAC"
         },
         {
           "title": "Ventaja Competitiva",
-          "description": "Combinación única de mecánicas narrativas con tecnología de punta, respaldado por equipo con experiencia AAA"
+          "description": "Tonkori no compite con la acción rápida. Apunta al jugador que busca sumergirse en una historia que lo recuerde a él. La combinación de un sistema de decisiones con peso emocional real, compañeros dinámicos y narrativa elaborada lo diferencia de los RPGs genéricos del mercado indie."
+        },
+        {
+          "title": "Tags",
+          "description": "Decisiones con consecuencias · Sin finales predeterminados · Compañeros dinámicos · Desarrollado en español · Estudio indie apasionado"
         }
       ],
       "technic": [
-        { "title": "Motor", "description": "Unreal Engine 5 con Nanite y Lumen" },
-        { "title": "Plataformas", "description": "PC, PlayStation 5, Xbox Series X|S" },
-        { "title": "Multiplayer", "description": "Co-op asíncrono para 2-4 jugadores" },
-        { "title": "Duración", "description": "40-60 horas de historia principal, 100+ horas con contenido completo" },
-        { "title": "Idiomas", "description": "Lanzamiento en 12 idiomas con voces en 5" },
-        { "title": "Accesibilidad", "description": "Conformidad completa con WCAG 2.1 nivel AA" }
+        { "title": "Motor", "description": "Por definir -Iniciado en Godot; escalando a motor 3D potente o motor propio según avance el proyecto" },
+        { "title": "Plataformas", "description": "PC · PlayStation · Xbox Series" },
+        { "title": "Género ", "description": "RPG narrativo" },
+        { "title": "Jugadores", "description": "Un jugador" },
+        { "title":  "Estado", "description":  "Concepto/Pre-Producción (-8% completado)"},
+        { "title":  "Lanzamiento", "description":  "Fecha por definir"},
+        { "title":  "Idiomas", "description":  "Español (lengua nativa) + Inglés confirmado. Voice acting previsto en español como lengua principal"},
+        { "title":  "Monetización", "description":  "Pago único (premium) con/o sin Early Access + lanzamiento completo"},
+        { "title":  "Herramientas", "description":  "Affinity · Krita · Aesprite · Notion"}
       ],
       "development": {
-        "current_phase": "Pre-producción avanzada / Producción temprana",
-        "team_size": "12 desarrolladores core + 8 colaboradores externos",
-        "timeline": "Q4 2025 - Alpha cerrada | Q2 2026 - Beta pública | Q4 2026 - Lanzamiento"
+        "current_phase": "Concepto/Pre-Producción (-8% completado)",
+        "team_size": "Equipo de 2 personas",
+        "timeline": "Q4 2022 - Inicio del proyecto"
       },
+      "vision": "Un RPG donde cada decisión importa, los compañeros recuerdan, y la historia que vives es únicamente tuya. No hay caminos correctos — solo consecuencias.",
       "roadmap": [
         {
-          "phase": "Concepto y Pre-producción",
+          "phase": "Concepto y diseño",
           "status": "completed",
           "items": [
-            "ASDSA",
-            "skadhaskl"
+            "Definición del mundo de Arceon",
+            "Personajes principales",
+            "Mecánicas core",
+            "Narrativa base",
+            "estética del juego"
           ]
         },
         {
-          "phase": "Vertical Slice",
+          "phase": "Pre-producción",
           "status": "in-progress",
           "items": [
-            "ASDSA",
-            "skadhaskl"
+            "Documentación técnica",
+            "Arte conceptual",
+            "Selección definitiva de motor",
+            "Planificación de producción"
           ]
         },
         {
-          "phase": "Producción Principal",
+          "phase": "Prototipo técnico ",
           "status": "planned",
           "items": [
-            "ASDSA",
-            "skadhaskl"
+            "Sistema de decisiones funcional",
+            "Primeros compañeros implementados",
+            "Prototipo de combate jugable"
           ]
         },
         {
-          "phase": "Beta y Marketing",
-          "status": "planned",
+          "phase": "Voice acting",
+          "status": "to-decide",
           "items": [
-            "ASDSA",
-            "skadhaskl"
+            "Añadir voice acting",
+            "Traducción al inglés"
           ]
         },
         {
-          "phase": "Lanzamiento",
+          "phase": "Vertical slice",
           "status": "planned",
           "items": [
-            "ASDSA",
-            "skadhaskl"
+            "Demo jugable del primer acto que demuestre la experiencia completa: narrativa, compañeros, combate y decisiones"
+          ]
+        },
+        {
+          "phase": "Early Access (posible)",
+          "status": "to-decide",
+          "items": [
+            "Evaluación de lanzar en acceso anticipado para recibir feedback de la comunidad antes del lanzamiento completo."
+          ]
+        },
+        {
+          "phase": "Lanzamiento completo",
+          "status": "to-decide",
+          "items": [
+            "Lanzamiento oficial y final en PC (Steam) y plataformas de consola."
           ]
         }
       ],
       "investment":
       {
-        "monetization": "Monetization Model",
-        "roi": "Return Potential",
+        "monetization": "Pago único (premium) o Early Access seguido de lanzamiento completo. Decisión final tras evaluar la comunidad una vez el prototipo esté activo.",
+        "roi": " Mercado de RPG narrativos en crecimiento sostenido del 12% anual. Referentes como Hades o Disco Elysium demuestran el apetito por propuestas indie con identidad fuerte.",
         "keys": [
-          "",
-          ""
+          "Concepto sólido con diferenciación clara en el mercado indie de RPGs narrativos.",
+          "Equipo pequeño y comprometido, con perfil complementario (narrativa + programación/arte)",
+          "Primer proyecto del estudio: mayor agilidad y sin deuda técnica acumulada.",
+          "Público objetivo activo y dispuesto a pagar por experiencias narrativas de calidad.",
+          "Desarrollado en español, lengua nativa de un mercado de jugadores masivo e infrarrepresentado."
         ]
       }
     },
@@ -151,6 +177,7 @@
         "team_size": "8 desarrolladores core + 5 especialistas",
         "timeline": "Q1 2026 - Vertical slice | Q3 2026 - Alpha | Q2 2027 - Early Access | Q4 2027 - Full Launch"
       },
+      "vision": "",
       "roadmap": [
         {
           "phase": "Concepto y R&D",
@@ -319,8 +346,8 @@
         "name": "Rashri Amorós",
         "img": "",
         "role": "C.E.O y Diseñadora Principal",
-        "bioShort": "",
-        "bio": "",
+        "bioShort": "No solo es diseñar, es construir identidades",
+        "bio": "Soy una diseñadora apasionada por dar forma visual a las ideas y convertirlas en experiencias que conectan emocionalmente con las personas. Me especializo en crear mundos con carácter propio, donde cada detalle estético tiene un propósito narrativo. En Rhon Studios, mi objetivo es que cada píxel cuente una historia y que cada juego se sienta como un universo que vale la pena habitar.",
         "linkedin": "https://www.linkedin.com/in/rashriamoros/",
         "github": "https://github.com/rashxx-exe",
         "twitter": "https://x.com/arcisax",
@@ -425,7 +452,8 @@
         "title": "Roadmap",
         "completed": "Completado",
         "inProgress": "En Progreso",
-        "planned": "Planeado"
+        "planned": "Planeado",
+        "toDecide": "Por Decidir"
       }
     },
     "investment":

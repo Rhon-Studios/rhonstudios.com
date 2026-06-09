@@ -6,7 +6,7 @@
       "description": "Tonkori es la gran estrella de Rhon, un juego que llevamos desarrollando desde 2024. Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
       "description2": "Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
       "status": "En Desarrollo",
-      "genre": "RPG narrativo",
+      "genre": "RPG Narrativo",
       "year": "Próximamente",
       "pitch": "Tus decisiones cambian el mundo y las relaciones con tus compañeros.",
       "mechanics": [
@@ -49,6 +49,7 @@
         "team_size": "12 desarrolladores core + 8 colaboradores externos",
         "timeline": "Q4 2025 - Alpha cerrada | Q2 2026 - Beta pública | Q4 2026 - Lanzamiento"
       },
+      "vision": "",
       "roadmap": [
         {
           "phase": "Concepto y Pre-producción",
@@ -151,6 +152,7 @@
         "team_size": "8 desarrolladores core + 5 especialistas",
         "timeline": "Q1 2026 - Vertical slice | Q3 2026 - Alpha | Q2 2027 - Early Access | Q4 2027 - Full Launch"
       },
+      "vision": "",
       "roadmap": [
         {
           "phase": "Concepto y R&D",
@@ -426,7 +428,8 @@
         "title": "Roadmap",
         "completed": "Completed",
         "inProgress": "In Progress",
-        "planned": "Planned"
+        "planned": "Planned",
+        "toDecide": "Por Decidir"
       }
     },
     "investment":

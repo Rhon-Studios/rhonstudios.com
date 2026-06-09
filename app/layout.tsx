@@ -2,7 +2,7 @@
 import { Footer } from "./layout/footer";
 import { LanguageProvider } from "@/app/language/LanguageProvider";
 
-import { Rye, Cinzel, Cormorant_Garamond, Skranji, Cinzel_Decorative  } from "next/font/google";
+import {Rye, Cinzel, Cormorant_Garamond, Skranji, Cinzel_Decorative, IM_Fell_English, EB_Garamond } from "next/font/google";
 
 const rye = Rye({
     subsets: ["latin"],
@@ -32,9 +32,28 @@ const skranji = Skranji({
     variable: "--font-skranji",
 })
 
+const im_fell_english = IM_Fell_English({
+    subsets: ["latin"],
+    weight: ["400"],
+    style: ["normal", "italic"],
+    variable: "--font-im-fell",
+})
+
+const eb_gramond = EB_Garamond({
+    subsets: ["latin"],
+    weight: ["400"],
+    variable: "--font-gramond",
+})
+
+
+export const metadata: Metadata = {
+    title: "Rhon Studios",
+    description: "Creando mundos que se quedan contigo",
+};
 
 import './styles/theme.css';
 import './styles/tailwind.css'
+import {Metadata} from "next";
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
