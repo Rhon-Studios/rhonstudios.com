@@ -154,11 +154,14 @@ export function ApplicationModal({ initial, onClose }: { initial: ModalState; on
                             className="w-full bg-transparent border-2 border-white px-4 py-2 focus:outline-none focus:bg-white focus:text-black transition-all duration-300 text-sm sm:text-base"
                             style={{ fontFamily: 'Cormorant Garamond' }}
                         >
-                            {projectsData.map((p) => (
-                                <option key={p.id} value={p.id}>
-                                    {p.name}
-                                </option>
-                            ))}
+                            {projectsData.map((p) => {
+                                const projectT = t.join.projects[p.id as keyof typeof t.join.projects];
+                                return(
+                                    <option key={p.id} value={p.id}>
+                                        {projectT.name}
+                                    </option>
+                                )
+                            })}
                         </select>
                     </div>
                     <div className="space-y-2 sm:space-y-3">
@@ -179,9 +182,14 @@ export function ApplicationModal({ initial, onClose }: { initial: ModalState; on
                             style={{ fontFamily: 'Cormorant Garamond' }}
                         >
                             <option value="">Selecciona un rol</option>
-                            {rolesForProject.map((o) => (
-                                <option key={o.id} value={o.title}>{o.title}</option>
-                            ))}
+                            {rolesForProject.map((opp) => {
+                                const oppT = t.join.opportunities[opp.id as keyof typeof t.join.opportunities];
+                                return (
+                                    <option key={opp.id} value={oppT.title}>
+                                        {oppT.title}
+                                    </option>
+                                );
+                            })}
                             {rolesForProject.length === 0 && (
                                 <option disabled value="">No hay roles abiertos en este proyecto</option>
                             )}
