@@ -141,6 +141,19 @@
       }
     ]
   },
+  "join_part": {
+    "top_title": "Collaborate With Us",
+    "title": "Join Rhon Studios",
+    "subtitle": "Join Our World",
+    "description": "We're building from passion. If you have talent and want to leave your mark, there's a place for you.",
+    "count": "contributors actively sought",
+    "card": {
+      "open": "open",
+      "open_p": "open",
+      "no_offers": "No openings"
+    },
+    "button": "View Opportunities"
+  },
   "contact": {
     "title": "Contact",
     "type_contact": "Particual / Bussines",
@@ -262,51 +275,77 @@
     "button": "Go Back"
   },
   "join_page": {
-    "top_title": "Colabora con nosotros",
-    "title": "Nuestras Oportunidades",
-    "subtitle": "Únete a nosotros",
-    "description": "En Rhon Studios creemos que los grandes proyectos nacen de grandes personas...",
+    "top_title": "Collaborate With Us",
+    "title": "Our Opportunities",
+    "subtitle": "Join Us",
+    "description": "At Rhon Studios, we believe great projects are built by great people. We are a growing studio with no revenue yet, but with original IPs in development and a clear vision for the future. These opportunities are voluntary collaborations — with no fixed salary — but with real and transparent conditions.",
     "conditions": {
-      "top_title": "Lo que Ofrecemos",
-      "title": "Nuestras Condiciones",
-      "subtitle": "Transparencia total",
+      "top_title": "What We Offer",
+      "title": "Our Conditions",
+      "subtitle": "Full Transparency",
       "items": [
-        { "title": "Crédito oficial", "description": "Aparecerás en los créditos de todos los proyectos en los que participes." },
-        { "title": "Participación en ingresos", "description": "Si el proyecto que co-desarrollas genera beneficios..." },
-        { "title": "Vía de contratación real", "description": "Cuando el estudio escale..." },
-        { "title": "Experiencia real en producción", "description": "Trabaja en videojuegos indie..." },
-        { "title": "Flexibilidad total", "description": "Remoto, sin horarios fijos..." },
-        { "title": "Carta de recomendación", "description": "Al finalizar la colaboración..." }
+        {
+          "title": "Official Credit",
+          "description": "You will be credited in all projects you contribute to."
+        },
+        {
+          "title": "Revenue Sharing",
+          "description": "If the project you co-develop generates revenue..."
+        },
+        {
+          "title": "Real Hiring Path",
+          "description": "As the studio grows..."
+        },
+        {
+          "title": "Real Production Experience",
+          "description": "Work on indie video games..."
+        },
+        {
+          "title": "Full Flexibility",
+          "description": "Remote work, no fixed schedules..."
+        },
+        {
+          "title": "Recommendation Letter",
+          "description": "Upon completing the collaboration..."
+        }
       ]
     },
     "legal": {
-      "title": "Aviso Importante",
-      "description": "Todas las colaboraciones se formalizan mediante un acuerdo escrito..."
+      "title": "Important Notice",
+      "description": "All collaborations are formalized through a written agreement specifying the role, revenue-sharing conditions, and terms of the relationship. This does not constitute an employment relationship. Rhon Studios operates with full transparency."
     },
     "roles": {
-      "top_title": "Vacantes abiertas",
-      "title": "Roles Disponibles",
-      "subtitle": "Encuentra tu lugar"
+      "top_title": "Open Positions",
+      "title": "Available Roles",
+      "subtitle": "Find Your Place"
     },
     "filters": {
-      "project_label": "Filtrar por proyecto:",
-      "area_label": "Filtrar por área:",
-      "all": "Todos",
-      "areas": ["Todos", "Arte", "Programación", "Sonido", "Narrativa", "Marketing", "Otros"]
+      "project_label": "Filter by project:",
+      "area_label": "Filter by area:",
+      "all": "All",
+      "areas": [
+        "All",
+        "Art",
+        "Programming",
+        "Audio",
+        "Narrative",
+        "Marketing",
+        "Other"
+      ]
     },
     "card": {
-      "urgent": "★ Urgente",
-      "open": "● Abierta",
-      "filled": "○ Cubierta",
-      "open_roles_one": "{{count}} rol abierto",
-      "open_roles_other": "{{count}} roles abiertos",
-      "no_roles": "Sin vacantes",
-      "requirements": "Lo que buscamos",
-      "offer": "Lo que ofrecemos",
-      "see_more": "Ver más ↓",
-      "see_less": "Ver menos ↑",
-      "apply": "Quiero colaborar →",
-      "empty_area": "Ningún rol en esta área para este proyecto."
+      "urgent": "Urgent",
+      "open": "Open",
+      "filled": "○ Filled",
+      "open_roles_one": "{{count}} open role",
+      "open_roles_other": "{{count}} open roles",
+      "no_roles": "No openings",
+      "requirements": "What We're Looking For",
+      "offer": "What We Offer",
+      "see_more": "See More",
+      "see_less": "See Less",
+      "apply": "I'd Like to Collaborate",
+      "empty_area": "No roles available in this area for this project."
     }
   }
 }

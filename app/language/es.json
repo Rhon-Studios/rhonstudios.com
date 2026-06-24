@@ -141,6 +141,19 @@
       }
     ]
   },
+  "join_part": {
+    "top_title": "Colabora con Nosotros",
+    "title": "Únete a Rhon Studios",
+    "subtitle": "Únete a nuestro mundo",
+    "description": "Construimos desde la pasión. Si tienes talento y quieres dejar huella, hay un sitio para ti.",
+    "count": "colaboradores buscados activamente",
+    "card": {
+      "open": "abierto",
+      "open_p": "abiertos",
+      "no_offers": "Sin vacantes"
+    },
+    "button": "Ver Oportunidades"
+  },
   "contact": {
     "title": "Contacto",
     "type_contact": "Particular / Empresa",
@@ -294,17 +307,17 @@
       "areas": ["Todos", "Arte", "Programación", "Sonido", "Narrativa", "Marketing", "Otros"]
     },
     "card": {
-      "urgent": "★ Urgente",
-      "open": "● Abierta",
+      "urgent": "Urgente",
+      "open": "Abierta",
       "filled": "○ Cubierta",
       "open_roles_one": "{{count}} rol abierto",
       "open_roles_other": "{{count}} roles abiertos",
       "no_roles": "Sin vacantes",
       "requirements": "Lo que buscamos",
       "offer": "Lo que ofrecemos",
-      "see_more": "Ver más ↓",
-      "see_less": "Ver menos ↑",
-      "apply": "Quiero colaborar →",
+      "see_more": "Ver más",
+      "see_less": "Ver menos",
+      "apply": "Quiero colaborar",
       "empty_area": "Ningún rol en esta área para este proyecto."
     }
   }

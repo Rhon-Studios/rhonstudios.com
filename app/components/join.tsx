@@ -17,6 +17,7 @@ export function Join() {
         return { project, openRoles };
     });
     const {t} = useLanguage();
+    const tt = t.join_part
     const router = useRouter();
 
     return (
@@ -33,14 +34,14 @@ export function Join() {
                                 className="text-[9px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                                 style={{ fontFamily: "Cinzel" }}
                             >
-                                Colabora con Nosotros
+                                {tt.top_title}
                             </p>
                         </div>
                         <h2
                             className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl mb-6 sm:mb-8 tracking-wider"
                             style={{ fontFamily: "Rye" }}
                         >
-                            Únete a Rhon Studios
+                            {tt.title}
                         </h2>
                         <div className="flex items-center justify-center gap-4 sm:gap-6 mb-10 sm:mb-16 lg:mb-7">
                             <div className="w-12 sm:w-24 h-[2px] bg-white"/> 
@@ -48,7 +49,7 @@ export function Join() {
                                 className="text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                                 style={{ fontFamily: "Cinzel" }}
                             >
-                                Únete a nuestro mundo
+                                {tt.subtitle}
                             </p>
                             <div className="w-12 sm:w-24 h-[2px] bg-white"/>
                         </div>
@@ -56,7 +57,7 @@ export function Join() {
                             className="text-lg tracking-wide text-white/70 max-w-2xl mx-auto mb-10"
                             style={{ fontFamily: "Cinzel", fontWeight: 200 }}
                         >
-                            Construimos desde la pasión. Si tienes talento y quieres dejar huella, hay un sitio para ti.
+                            {tt.description}
                         </p>
                         <motion.div
                             initial={{ opacity: 0, y: 10 }}
@@ -70,7 +71,7 @@ export function Join() {
                                 className="text-sm tracking-[0.2em] uppercase text-white/80"
                                 style={{ fontFamily: "Cinzel", fontWeight: 300 }}
                             >
-                                {openCount} colaboradores buscados activamente
+                                {openCount} {tt.count}
                             </span>
                         </motion.div>
                     </div>
@@ -110,7 +111,7 @@ export function Join() {
                                             }`}
                                             style={{fontFamily: "Cinzel"}}
                                         >
-                                            {openRoles > 0 ? `${openRoles} rol${openRoles !== 1 ? "es" : ""} abierto${openRoles !== 1 ? "s" : ""}` : "Sin vacantes"}
+                                            {openRoles > 0 ? `${openRoles} rol${openRoles !== 1 ? "es" : ""} ${tt.card.open}${openRoles !== 1 ? tt.card.open_p : ""}` : tt.card.no_offers}
                                         </span>
                                     </div>
                                 </motion.div>
@@ -125,7 +126,7 @@ export function Join() {
                             className="inline-flex items-center gap-3 border-2 border-white px-12 py-4 text-sm tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
                             style={{ fontFamily: "Cinzel", fontWeight: 300 }}
                         >
-                            Ver Oportunidades
+                            {tt.button}
                             <ArrowRight className="w-4 h-4" />
                         </motion.button>
                     </div>
