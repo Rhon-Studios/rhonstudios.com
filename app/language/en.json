@@ -323,15 +323,17 @@
       "project_label": "Filter by project:",
       "area_label": "Filter by area:",
       "all": "All",
-      "areas": [
-        "All",
-        "Art",
-        "Programming",
-        "Audio",
-        "Narrative",
-        "Marketing",
-        "Other"
-      ]
+      "areas":
+      {
+        "all": "All",
+        "art": "Art",
+        "programming": "Programming",
+        "design": "Design",
+        "audio": "Audio",
+        "narrative": "Narrative",
+        "marketing": "Marketing",
+        "other": "Other"
+      }
     },
     "card": {
       "urgent": "Urgent",

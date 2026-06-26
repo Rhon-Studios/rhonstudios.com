@@ -3,6 +3,7 @@
     "studio-concept-artist": {
       "title": "Concept Artist",
       "shortDescription": "Buscamos un concept artist para el estudio en general. Trabajarás en todos nuestros proyectos activos, definiendo personajes, entornos y elementos visuales desde la fase más temprana.",
+      "area": "Arte",
       "requirements": [
         "Portfolio con concept art de personajes y/o entornos",
         "Capacidad de trabajar en estilos distintos según el proyecto",
@@ -18,6 +19,7 @@
     "afterlight-artist": {
       "title": "Artista 2D para Afterlight",
       "shortDescription": "Buscamos un artista 2D que ayude a dar vida al contraste entre luz y sombra que define Afterlight. Trabajarás de la mano con diseño para construir la identidad visual del mundo.",
+      "area": "Arte",
       "requirements": [
         "Portfolio con ilustración o pixel art 2D",
         "Sensibilidad para atmósferas y manejo de luz/contraste",
@@ -33,6 +35,7 @@
     "afterlight-leveldesigner": {
       "title": "Diseñador de niveles / puzzles para Afterlight",
       "shortDescription": "Necesitamos a alguien que piense en espacio, ritmo y resolución de puzzles para construir los niveles de un metroidvania donde luz y sombra cambian las reglas del juego.",
+      "area": "Diseño",
       "requirements": [
         "Experiencia o portfolio en diseño de niveles, idealmente en plataformas/metroidvania",
         "Capacidad de diseñar puzzles con curva de dificultad progresiva",
@@ -48,6 +51,7 @@
     "afterlight-programmer": {
       "title": "Programador de apoyo para Afterlight",
       "shortDescription": "Si tienes experiencia en gameplay programming y quieres sumar a un metroidvania en desarrollo, hay espacio para apoyo puntual o continuo según disponibilidad.",
+      "area": "Programación",
       "requirements": [
         "Conocimientos en el motor utilizado por el proyecto",
         "Experiencia en sistemas de gameplay (movimiento, colisiones, estados)",
@@ -62,6 +66,7 @@
     "other-artist": {
       "title": "Artista para proyectos pequeños",
       "shortDescription": "Buscamos artista versátil para sumarse a proyectos pequeños de ciclo corto. Ideal para quien quiera experimentar con estilos distintos y ver su trabajo lanzado rápido.",
+      "area": "Arte",
       "requirements": [
         "Portfolio variado (no es necesario un estilo único)",
         "Capacidad de adaptarse a proyectos cortos y distintos entre sí",
@@ -76,6 +81,7 @@
     "other-designer": {
       "title": "Diseñador de juego para proyectos pequeños",
       "shortDescription": "Sumate a diseñar mecánicas y experiencias compactas en proyectos pequeños pensados para lanzarse rápido, antes de escalar a los títulos grandes del estudio.",
+      "area": "Diseño",
       "requirements": [
         "Interés en prototipado rápido y mecánicas simples pero pulidas",
         "Capacidad de iterar con feedback constante",
@@ -90,6 +96,7 @@
     "other-narrator": {
       "title": "Narrador / escritor para proyectos pequeños",
       "shortDescription": "Buscamos a alguien que disfrute contar historias compactas y con peso emocional en formatos cortos, ideales para experimentar con voz y estructura narrativa.",
+      "area": "Narrativa",
       "requirements": [
         "Buen manejo de la escritura en español (diálogos, texto in-game)",
         "Capacidad de contar historias completas en formatos breves",

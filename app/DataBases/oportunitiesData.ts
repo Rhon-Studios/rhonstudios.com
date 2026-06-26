@@ -9,12 +9,11 @@
 export interface Opportunity {
     id: string;
     projectId: string;
-    area: "Arte" | "Programación" | "Sonido" | "Narrativa" | "Marketing" | "Otros";
+    area: "art" | "programming" | "audio" | "narrative" | "design" | "marketing" | "other";
     status: "open" | "filled";
     createdAt: string;
     featured: boolean;
 }
-
 export const projectsData: Project[] = [
     {
         id: "tonkori",
@@ -52,7 +51,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "studio-concept-artist",
         projectId: "studio",
-        area: "Arte",
+        area: "art",
         status: "open",
         createdAt: "2026-06-24",
         featured: true,
@@ -62,7 +61,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "afterlight-artist",
         projectId: "afterlight",
-        area: "Arte",
+        area: "art",
         status: "open",
         createdAt: "2026-06-24",
         featured: true,
@@ -70,7 +69,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "afterlight-leveldesigner",
         projectId: "afterlight",
-        area: "Programación",
+        area: "design",
         status: "open",
         createdAt: "2026-06-24",
         featured: true,
@@ -78,7 +77,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "afterlight-programmer",
         projectId: "afterlight",
-        area: "Programación",
+        area: "programming",
         status: "open",
         createdAt: "2026-06-24",
         featured: false,
@@ -88,7 +87,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "other-artist",
         projectId: "other",
-        area: "Arte",
+        area: "art",
         status: "open",
         createdAt: "2026-06-24",
         featured: false,
@@ -96,7 +95,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "other-designer",
         projectId: "other",
-        area: "Programación",
+        area: "design",
         status: "open",
         createdAt: "2026-06-24",
         featured: false,
@@ -104,7 +103,7 @@ export const opportunitiesData: Opportunity[] = [
     {
         id: "other-narrator",
         projectId: "other",
-        area: "Narrativa",
+        area: "narrative",
         status: "open",
         createdAt: "2026-06-24",
         featured: false,

@@ -11,34 +11,44 @@ interface ModalState {
     roleTitle: string;
 }
 
+interface AreaFilter {
+    title: string;
+    area: "art" | "programming" | "design" | "audio" | "narrative" | "marketing" | "other";
+}
+
 export default function Join() {
     const { t } = useLanguage();
     const tt = t.join_page;
-    const AREA_FILTERS: string[] = tt.filters.areas;
+    const areaLabels = {
+        "art": tt.filters.areas.art,
+        "programming": tt.filters.areas.programming,
+        "design": tt.filters.areas.design,
+        "audio": tt.filters.areas.audio,
+        "narrative": tt.filters.areas.narrative,
+        "marketing": tt.filters.areas.marketing,
+        "other": tt.filters.areas.other,
+    }
     const CONDITION_ICONS = [Award, TrendingUp, Briefcase, Monitor, Clock, FileText];
     const conditions = tt.conditions.items;
-    const [areaFilter, setAreaFilter] = useState<string>("Todos");
-    const [projectFilter, setProjectFilter] = useState<string>("Todos");
+    const [areaFilter, setAreaFilter] = useState<"all" | AreaFilter["area"]>("all");
+    const [projectFilter, setProjectFilter] = useState<string>("all");
     const [modal, setModal] = useState<ModalState | null>(null);
     const [expandedRole, setExpandedRole] = useState<string | null>(null);
-
     const projectsWithRoles = projectsData.filter((project) =>
         opportunitiesData.some((o) => o.projectId === project.id)
     );
-
     const sorted = [...projectsWithRoles].sort((a, b) => a.order - b.order);
-    
     const rolesInScope = opportunitiesData.filter((o) =>
-        projectFilter === "Todos" || o.projectId === projectFilter
+        projectFilter === "all" || o.projectId === projectFilter
     );
-    const areasWithRoles = new Set<string>(rolesInScope.map((o) => o.area));
-
+    const areas: Array<"all" | AreaFilter["area"]> = ["all", ...Array.from(new Set(opportunitiesData.map((opp) => opp.area))),];
+    const areasWithRoles = new Set<AreaFilter["area"]>(rolesInScope.map((o) => o.area));
     const handleProjectFilter = (id: string) => {
         setProjectFilter(id);
-        const newRoles = opportunitiesData.filter((o) => id === "Todos" || o.projectId === id);
+        const newRoles = opportunitiesData.filter((o) => id === "all" || o.projectId === id);
         const newAreas = new Set<string>(newRoles.map((o) => o.area));
-        if (areaFilter !== "Todos" && !newAreas.has(areaFilter)) {
-            setAreaFilter("Todos");
+        if (areaFilter !== "all" && !newAreas.has(areaFilter)) {
+            setAreaFilter("all");
         }
     };
 
@@ -214,9 +224,9 @@ export default function Join() {
                             </p>
                             <div className="flex flex-wrap gap-2">
                                 <button
-                                    onClick={() => handleProjectFilter("Todos")}
+                                    onClick={() => handleProjectFilter("all")}
                                     className={`text-[9px] sm:text-xs tracking-[0.15em] uppercase px-4 py-2 border-2 transition-all duration-200 ${
-                                        projectFilter === "Todos"
+                                        projectFilter === "all"
                                             ? "border-white bg-white text-black"
                                             : "border-white/25 text-white/45 hover:border-white/55 hover:text-white"
                                     }`}
@@ -248,13 +258,14 @@ export default function Join() {
                                 {tt.filters.area_label}
                             </p>
                             <div className="flex flex-wrap gap-2">
-                                {AREA_FILTERS.map((f) => {
-                                    const isActive = areaFilter === f;
-                                    const hasRoles = f === "Todos" || areasWithRoles.has(f);
+
+                                {areas.map((key) => {
+                                    const isActive = areaFilter === key;
+                                    const hasRoles = key === "all" || areasWithRoles.has(key);
                                     return (
                                         <button
-                                            key={f}
-                                            onClick={() => hasRoles && setAreaFilter(f)}
+                                            key={key}
+                                            onClick={() => hasRoles && setAreaFilter(key)}
                                             disabled={!hasRoles}
                                             className={`text-[9px] sm:text-xs tracking-[0.15em] uppercase px-4 py-2 border-2 transition-all duration-200 ${
                                                 isActive
@@ -265,15 +276,15 @@ export default function Join() {
                                             }`}
                                             style={{ fontFamily: "Cinzel" }}
                                         >
-                                            {f}
+                                            {key === "all" ? tt.filters.areas.all : areaLabels[key]}
                                         </button>
                                     );
                                 })}
                             </div>
                         </div>
                         {opportunitiesData
-                            .filter((o) => projectFilter === "Todos" || o.projectId === projectFilter)
-                            .filter((o) => areaFilter === "Todos" || o.area === areaFilter)
+                            .filter((o) => projectFilter === "all" || o.projectId === projectFilter)
+                            .filter((o) => areaFilter === "all" || o.area === areaFilter)
                             .sort((a, b) => (a.featured === b.featured ? 0 : a.featured ? -1 : 1))
                             .map((opp) => {
                                 const project = projectsData.find((p) => p.id === opp.projectId)!;
@@ -309,7 +320,7 @@ export default function Join() {
                                                         className="text-[9px] sm:text-xs tracking-[0.2em] uppercase border-2 border-white/35 px-3 py-1 text-white/65"
                                                         style={{ fontFamily: "Cinzel" }}
                                                     >
-                                                        {opp.area}
+                                                        {oppT.area}
                                                     </span>
                                                     <span
                                                         className="text-[9px] sm:text-xs tracking-[0.2em] uppercase px-3 py-1 border-2"
