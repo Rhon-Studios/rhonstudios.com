@@ -8,6 +8,9 @@ import {useRouter} from "next/navigation";
 
 export function Highlight() {
 
+    const game = gamesData.find((g) => g.id === "tonkori");
+    if (!game) return null;
+
     const router = useRouter();
     const maskRef = useRef<HTMLDivElement>(null);
     const { t } = useLanguage();
@@ -42,9 +45,6 @@ export function Highlight() {
             window.removeEventListener("touchmove", handleTouch);
         };
     }, []);
-
-    const game = gamesData.find((g) => g.id === "tonkori");
-    if (!game) return null;
 
     return (
         <section

@@ -56,6 +56,14 @@ export const opportunitiesData: Opportunity[] = [
         createdAt: "2026-06-24",
         featured: true,
     },
+    {
+        id: "studio-community-manager",
+        projectId: "studio",
+        area: "marketing",
+        status: "open",
+        createdAt: "2026-06-26",
+        featured: false,
+    },
 
     // --- AFTERLIGHT ---
     {
@@ -107,5 +115,5 @@ export const opportunitiesData: Opportunity[] = [
         status: "open",
         createdAt: "2026-06-24",
         featured: false,
-    },
+    }
 ];

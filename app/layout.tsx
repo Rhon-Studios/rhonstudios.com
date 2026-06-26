@@ -2,7 +2,19 @@
 import { Footer } from "./layout/footer";
 import { LanguageProvider } from "@/app/language/LanguageProvider";
 
-import {Rye, Cinzel, Cormorant_Garamond, Skranji, Cinzel_Decorative, IM_Fell_English, EB_Garamond } from "next/font/google";
+import {
+    Rye,
+    Cinzel,
+    Cormorant_Garamond,
+    Skranji,
+    Cinzel_Decorative,
+    IM_Fell_English,
+    EB_Garamond,
+    Amarante,
+    Inter,
+    Jua,
+    Nunito
+} from "next/font/google";
 
 const rye = Rye({
     subsets: ["latin"],
@@ -45,6 +57,26 @@ const eb_gramond = EB_Garamond({
     variable: "--font-gramond",
 })
 
+const amarante = Amarante({
+    weight: ["400"],
+    subsets: ["latin"],
+    variable: "--font-amaranz"
+});
+
+const inter = Inter({
+    weight: ["400"],
+    variable: "--font-inter",
+})
+
+const jua = Jua({
+    weight: ["400"],
+    variable: "--font-jua",
+})
+
+const nunito = Nunito({
+    weight: ["400"],
+    variable: "--font-nunito",
+})
 
 export const metadata: Metadata = {
     title: "Rhon Studios",

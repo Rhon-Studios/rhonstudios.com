@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {useLanguage} from "@/app/language/LanguageProvider";
+import {gamesData} from "@/app/DataBases/gamesData";
 
-const titles = ["Tonkori", "Afterlight"]
+
+const titles = gamesData.map(game => game.title);
 export function Hero() {
 
     const [index, setIndex] = useState(0);

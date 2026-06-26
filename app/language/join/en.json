@@ -1,5 +1,16 @@
 {
   "opportunities": {
+    "template-opportunitie": {
+      "title": "",
+      "shortDescription": "",
+      "area": "",
+      "requirements": [
+
+      ],
+      "offer": [
+
+      ]
+    },
     "studio-concept-artist": {
       "title": "Concept Artist",
       "shortDescription": "We're looking for a concept artist for the studio at large. You'll work across all our active projects, defining characters, environments, and visual elements from the earliest stages.",
@@ -14,6 +25,26 @@
         "Visible credit on every project you contribute to",
         "Real variety: one day Tonkori, the next Afterlight, the next something new",
         "Direct influence on the studio's visual identity from the very start"
+      ]
+    },
+    "studio-community-manager": {
+      "title": "Community Manager for the studio",
+      "shortDescription": "We're looking for a Community Manager to build and nurture Rhon Studios' community. You'll manage our social media, connect with our audience, and help give the studio a voice as we grow.",
+      "area": "marketing",
+      "requirements": [
+        "Experience managing social media (Instagram, X/Twitter, TikTok, Discord, etc.)",
+        "Ability to create engaging content consistent with the studio's identity",
+        "Strong communication skills, both approachable and professional, with the community",
+        "Organization and consistency to maintain an active presence over time",
+        "Previous experience in video game or indie project marketing is a plus"
+      ],
+      "offer": [
+        "Official credit on the projects you take part in",
+        "Revenue share if the project generates profit after launch",
+        "Priority for future paid positions as the studio grows",
+        "Real-world experience managing the community of an indie studio in development",
+        "100% remote, flexible collaboration, compatible with studies or work",
+        "Personalized letter of recommendation upon finishing your collaboration"
       ]
     },
     "afterlight-artist": {
@@ -35,7 +66,7 @@
     "afterlight-leveldesigner": {
       "title": "Level / Puzzle Designer for Afterlight",
       "shortDescription": "We need someone who thinks in terms of space, rhythm, and puzzle-solving to build the levels of a metroidvania where light and shadow change the rules of the game.",
-      "area": "Diseño",
+      "area": "Design",
       "requirements": [
         "Experience or portfolio in level design, ideally in platformers/metroidvanias",
         "Ability to design puzzles with a progressive difficulty curve",
@@ -81,7 +112,7 @@
     "other-designer": {
       "title": "Game Designer for Small Projects",
       "shortDescription": "Join us to design compact mechanics and experiences in small projects built to ship fast, before scaling up to the studio's bigger titles.",
-      "area": "Diseño",
+      "area": "Design",
       "requirements": [
         "Interest in rapid prototyping and simple but polished mechanics",
         "Ability to iterate with constant feedback",

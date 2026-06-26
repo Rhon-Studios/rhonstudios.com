@@ -1,4 +1,116 @@
 {
+  "template": {
+    "subtitle": "",
+    "description": "",
+    "description2": "",
+    "status": "",
+    "genre": "",
+    "year": "",
+    "pitch": "",
+    "mechanics": [
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "market": [
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "technic": [
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "development": {
+      "current_phase": "",
+      "team_size": "",
+      "timeline": ""
+    },
+    "vision": "",
+    "roadmap": [
+      {
+        "phase": "",
+        "status": "",
+        "items": [
+
+        ]
+      },
+      {
+        "phase": "",
+        "status": "",
+        "items": [
+        ]
+      },
+      {
+        "phase": "",
+        "status": "",
+        "items": [
+
+        ]
+      },
+      {
+        "phase": "",
+        "status": "",
+        "items": [
+
+        ]
+      },
+      {
+        "phase": "",
+        "status": "",
+        "items": [
+
+        ]
+      }
+    ],
+    "investment": {
+      "monetization": "",
+      "roi": "",
+      "keys": [
+
+      ]
+    }
+  },
   "tonkori":
   {
     "subtitle": "¿Prefieres salvar el mundo... o salvarte a ti?",
@@ -242,6 +354,266 @@
       "keys": [
         "Identidad visual distintiva pintada a mano, inspirada en MIO: Memories in Orbit",
         "Narrativa sin diálogos transmitida a través de mecánicas, música y arte"
+      ]
+    }
+  },
+  "theobserver": {
+    "subtitle": "Novela visual otome de misterio y suspense",
+    "description": "The Observer es una novela visual otome donde eliges a uno de cinco personajes para acompañar, y tu historia guarda siempre el momento en que mueren. Una vez ocurre la tragedia, retrocedes días en el tiempo para prevenirla.",
+    "description2": "Descubre quién los mata, mantén su confianza sin parecer un lunático y decide el destino del asesino. Cada muerte evitada te da experiencia para mejorar tu carisma, tu capacidad de manipulación y mucho más. ¿Conseguirás el final que mereces... o condenarás a todos a repetir la misma historia?",
+    "status": "En desarrollo",
+    "genre": "Novela visual · Otome · Narrativo",
+    "year": "Por definir",
+    "pitch": "El punto de guardado siempre es su muerte. Tú decides si eso cambia.",
+    "mechanics": [
+      {
+        "title": "Bucle de muerte y retroceso",
+        "description": "El juego guarda automáticamente en el momento en que tu pareja muere. Desde ahí puedes retroceder X días para actuar con la información que ya tienes e intentar cambiar el resultado."
+      },
+      {
+        "title": "Investigación encubierta",
+        "description": "Averigua quién es el asesino sin revelar que sabes demasiado. Contarle la verdad al personaje puede hacer que te ignore, o algo peor. Explora, habla y desbloquea pistas gradualmente."
+      },
+      {
+        "title": "Stats de influencia",
+        "description": "Cada muerte evitada otorga experiencia para mejorar Carisma (para que te escuchen) o Manipulación (para controlar situaciones). El protagonista puede rechazarte según cómo hayas usado esos poderes."
+      }
+    ],
+    "market": [
+      {
+        "title": "Audiencia objetivo",
+        "description": "Jugadores de 16 años en adelante, fans de novelas visuales otome y juegos narrativos de misterio como Raging Loop o Paranormasight."
+      },
+      {
+        "title": "Tamaño del mercado",
+        "description": "El género otome y novela visual en PC tiene un público activo y fiel en Steam, con títulos indie que alcanzan decenas de miles de ventas con presupuestos reducidos."
+      },
+      {
+        "title": "Ventaja competitiva",
+        "description": "La combinación de mecánica de retroceso temporal, múltiples finales determinados por las estadísticas del jugador y un sistema de confianza frágil lo distingue de los otome convencionales."
+      }
+    ],
+    "technic": [
+      {
+        "title": "Motor",
+        "description": "Godot 2D"
+      },
+      {
+        "title": "Plataformas",
+        "description": "PC (principal) · Consola y teclado · Móvil (posible)"
+      },
+      {
+        "title": "Género",
+        "description": "Novela visual · Otome · Narrativo"
+      },
+      {
+        "title": "Jugadores",
+        "description": "Un jugador"
+      },
+      {
+        "title": "Estado",
+        "description": "Concepto / Pre-producción (~5% completado)"
+      },
+      {
+        "title": "Lanzamiento",
+        "description": "Fecha por definir"
+      }
+    ],
+    "development": {
+      "current_phase": "Concepto y pre-producción",
+      "team_size": "Equipo pequeño - Rhon Studios",
+      "timeline": "Por definir"
+    },
+    "vision": "Un otome donde la relación romántica coexiste con el horror de saber que la persona que quieres está destinada a morir — y que tú eres la única que puede evitarlo, una y otra vez, sin que nadie te crea.",
+    "roadmap": [
+      {
+        "phase": "Concepto y diseño",
+        "status": "completed",
+        "items": [
+          "Premisa y mecánica central definidas",
+          "Listado de personajes romanceables (Julian, Kieran, Ivy, Luna + 1)",
+          "Sistema de finales esbozado",
+          "Referencias visuales y de gameplay recopiladas"
+        ]
+      },
+      {
+        "phase": "Pre-producción",
+        "status": "in-progress",
+        "items": [
+          "Game Design Document completo",
+          "Diseño de personajes y mundo",
+          "Guión de la ruta principal",
+          "Diseño del sistema de stats (Carisma / Manipulación)"
+        ]
+      },
+      {
+        "phase": "Prototipo",
+        "status": "planned",
+        "items": [
+          "Prototipo funcional del bucle de muerte y retroceso",
+          "Primera ruta jugable (personaje piloto)",
+          "Sistema de guardado automático en el punto de muerte"
+        ]
+      },
+      {
+        "phase": "Producción",
+        "status": "planned",
+        "items": [
+          "Las 5 rutas completas con sus respectivos asesinos",
+          "Arte de personajes y fondos",
+          "Banda sonora y efectos de sonido",
+          "Voice acting (evaluación pendiente)"
+        ]
+      },
+      {
+        "phase": "Lanzamiento",
+        "status": "to-decide",
+        "items": [
+          "Testing y pulido",
+          "Lanzamiento en PC (Steam)",
+          "Evaluación de versión móvil"
+        ]
+      }
+    ],
+    "investment": {
+      "monetization": "Pago único (premium) en PC vía Steam. Posible Early Access para recibir feedback de la comunidad antes del lanzamiento completo.",
+      "roi": "El género otome en Steam tiene una base de fans activa dispuesta a pagar por experiencias de calidad. Referentes indie como Cinderella Phenomenon demuestran que propuestas originales pueden alcanzar audiencias amplias con equipos pequeños.",
+      "keys": [
+        "Mecánica de retroceso temporal única dentro del género otome",
+        "Sistema de stats que recompensa o penaliza el estilo de juego del jugador",
+        "5 rutas con asesinos distintos ofrecen alta rejugabilidad",
+        "Público objetivo activo y fiel en plataformas digitales",
+        "Equipo comprometido con identidad visual y narrativa sólida"
+      ]
+    }
+  },
+  "tinycare": {
+    "subtitle": "Mascota virtual con consecuencias reales",
+    "description": "Tiny Care es un juego de mascotas virtuales para móvil donde cada decisión importa de verdad. Tu mascota no es solo un sprite bonito: come, duerme, se ensucia, se aburre, desarrolla su personalidad y puede morir si no la cuidas bien.",
+    "description2": "Elige entre 14 especies con distintas raridades, desde gatos y perros hasta axolotes y búhos, y cuídalas a lo largo de sus etapas de vida. Descuida su salud mental y verás señales de tristeza; ignora su alimentación y sufrirá las consecuencias. ¿Eres lo suficientemente responsable para mantenerla con vida?",
+    "status": "En desarrollo",
+    "genre": "Simulación de vida · Mascota virtual · Colección",
+    "year": "Por definir",
+    "pitch": "No es solo un juego de mascotas. Es un recordatorio de lo que significa cuidar de alguien.",
+    "mechanics": [
+      {
+        "title": "Sistemas de necesidades interconectados",
+        "description": "Hambre, sueño, higiene y felicidad se afectan entre sí en tiempo real. Jugar demasiado cansa a la mascota; no prestarle atención baja su amistad. Todo tiene consecuencias."
+      },
+      {
+        "title": "Personalidad dinámica",
+        "description": "Cada mascota nace con rasgos fijos (Materialista, Juguetona, Tonta) y puede desarrollar otros según cómo la críes. Descuida su bienestar emocional y podría volverse Violenta, Asustada o Necesitada."
+      },
+      {
+        "title": "14 especies con raridad y ciclo de vida",
+        "description": "Desde mascotas comunes (gato, perro, conejo) hasta SSR (erizo, búho, axolote), cada animal tiene una esperanza de vida distinta en el juego — de 2 semanas a mes y medio, y muere de vejez si sobrevive el tiempo suficiente."
+      }
+    ],
+    "market": [
+      {
+        "title": "Audiencia objetivo",
+        "description": "Jugadores de 16 años en adelante, fans de juegos de mascotas virtuales como Tamagotchi, Tsuki Odyssey o 'Can your pet?' que buscan mayor profundidad y consecuencias reales."
+      },
+      {
+        "title": "Tamaño del mercado",
+        "description": "El mercado de juegos móviles casual-simulation mueve miles de millones anuales. La propuesta de Tiny Care añade capas emocionales que lo separan de la competencia superficial."
+      },
+      {
+        "title": "Ventaja competitiva",
+        "description": "A diferencia de los juegos de mascotas convencionales, Tiny Care muestra consecuencias reales del descuido, incluyendo señales de depresión, problemas de salud y muerte, creando un vínculo emocional genuino con el jugador."
+      }
+    ],
+    "technic": [
+      {
+        "title": "Plataforma",
+        "description": "Móvil - Android e iOS"
+      },
+      {
+        "title": "Género",
+        "description": "Simulación de vida · Mascota virtual · Colección · Raising sim"
+      },
+      {
+        "title": "Jugadores",
+        "description": "Un jugador"
+      },
+      {
+        "title": "Estado",
+        "description": "Concepto / Pre-producción (~10% completado)"
+      },
+      {
+        "title": "Lanzamiento",
+        "description": "Fecha por definir"
+      },
+      {
+        "title": "Herramientas previstas",
+        "description": "Por definir - diseño orientado a móvil nativo"
+      }
+    ],
+    "development": {
+      "current_phase": "Concepto y diseño",
+      "team_size": "Equipo pequeño - Rhon Studios",
+      "timeline": "Por definir"
+    },
+    "vision": "Un juego de mascotas que te hace sentir lo que significa cuidar de algo vivo: la alegría de verla crecer, la culpa de haberla descuidado y el peso de cada decisión que tomas en su nombre.",
+    "roadmap": [
+      {
+        "phase": "Concepto y diseño",
+        "status": "in-progress",
+        "items": [
+          "GDD base completo (sistemas de necesidades, personalidad, 14 especies)",
+          "Tabla de raridades y ciclos de vida definidos",
+          "Sistema de amistad y rasgos de personalidad diseñados",
+          "Referencias visuales recopiladas (Rii Abrego)"
+        ]
+      },
+      {
+        "phase": "Pre-producción",
+        "status": "planned",
+        "items": [
+          "Arte conceptual de las 14 especies y sus etapas de evolución",
+          "Diseño de UI móvil (pantalla principal, indicadores de estado)",
+          "Prototipo del sistema de tiempo real y necesidades",
+          "Definición del sistema de moneda y tienda"
+        ]
+      },
+      {
+        "phase": "Prototipo",
+        "status": "planned",
+        "items": [
+          "Mascota jugable con bucle core (hambre, sueño, felicidad)",
+          "Minijuego piloto (láser o pelota)",
+          "Sistema de personalidad funcional"
+        ]
+      },
+      {
+        "phase": "Producción",
+        "status": "planned",
+        "items": [
+          "Las 14 especies animadas con sus etapas de vida",
+          "Sistema completo de personalidad, problemas de salud y estados de ánimo",
+          "Tienda, ropa, skins y sistema de regalos",
+          "Banda sonora y sonidos de mascota"
+        ]
+      },
+      {
+        "phase": "Lanzamiento",
+        "status": "to-decide",
+        "items": [
+          "Testing en dispositivos Android e iOS",
+          "Publicación en Google Play y App Store",
+          "Free-to-play con pagos in-game"
+        ]
+      }
+    ],
+    "investment": {
+      "monetization": "Por definir, opciones evaluadas: free-to-play con moneda cosmética o modelo mixto. La tienda de ropa, skins y regalos ofrece un vector natural para monetización no agresiva.",
+      "roi": "El mercado de juegos de mascotas móviles tiene demanda probada (Tamagotchi Uni, Pou, Tsuki Odyssey). La diferenciación emocional de Tiny Care, consecuencias reales, salud mental, muerte, apunta a jugadores que buscan profundidad dentro del género casual.",
+      "keys": [
+        "Sistema de consecuencias reales que genera vínculo emocional genuino",
+        "14 especies con raridades distintas incentivan la colección y la rejugabilidad",
+        "Personalidad dinámica hace que cada mascota sea única",
+        "Audiencia móvil amplia y activa en el género de simulación",
+        "Estética visual cuidada inspirada en referentes artísticos de calidad"
       ]
     }
   }

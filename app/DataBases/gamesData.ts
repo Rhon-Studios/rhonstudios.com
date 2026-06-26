@@ -1,4 +1,4 @@
-﻿export type GameId = "tonkori" | "afterlight";
+﻿export type GameId = "tonkori" | "afterlight" | "theobserver" | "tinycare";
 export interface GameData {
     id: GameId;
     title: string;
@@ -189,6 +189,108 @@ export const gamesData: GameData[] = [
             accentBgHex: "#E3B873",
             accentHoverTextHex: "#0A0C12",
         },
+    },
+    {
+        id: "theobserver",
+        title: "The Observer",
+        font: "Amarante",
+        developmentProgress: 5,
+        heroImage: "",
+        thumbnail: "",
+        media: {
+            screenshots: [],
+            video: undefined,
+            maskImage: undefined,
+            WebkitMaskImage: undefined
+        },
+        links: {
+            steam: undefined,
+            demo: undefined,
+            github: undefined,
+            pressKit: undefined
+        },
+        theme: {
+            fontTitle: "'Amarante', serif",
+            fontBody: "'Inter', sans-serif",
+            fontTitleColor: "text-[#b8d4c8]",
+            fontBodyColor: "text-[#c9d8d2]",
+            bgColor: "bg-[#0a0f12]",
+            accentBorder: "border-teal-800",
+            accentText: "text-teal-300",
+            accentBg: "bg-teal-900/40",
+            accentHoverText: "hover:text-teal-200",
+            panelBorderOpacity: "border-teal-900/50",
+            panelBorderHover: "hover:border-teal-700",
+            panelDividerBg: "bg-teal-900/30",
+            cardBorderOpacity: "border-slate-700/40",
+            cardCornerHoverBorder: "hover:border-teal-700/60",
+            textMuted: "text-slate-400",
+            textSubtle: "text-slate-500",
+            progressFrom: "#1a4a42",
+            progressTo: "#2d7a68",
+            progressTrackBg: "#0d1f1c",
+            colorCompleted: "#4ade80",
+            colorInProgress: "#60a5fa",
+            colorToDecide: "#94a3b8",
+            heroOverlay: "linear-gradient(to bottom, rgba(10,15,18,0.3) 0%, rgba(10,15,18,0.85) 70%, rgba(10,15,18,1) 100%)",
+            heroFilter: "brightness(0.65) saturate(0.7)",
+            investmentHighlightBorder: "#1e4a42",
+            investmentHighlightBg: "rgba(20,50,44,0.4)",
+            accentBorderHex: "#134e4a",
+            accentBgHex: "#134e4a66",
+            accentHoverTextHex: "#99f6e4"
+        }
+    },
+    {
+        id: "tinycare",
+        title: "Tiny Care",
+        font: "Jua",
+        developmentProgress: 10,
+        heroImage: "",
+        thumbnail: "",
+        media: {
+            screenshots: [],
+            video: undefined,
+            maskImage: undefined,
+            WebkitMaskImage: undefined
+        },
+        links: {
+            steam: undefined,
+            demo: undefined,
+            github: undefined,
+            pressKit: undefined
+        },
+        theme: {
+            fontTitle: "'Jua', sans-serif",
+            fontBody: "'Nunito', sans-serif",
+            fontTitleColor: "text-[#fefae0]",
+            fontBodyColor: "text-[#e9edc9]",
+            bgColor: "bg-[#111011]",
+            accentBorder: "border-[#d4a373]/60",
+            accentText: "text-[#d4a373]",
+            accentBg: "bg-[#d4a373]/10",
+            accentHoverText: "hover:text-[#faedcd]",
+            panelBorderOpacity: "border-[#d4a373]/20",
+            panelBorderHover: "hover:border-[#d4a373]/50",
+            panelDividerBg: "bg-[#d4a373]/10",
+            cardBorderOpacity: "border-[#ccd5ae]/20",
+            cardCornerHoverBorder: "hover:border-[#ccd5ae]/40",
+            textMuted: "text-[#ccd5ae]",
+            textSubtle: "text-[#ccd5ae]/60",
+            progressFrom: "#d4a373",
+            progressTo: "#ccd5ae",
+            progressTrackBg: "#2a2621",
+            colorCompleted: "#ccd5ae",
+            colorInProgress: "#d4a373",
+            colorToDecide: "#8f8b82",
+            heroOverlay: "linear-gradient(to bottom, rgba(17,16,17,.15) 0%, rgba(17,16,17,.72) 70%, rgba(17,16,17,1) 100%)",
+            heroFilter: "brightness(.82) saturate(.9)",
+            investmentHighlightBorder: "#d4a373",
+            investmentHighlightBg: "rgba(212,163,115,.10)",
+            accentBorderHex: "#d4a373",
+            accentBgHex: "#d4a3731a",
+            accentHoverTextHex: "#faedcd"
+        }
     }
 ];
 
