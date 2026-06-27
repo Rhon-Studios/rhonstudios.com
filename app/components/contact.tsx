@@ -395,7 +395,7 @@ export function Contact(){
                             )}
                         </div>
                     </div>
-                    <div className="mt-8 sm:mt-12 mb-8 sm:mb-0 flex justify-center">
+                    {/*<div className="mt-8 sm:mt-12 mb-8 sm:mb-0 flex justify-center">
                         <a
                             href="#newsLetter"
                             className="inline-flex items-center gap-3 sm:gap-4 text-xs tracking-wider uppercase px-4 sm:px-5 py-2 border-2 border-white/60 rounded-md"
@@ -405,7 +405,7 @@ export function Contact(){
                             <span>{t.contact.newsLetter}</span>
                             <span>↓</span>
                         </a>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
             <AnimatePresence>
