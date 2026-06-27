@@ -127,6 +127,90 @@
         "Libertad creativa en tono y estructura narrativa",
         "Publicación rápida: tu historia llega a jugadores en poco tiempo"
       ]
+    },
+    "tiny-programmer": {
+      "title": "Programador de apoyo para juego móvil",
+      "shortDescription": "Si tienes experiencia en programación de gameplay y quieres contribuir a un juego móvil, hay espacio para apoyo ocasional o continuo según tu disponibilidad.",
+      "area": "Programación",
+      "requirements": [
+        "Conocimiento del motor utilizado por el proyecto",
+        "Experiencia en sistemas de gameplay para Android",
+        "Buenas habilidades de comunicación para trabajar en un equipo pequeño"
+      ],
+      "offer": [
+        "Crédito como colaborador del proyecto",
+        "Compromiso flexible según tu disponibilidad",
+        "Trabajo directo con el equipo principal",
+        "Trabajo junto a programadores profesionales"
+      ]
+    },
+    "tiny-artist": {
+      "title": "Artista para juego de mascotas acogedor y adorable",
+      "shortDescription": "Buscamos un artista para unirse a nuestro proyecto móvil.",
+      "area": "Arte",
+      "requirements": [
+        "Portafolio de ilustración 2D",
+        "Sensibilidad para estilos de juegos adorables y acogedores",
+        "Capacidad para trabajar dentro de guías de estilo y mantener consistencia visual",
+        "Disponibilidad para colaborar de forma continua (no solo ocasional)"
+      ],
+      "offer": [
+        "Libertad para proponer estilo y dirección visual",
+        "Crédito como colaborador del proyecto",
+        "Compromiso flexible según tu disponibilidad",
+        "Trabajo directo con el equipo principal"
+      ]
+    },
+    "observer-artist": {
+      "title": "Artista para juego narrativo de observación",
+      "shortDescription": "Buscamos un artista para ayudar a definir la identidad visual de The Observer, un juego de misterio centrado en la narración ambiental y el detalle sutil.",
+      "area": "Arte",
+      "requirements": [
+        "Fuerte portafolio en ilustración 2D o entornos estilizados",
+        "Capacidad para crear visuales atmosféricos y narrativos",
+        "Atención al detalle para la narración ambiental",
+        "Comodidad trabajando dentro de un tono narrativo y dirección visual establecidos"
+      ],
+      "offer": [
+        "Crédito como colaborador artístico principal",
+        "Oportunidad de definir y refinar la atmósfera visual del juego",
+        "Colaboración flexible según disponibilidad",
+        "Comunicación directa con el equipo de desarrollo"
+      ]
+    },
+    "observer-programmer": {
+      "title": "Programador para juego narrativo de puzles / observación",
+      "shortDescription": "Buscamos un programador de gameplay para apoyar el desarrollo de sistemas en The Observer, enfocado en interacción, pistas y lógica narrativa.",
+      "area": "Programación",
+      "requirements": [
+        "Experiencia en programación de gameplay o sistemas",
+        "Comprensión de sistemas de interacción o mecánicas de puzles",
+        "Capacidad para implementar eventos o lógica activados por narrativa",
+        "Buenas habilidades de comunicación y trabajo en equipo en un grupo pequeño"
+      ],
+      "offer": [
+        "Crédito como colaborador del proyecto",
+        "Participación flexible (ocasional o continua)",
+        "Colaboración directa con el equipo principal",
+        "Oportunidad de trabajar en sistemas de gameplay narrativos"
+      ]
+    },
+    "observer-narrator": {
+      "title": "Diseñador narrativo / escritor para juego de misterio de observación",
+      "shortDescription": "Buscamos un escritor para ayudar a dar forma a la estructura narrativa y la narración ambiental de The Observer.",
+      "area": "Narrativa",
+      "requirements": [
+        "Experiencia en diseño narrativo o escritura creativa para videojuegos",
+        "Capacidad para escribir historias sutiles y atmosféricas",
+        "Buen sentido del ritmo y estructura del misterio",
+        "Habilidad para integrar la historia en el entorno y los detalles en lugar de la exposición directa"
+      ],
+      "offer": [
+        "Crédito como colaborador narrativo",
+        "Aporte creativo en la historia y el mundo",
+        "Colaboración flexible según disponibilidad",
+        "Trabajo cercano con los equipos de diseño y arte"
+      ]
     }
   },
   "projects": {
@@ -145,6 +229,16 @@
     "other": {
       "name": "Otros",
       "shortDescription": "Proyectos más pequeños, experimentales o paralelos donde probamos ideas, mecánicas y estilos fuera de nuestros títulos principales."
+    },
+    "tinycare": {
+      "name": "Tiny Care",
+      "shortDescription": "Tiny Care es un acogedor juego móvil sobre cuidar mascotas adorables. Una experiencia cálida y relajante diseñada para sesiones cortas de juego en cualquier momento.",
+      "url": "rhonstudios.vercel.app/games/tinycare"
+    },
+    "theobserver": {
+      "name": "The Observer",
+      "shortDescription": "The Observer es un juego narrativo de misterio basado en la narración ambiental y la atención cuidadosa al detalle. Cada pista está oculta a simple vista.",
+      "url": "rhonstudios.vercel.app/games/theobserver"
     }
   }
 }

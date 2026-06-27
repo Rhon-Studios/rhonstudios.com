@@ -72,36 +72,21 @@ export const gamesData: GameData[] = [
 
         links: {
             steam: "",
-            demo: "https://demo.rhonstudios.com/tonkori",
+            demo: "",
             github: "",
             pressKit: "#"
         },
 
         media: {
             screenshots: [
-                "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800",
-                "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800",
-                "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800",
-                "https://images.unsplash.com/photo-1614294148960-9aa740632a87?w=800"
+
             ],
-            video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            video: "",
             maskImage: "/logos/TonkoriLogo1.png",
             WebkitMaskImage: "/logos/TonkoriLogo2.png",
         },
         gallery: [
-            {url: "https://picsum.photos/id/1015/1200/800", title: "Mountain Valley Gameplay", category: "gameplay"},
-            {
-                url: "https://picsum.photos/id/1011/1200/800",
-                title: "Forest Exploration Screenshot",
-                category: "screenshot"
-            },
-            {url: "https://picsum.photos/id/1025/1200/800", title: "Hero Character Portrait", category: "characters"},
-            {
-                url: "https://picsum.photos/id/1039/1200/800",
-                title: "Ancient Temple Environment",
-                category: "environment"
-            },
-            {url: "https://picsum.photos/id/1043/1200/800", title: "City Concept Art", category: "concept-art"}
+
         ],
         theme: {
             fontTitle: "Skranji",
@@ -145,9 +130,9 @@ export const gamesData: GameData[] = [
         heroImage: "https://images.unsplash.com/photo-1752335824586-420c728c21bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwYXBvY2FseXB0aWMlMjBzdXJ2aXZhbCUyMGF0bW9zcGhlcmV8ZW58MXx8fHwxNzcxOTQxNjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
 
         links: {
-            steam: "https://store.steampowered.com/app/afterlight",
-            demo: "https://demo.rhonstudios.com/afterlight",
-            pressKit: "#"
+            steam: "",
+            demo: "",
+            pressKit: ""
         },
 
         media: {

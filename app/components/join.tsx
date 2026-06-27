@@ -1,16 +1,15 @@
 ﻿"use client"
 
 import {useLanguage} from "@/app/language/LanguageProvider";
-import {opportunitiesData, projectsData} from "@/app/DataBases/oportunitiesData";
+import { opportunitiesData, getTopProjects } from "@/app/DataBases/oportunitiesData";
 import { motion } from "framer-motion";
 import {ArrowRight, Users} from "lucide-react";
-import Link from "next/link";
 import {useRouter} from "next/navigation";
 
 export function Join() {
 
     const openCount = opportunitiesData.filter((o) => o.status === "open").length;
-    const projectCards = projectsData.map((project) => {
+    const projectCards = getTopProjects(4).map((project) => {
         const openRoles = opportunitiesData.filter(
             (o) => o.projectId === project.id && o.status === "open"
         ).length;
