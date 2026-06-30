@@ -95,30 +95,6 @@ export const opportunitiesData: Opportunity[] = [
     },
 
     // --- AFTERLIGHT ---
-    {
-        id: "afterlight-artist",
-        projectId: "afterlight",
-        area: "art",
-        status: "filled",
-        createdAt: "2026-06-24",
-        featured: true,
-    },
-    {
-        id: "afterlight-leveldesigner",
-        projectId: "afterlight",
-        area: "design",
-        status: "filled",
-        createdAt: "2026-06-24",
-        featured: true,
-    },
-    {
-        id: "afterlight-programmer",
-        projectId: "afterlight",
-        area: "programming",
-        status: "filled",
-        createdAt: "2026-06-24",
-        featured: false,
-    },
 
     // --- TINY CARE ---
     {

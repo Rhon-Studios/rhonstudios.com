@@ -36,53 +36,6 @@
         "Personalized letter of recommendation upon finishing your collaboration"
       ]
     },
-    "afterlight-artist": {
-      "title": "2D Artist for Afterlight",
-      "shortDescription": "We're looking for a 2D artist to help bring to life the contrast between light and shadow that defines Afterlight. You'll work hand in hand with design to build the world's visual identity.",
-      "area": "Art",
-      "requirements": [
-        "Portfolio with 2D illustration or pixel art",
-        "Sensitivity for atmosphere and light/contrast handling",
-        "Ability to work within style guides and maintain visual consistency",
-        "Availability to collaborate on an ongoing basis (not just occasionally)"
-      ],
-      "offer": [
-        "Visible credit as the project's artist",
-        "Creative freedom within the art direction",
-        "Being part of a small team with fast, direct decision-making"
-      ]
-    },
-    "afterlight-leveldesigner": {
-      "title": "Level / Puzzle Designer for Afterlight",
-      "shortDescription": "We need someone who thinks in terms of space, rhythm, and puzzle-solving to build the levels of a metroidvania where light and shadow change the rules of the game.",
-      "area": "Design",
-      "requirements": [
-        "Experience or portfolio in level design, ideally in platformers/metroidvanias",
-        "Ability to design puzzles with a progressive difficulty curve",
-        "Basic knowledge of prototyping tools (Tiled, the project's engine, etc.)",
-        "Analytical thinking to balance exploration and challenge"
-      ],
-      "offer": [
-        "Credit as the project's designer",
-        "Direct collaboration with programming and art from early stages",
-        "Opportunity to define mechanics, not just implement them"
-      ]
-    },
-    "afterlight-programmer": {
-      "title": "Support Programmer for Afterlight",
-      "shortDescription": "If you have experience in gameplay programming and want to contribute to a metroidvania in development, there's room for occasional or ongoing support depending on your availability.",
-      "area": "Programming",
-      "requirements": [
-        "Knowledge of the engine used by the project",
-        "Experience with gameplay systems (movement, collisions, states)",
-        "Good communication skills for working in a small team"
-      ],
-      "offer": [
-        "Credit as a project collaborator",
-        "Flexible commitment based on your availability",
-        "Direct work with the core team"
-      ]
-    },
     "other-artist": {
       "title": "Artist for Small Projects",
       "shortDescription": "We're looking for a versatile artist to join short-cycle small projects. Ideal for someone who wants to experiment with different styles and see their work shipped fast.",

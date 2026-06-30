@@ -36,53 +36,6 @@
         "Carta de recomendación personalizada al finalizar la colaboración"
       ]
     },
-    "afterlight-artist": {
-      "title": "Artista 2D para Afterlight",
-      "shortDescription": "Buscamos un artista 2D que ayude a dar vida al contraste entre luz y sombra que define Afterlight. Trabajarás de la mano con diseño para construir la identidad visual del mundo.",
-      "area": "Arte",
-      "requirements": [
-        "Portfolio con ilustración o pixel art 2D",
-        "Sensibilidad para atmósferas y manejo de luz/contraste",
-        "Capacidad de trabajar con guías de estilo y mantener coherencia visual",
-        "Disponibilidad para colaborar de forma constante (no puntual)"
-      ],
-      "offer": [
-        "Crédito visible como artista del proyecto",
-        "Libertad creativa dentro de la dirección de arte",
-        "Formar parte de un equipo pequeño con decisiones rápidas y directas"
-      ]
-    },
-    "afterlight-leveldesigner": {
-      "title": "Diseñador de niveles / puzzles para Afterlight",
-      "shortDescription": "Necesitamos a alguien que piense en espacio, ritmo y resolución de puzzles para construir los niveles de un metroidvania donde luz y sombra cambian las reglas del juego.",
-      "area": "Diseño",
-      "requirements": [
-        "Experiencia o portfolio en diseño de niveles, idealmente en plataformas/metroidvania",
-        "Capacidad de diseñar puzzles con curva de dificultad progresiva",
-        "Conocimiento básico de herramientas de prototipado (Tiled, motor del proyecto, etc.)",
-        "Pensamiento analítico para balancear exploración y desafío"
-      ],
-      "offer": [
-        "Crédito como diseñador del proyecto",
-        "Colaboración directa con programación y arte desde etapas tempranas",
-        "Posibilidad de definir mecánicas, no solo aplicarlas"
-      ]
-    },
-    "afterlight-programmer": {
-      "title": "Programador de apoyo para Afterlight",
-      "shortDescription": "Si tienes experiencia en gameplay programming y quieres sumar a un metroidvania en desarrollo, hay espacio para apoyo puntual o continuo según disponibilidad.",
-      "area": "Programación",
-      "requirements": [
-        "Conocimientos en el motor utilizado por el proyecto",
-        "Experiencia en sistemas de gameplay (movimiento, colisiones, estados)",
-        "Buena comunicación para trabajar en equipo reducido"
-      ],
-      "offer": [
-        "Crédito como colaborador del proyecto",
-        "Flexibilidad de dedicación según tu disponibilidad",
-        "Trabajo directo con el equipo core"
-      ]
-    },
     "other-artist": {
       "title": "Artista para proyectos pequeños",
       "shortDescription": "Buscamos artista versátil para sumarse a proyectos pequeños de ciclo corto. Ideal para quien quiera experimentar con estilos distintos y ver su trabajo lanzado rápido.",
