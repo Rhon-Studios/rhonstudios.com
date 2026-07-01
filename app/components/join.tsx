@@ -22,7 +22,7 @@ export function Join() {
     return (
         <section
             id="join"
-            className="snap-center scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
+            className="scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
             style={{ minHeight: '100vh' }}
         >
             <div className="container mx-auto px-6 sm:px-8 lg:px-16">

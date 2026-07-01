@@ -5,7 +5,7 @@ export function NewsLetter() {
     return (
         <section
             id="newsLetter"
-            className="snap-center scroll-mt-[100px] relative bg-black text-white pb-16 sm:pb-32 pt-12 sm:pt-20 overflow-hidden"
+            className="scroll-mt-[100px] relative bg-black text-white pb-16 sm:pb-32 pt-12 sm:pt-20 overflow-hidden"
         >
             <div className="max-w-6xl mx-auto px-4 sm:px-8">
                 <div className="mt-8 sm:mt-11 text-center border-2 border-white/50 p-6 sm:p-12">

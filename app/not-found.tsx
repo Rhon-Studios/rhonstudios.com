@@ -12,7 +12,7 @@ export default function NotFound() {
     return (
         <section
             id="Error"
-            className="snap-center scroll-mt-[160px] relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
+            className="scroll-mt-[160px] relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
         >
             <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black" />
             <div className="relative z-10 text-center">

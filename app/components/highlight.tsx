@@ -49,7 +49,7 @@ export function Highlight() {
     return (
         <section
             id="highlight"
-            className="snap-center scroll-mt-[120px] relative bg-black text-white overflow-hidden flex items-center justify-center"
+            className="scroll-mt-[120px] relative bg-black text-white overflow-hidden flex items-center justify-center"
             style={{ height: "calc(100vh - 106px)" }}
         >
             <div

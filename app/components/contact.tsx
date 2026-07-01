@@ -96,7 +96,7 @@ export function Contact(){
     return (
         <section
             id="contact"
-            className="snap-center scroll-mt-[10px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
+            className="scroll-mt-[10px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
             style={{ minHeight: '100vh' }}
         >
             <div className="container mx-auto px-4 sm:px-8 lg:px-10">

@@ -15,7 +15,7 @@ export default function App() {
     const pathname = usePathname();
     const isHome = pathname === "/"
     return (
-            <div className={isHome ? "bg-black snap-y snap-mandatory" : "bg-black"}>
+            <div className="bg-black">
                 <Hero />
                 <Highlight/>
                 <Games/>

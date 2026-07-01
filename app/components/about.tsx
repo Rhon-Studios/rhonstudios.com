@@ -8,7 +8,7 @@ export function About() {
     return (
         <section
             id="about"
-            className="snap-center scroll-mt-[5px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
+            className="scroll-mt-[5px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
             style={{ minHeight: '20vh' }}
         >
             <div className="container mx-auto px-6 sm:px-8 lg:px-16">

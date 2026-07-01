@@ -11,7 +11,7 @@ export function OurVision() {
     return (
         <section
             id="outvision"
-            className="snap-center scroll-mt-[170px] relative bg-black text-white pb-16 sm:pb-32 overflow-hidden"
+            className="scroll-mt-[170px] relative bg-black text-white pb-16 sm:pb-32 overflow-hidden"
             style={{ minHeight: '100vh' }}
         >
             <div className="container mx-auto px-6 sm:px-8 lg:px-16">
