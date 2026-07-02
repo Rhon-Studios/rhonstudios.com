@@ -11,12 +11,14 @@ import ourteamEn from "./ourteam/en.json"
 import ourteamEs from "./ourteam/es.json"
 import devblogEn from "./devblogs/en.json"
 import devblogEs from "./devblogs/es.json"
+import faqEn from "./faq/en.json"
+import faqEs from "./faq/es.json"
 
 type Language = "en" | "es";
 
 const translations = {
-    en: {...en, game_list: gamesEn, join: projectsEn, ourteam: ourteamEn, devblogs: devblogEn},
-    es: {...es, game_list: gamesEs, join: projectsEs, ourteam: ourteamEs, devblogs: devblogEs},
+    en: {...en, game_list: gamesEn, join: projectsEn, ourteam: ourteamEn, devblogs: devblogEn, faq: faqEn},
+    es: {...es, game_list: gamesEs, join: projectsEs, ourteam: ourteamEs, devblogs: devblogEs, faq: faqEs},
 }
 
 type Translations = typeof translations.en;

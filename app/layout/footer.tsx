@@ -81,16 +81,6 @@ export function Footer() {
             subs: l.subs?.map((s) => ({ ...s, onClick: () => scrollTo(s.id) })),
         }));
 
-    const links: FooterLink[] = isGamePage
-        ? gameLinks
-        : isJoinPage
-            ? joinLinks.map((l) => ({ ...l, onClick: () => scrollTo(l.id) }))
-            : homeLinks.map((l) => ({
-                ...l,
-                onClick: () => scrollTo(l.id),
-                subs: l.subs?.map((s) => ({ ...s, onClick: () => scrollTo(s.id) })),
-            }));
-    
     const goToDevblogs = () => {
         if (pathname === "/devblogs") {
             scrollTo("devblogs_index");
@@ -101,29 +91,38 @@ export function Footer() {
 
     const devBlogLinks: FooterLink[] = [
         {
-            id: "home",
-            label: t.devblog_menu.home,
-            onClick: () => router.push("/#home"),
-        },
-        {
             id: "devblogs",
             label: t.devblog_menu.devblogs,
             onClick: goToDevblogs,
         },
     ];
 
+    const links: FooterLink[] = isGamePage
+        ? gameLinks
+        : isJoinPage
+            ? joinLinks.map((l) => ({ ...l, onClick: () => scrollTo(l.id) }))
+            : isDevBlogPage
+                ? devBlogLinks
+                : homeLinks.map((l) => ({
+                    ...l,
+                    onClick: () => scrollTo(l.id),
+                    subs: l.subs?.map((s) => ({ ...s, onClick: () => scrollTo(s.id) })),
+                }));
+
     const linksTitle = isGamePage
         ? (game?.title ?? t.footer.links)
         : isJoinPage
             ? (t.join_menu.join ?? t.footer.links)
-            : t.footer.links;
+            : isDevBlogPage
+                ? t.devblog_menu.devblogs
+                : t.footer.links;
 
     const footerLogo = isGamePage && game?.logo
         ? game.logo
         : "/Logos/RhonLabel.png";
     const footerLogoAlt = isGamePage ? (game?.title ?? "Rhon Studios") : "Rhon Studios";
 
-    const showBackLink = isJoinPage || isGamePage;
+    const showBackLink = isJoinPage || isGamePage || isDevBlogPage;
 
     return (
         <footer

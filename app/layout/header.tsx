@@ -64,7 +64,7 @@ export function Header() {
     const gameId = params?.id as string;
     const isIdPage = !!gameId;
     const isJoinPage = pathname === "/join";
-    const isDevPage = pathname === "/devblogs";
+    const isDevPage = pathname.startsWith("/devblogs");
     const game = gameId ? getGameById(gameId) : null;
     const headerLogo = isIdPage && game?.logo
         ? game.logo

@@ -3,6 +3,8 @@
 import {Github, Linkedin, Mail, Twitter} from "lucide-react";
 import {useLanguage} from "@/app/language/LanguageProvider";
 import {useState} from "react";
+import {number} from "motion";
+import { motion } from "framer-motion";
 
 type Team = {
     id: number;
@@ -17,9 +19,17 @@ type Team = {
     email: string;
 };
 
+type Collaborators = {
+    id: number,
+    name: String,
+    role: String,
+    area: String,
+}
+
 export function Team() {
     const { t } = useLanguage();
     const teams: Team[] = t.ourteam["main-team"];
+    const collaborators: Collaborators[] = t.ourteam["collaborators"];
     const [expandedId, setExpandedId] = useState<number | null>(null);
 
     return (
@@ -53,8 +63,6 @@ export function Team() {
                                 {t.team.subtitle}
                             </p>
                         </div>
-
-                        
                         <div className="hidden lg:flex flex-row flex-wrap justify-center gap-20 group">
                             {teams.map((team, index) => (
                                 <div
@@ -124,8 +132,6 @@ export function Team() {
                                 </div>
                             ))}
                         </div>
-
-                        
                         <div className="lg:hidden flex flex-col gap-4">
                             {teams.map((team) => {
                                 const isExpanded = expandedId === team.id;
@@ -168,8 +174,6 @@ export function Team() {
                                                 <span className={`text-lg leading-none transition-transform duration-300 ${isExpanded ? "rotate-45" : ""}`}>+</span>
                                             </button>
                                         </div>
-
-                                        
                                         <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isExpanded ? "max-h-96 mt-4" : "max-h-0"}`}>
                                             <div className="border-t border-white/20 pt-4">
                                                 <p className="text-xs leading-relaxed tracking-wide text-white/80 mb-4" style={{ fontFamily: "Cinzel", fontWeight: 200 }}>
@@ -195,8 +199,94 @@ export function Team() {
                                 );
                             })}
                         </div>
-
                     </div>
+                </div>
+                <div className="border-t border-white/20 pt-16 mt-16 max-w-5xl mx-auto">
+                    <div className="text-center mb-12">
+                        <div className="inline-block border border-white/40 px-8 py-2 mb-6">
+                            <p
+                                className="text-xs tracking-[0.3em] uppercase text-white/60"
+                                style={{ fontFamily: "Cinzel", fontWeight: 300 }}
+                            >
+                                {t.team.collaborators.top_title}
+                            </p>
+                        </div>
+                        <h3
+                            className="text-4xl tracking-wider mb-4"
+                            style={{ fontFamily: "Rye", fontWeight: 200 }}
+                        >
+                            {t.team.collaborators.title}
+                        </h3>
+                        <p
+                            className="text-white/50 max-w-xl mx-auto leading-relaxed"
+                            style={{ fontFamily: "Cinzel", fontWeight: 200 }}
+                        >
+                            {t.team.collaborators.subtitle}
+                        </p>
+                    </div>
+
+                    {collaborators.length > 0 ? (
+                        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            {collaborators.map((c, i) => (
+                                <motion.div
+                                    key={c.id}
+                                    initial={{ opacity: 0, y: 16 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.4, delay: i * 0.08 }}
+                                    viewport={{ once: true }}
+                                    className="border border-white/20 p-5 hover:border-white/40 transition-all duration-300"
+                                >
+                                    <div className="w-10 h-10 border border-white/20 flex items-center justify-center mb-4">
+                                            <span className="text-white/30 text-sm" style={{ fontFamily: "Rye" }}>
+                                                {c.name.charAt(0)}
+                                            </span>
+                                    </div>
+                                    <p
+                                        className="text-base tracking-wide mb-1"
+                                        style={{ fontFamily: "Cinzel", fontWeight: 400 }}
+                                    >
+                                        {c.name}
+                                    </p>
+                                    <p
+                                        className="text-xs text-white/40 leading-relaxed mb-2"
+                                        style={{ fontFamily: "Cinzel", fontWeight: 200 }}
+                                    >
+                                        {c.role}
+                                    </p>
+                                    <span
+                                        className="text-xs tracking-wider border border-white/20 px-2 py-0.5 text-white/30"
+                                        style={{ fontFamily: "Cinzel" }}
+                                    >
+                                            {c.area}
+                                        </span>
+                                </motion.div>
+                            ))}
+                            <motion.div
+                                initial={{ opacity: 0, y: 16 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.4, delay: collaborators.length * 0.08 }}
+                                viewport={{ once: true }}
+                                className="border border-dashed border-white/15 p-5 flex flex-col items-center justify-center text-center min-h-[140px] hover:border-white/35 transition-all duration-300"
+                            >
+                                <p className="text-white/25 text-2xl mb-2">+</p>
+                                <p
+                                    className="text-xs tracking-wider text-white/30"
+                                    style={{ fontFamily: "Cinzel" }}
+                                >
+                                    {t.team.collaborators.placeholder}
+                                </p>
+                            </motion.div>
+                        </div>
+                    ) : (
+                        <div className="text-center py-12 border border-dashed border-white/15">
+                            <p
+                                className="text-white/30 tracking-wider"
+                                style={{ fontFamily: "Cinzel", fontWeight: 200 }}
+                            >
+                                {t.team.collaborators.empty}
+                            </p>
+                        </div>
+                    )}
                 </div>
             </div>
         </section>

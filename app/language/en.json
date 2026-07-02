@@ -131,7 +131,14 @@
   "team": {
     "top_title": "Meet the founders",
     "title": "Our Team",
-    "subtitle": "Led by industry veterans with a shared passion for innovative storytelling"
+    "subtitle": "Led by industry veterans with a shared passion for innovative storytelling",
+    "collaborators": {
+      "top_title": "Those Building With Us",
+      "title": "Collaborators",
+      "subtitle": "Talented people who have chosen to build something real together with us.",
+      "placeholder": "Your place here",
+      "empty": "There are no collaborators yet. Want to be the first?"
+    }
   },
   "community": {
     "top_title": "Follow Our Journey",
@@ -217,6 +224,11 @@
     "title": "Newsletter",
     "subtitle": "Subscribe to receive the latest news about our games",
     "subscribe": "Subscribe"
+  },
+  "faq_section": {
+    "top_title": "FAQ",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Rhon Studios, nuestros proyectos y cómo trabajamos"
   },
   "footer": {
     "links": "Quick Links",
