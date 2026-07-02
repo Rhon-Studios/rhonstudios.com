@@ -4,7 +4,13 @@
     "highlight": "Highlight",
     "games": "Games",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "ourvision": "Our Vision",
+    "devblog": "DevBlogs",
+    "team": "Team",
+    "community": "Community",
+    "join": "Join",
+    "faq": "FAQ"
   },
   "game_menu": {
     "home": "Home",
@@ -114,6 +120,35 @@
     "top_title": "Meet the founders",
     "title": "Our Team",
     "subtitle": "Led by industry veterans with a shared passion for innovative storytelling"
+  },
+  "community": {
+    "top_title": "Follow Our Journey",
+    "title": "Community",
+    "subtitle": "Stay Connected",
+    "description": "We don't build in silence. Every decision, every prototype, every challenge is shared with those who want to see what it's like to build a real game studio from the ground up.",
+    "discord": {
+      "title": "Main Community",
+      "description": "Talk directly with the team, follow development in real time, and connect with others who share the same passion. This is where we're most active.",
+      "button": "Join the Server"
+    },
+    "socials": {
+      "discord": {
+        "text": "Talk directly with the team, follow development in real time, and connect with the community.",
+        "cta": "Join the Server"
+      },
+      "twitter": {
+        "text": "Quick updates, sneak peeks, and conversations about game design.",
+        "cta": "Follow"
+      },
+      "instagram": {
+        "text": "Artwork, concept art, and the creative process behind Tonkori and Afterlight.",
+        "cta": "Follow"
+      },
+      "youtube": {
+        "text": "Video devlogs, gameplay prototypes, and behind-the-scenes content from the studio.",
+        "cta": "Subscribe"
+      }
+    }
   },
   "join_part": {
     "top_title": "Collaborate With Us",

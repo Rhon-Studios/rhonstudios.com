@@ -4,7 +4,13 @@
     "highlight": "Destacado",
     "games": "Juegos",
     "about": "Nosotros",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "ourvision": "Visión",
+    "devblog": "DevBlogs",
+    "team": "Equipo",
+    "community": "Comunidad",
+    "join": "Únete",
+    "faq": "FAQ"
   },
   "game_menu": {
     "home": "Inicio",
@@ -74,7 +80,7 @@
     "title": "Nosotros",
     "section_1" :
     {
-      "title": "Quiénes Somos",
+      "title": "¿Quiénes Somos?",
       "text" :
       {
         "p1": "Rhon Studios es un estudio de desarrollo de videojuegos independiente fundado en 2025.",
@@ -114,6 +120,35 @@
     "top_title": "Conoce a los fundadores",
     "title": "Nuestro Equipo",
     "subtitle": "Dirigido por nuevas caras de la industria con una pasión compartida por la narración emocionante."
+  },
+  "community": {
+    "top_title": "Sigue Nuestro Camino",
+    "title": "Comunidad",
+    "subtitle": "Conecta con nosotros",
+    "description": "No construimos en silencio. Cada decisión, cada prototipo, cada duda, lo compartimos con quienes quieren ver cómo nace un estudio de verdad.",
+    "discord": {
+      "title": "Comunidad principal",
+      "description": "Habla directamente con el equipo, sigue el desarrollo en tiempo real y conecta con otros que comparten la misma pasión. Es donde más estamos.",
+      "button": "Unirse al servidor"
+    },
+    "socials": {
+      "discord":{
+        "text": "Habla directamente con el equipo, sigue el desarrollo en tiempo real y conecta con la comunidad.",
+        "cta": "Unirse al servidor"
+      },
+      "twitter": {
+        "text": "Actualizaciones rápidas, sneak peeks y conversaciones sobre diseño de videojuegos.",
+        "cta": "Seguir"
+      },
+      "instagram": {
+        "text": "Arte, concepto y el proceso creativo detrás de Tonkori y Afterlight.",
+        "cta": "Seguir"
+      },
+      "youtube": {
+        "text": "Devlogs en vídeo, prototipos en movimiento y behind the scenes del estudio.",
+        "cta": "Suscribirse"
+      }
+    }
   },
   "join_part": {
     "top_title": "Colabora con Nosotros",
@@ -172,7 +207,7 @@
     "subscribe": "Suscribirse"
   },
   "footer": {
-    "links": "Enlazes Rápidos",
+    "links": "Enlaces Rápidos",
     "follow": "Siguenos",
     "rights": "Todos los derechos reservados."
   },

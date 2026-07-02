@@ -11,6 +11,10 @@ import {NewsLetter} from "@/app/components/newsLetter";
 import {OurVision} from "@/app/components/ourvision";
 import {usePathname} from "next/navigation";
 import {Join} from "@/app/components/join";
+import {Community} from "@/app/components/community";
+import {FAQ} from "@/app/components/faq";
+import {DevBlog} from "@/app/components/devblog";
+
 export default function App() {
     const pathname = usePathname();
     const isHome = pathname === "/"
@@ -20,11 +24,14 @@ export default function App() {
                 <Highlight/>
                 <Games/>
                 <OurVision/>
+                <DevBlog/>
                 {/*  <Legacy /> */}
                 <About/>
                 <Team/>
+                <Community/>
                 <Join/>
                 <Contact/>
+                <FAQ/>
                 {/* <NewsLetter/> */}
             </div>
     );

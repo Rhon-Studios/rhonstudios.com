@@ -28,36 +28,67 @@ export function Footer() {
         }
     };
 
-    const homeLinks = [
-        { id: "hero",      label: t.menu.home },
-        { id: "highlight", label: t.menu.highlight },
-        { id: "games",     label: t.menu.games },
-        { id: "about",     label: t.menu.about },
-        { id: "contact",   label: t.menu.contact },
+    type FooterSubLink = {
+        id: string;
+        label: string;
+        onClick: () => void;
+    };
+
+    type FooterLink = {
+        id: string;
+        label: string;
+        onClick: () => void;
+        subs?: FooterSubLink[];
+    };
+
+    const homeLinks: { id: string; label: string; subs?: { id: string; label: string }[] }[] = [
+        { id: "hero", label: t.menu.home, subs: [
+                { id: "highlight", label: t.menu.highlight },
+            ]},
+        { id: "games", label: t.menu.games, subs: [
+                { id: "ourvision", label: t.menu.ourvision },
+                { id: "devblog", label: t.menu.devblog },
+            ]},
+        { id: "about", label: t.menu.about, subs: [
+                { id: "team", label: t.menu.team },
+                { id: "community", label: t.menu.community },
+            ]},
+        { id: "contact", label: t.menu.contact, subs: [
+                { id: "join", label: t.menu.join },
+                { id: "faq", label: t.menu.faq },
+            ]},
     ];
 
-    const joinLinks = [
+    const joinLinks: { id: string; label: string }[] = [
         { id: "home_join",  label: t.join_menu.join },
         { id: "conditions", label: t.join_menu.conditions ?? "Condiciones" },
         { id: "roles",      label: t.join_menu.opportunities },
     ];
 
-    const gameLinks = game
+    const gameLinks: FooterLink[] = game
         ? [
-            { id: "home_game",  label: game.title,           onClick: () => router.push("/#games") },
-            { id: "vision",     label: t.game_menu.vision,   onClick: () => scrollTo("vision") },
-            { id: "roadmap",    label: t.game_menu.roadmap,  onClick: () => scrollTo("roadmap") },
-            { id: "investment", label: t.game_menu.investment, onClick: () => scrollTo("investment") },
-            { id: "gallery",    label: t.game_menu.gallery,  onClick: () => scrollTo("gallery") },
-            { id: "contact",    label: t.game_menu.contact,  onClick: () => scrollTo("contact") },
+            { id: "home_game",  label: game.title,             onClick: () => router.push("/#games") },
+            { id: "vision",     label: t.game_menu.vision,      onClick: () => scrollTo("vision") },
+            { id: "roadmap",    label: t.game_menu.roadmap,     onClick: () => scrollTo("roadmap") },
+            { id: "investment", label: t.game_menu.investment,  onClick: () => scrollTo("investment") },
+            { id: "gallery",    label: t.game_menu.gallery,     onClick: () => scrollTo("gallery") },
+            { id: "contact",    label: t.game_menu.contact,     onClick: () => scrollTo("contact") },
         ]
-        : homeLinks.map((l) => ({ ...l, onClick: () => scrollTo(l.id) }));
+        : homeLinks.map((l) => ({
+            ...l,
+            onClick: () => scrollTo(l.id),
+            subs: l.subs?.map((s) => ({ ...s, onClick: () => scrollTo(s.id) })),
+        }));
 
-    const links = isGamePage
+    const links: FooterLink[] = isGamePage
         ? gameLinks
         : isJoinPage
             ? joinLinks.map((l) => ({ ...l, onClick: () => scrollTo(l.id) }))
-            : homeLinks.map((l) => ({ ...l, onClick: () => scrollTo(l.id) }));
+            : homeLinks.map((l) => ({
+                ...l,
+                onClick: () => scrollTo(l.id),
+                subs: l.subs?.map((s) => ({ ...s, onClick: () => scrollTo(s.id) })),
+            }));
 
     const linksTitle = isGamePage
         ? (game?.title ?? t.footer.links)
@@ -112,6 +143,24 @@ export function Footer() {
                                     >
                                         {item.label}
                                     </button>
+                                    {item.subs && item.subs.length > 0 && (
+                                        <div className="mt-1.5 flex items-center justify-center gap-0 flex-wrap">
+                                            {item.subs.map((sub, i) => (
+                                                <span key={sub.id} className="flex items-center">
+                                                    {i > 0 && (
+                                                        <span className="text-white/20 mx-1.5 text-[9px] select-none">·</span>
+                                                    )}
+                                                    <button
+                                                        onClick={sub.onClick}
+                                                        className="text-[10px] sm:text-[11px] tracking-wide text-white/50 hover:text-white/80 transition"
+                                                        style={{ fontFamily: "Cinzel" }}
+                                                    >
+                                                        {sub.label}
+                                                    </button>
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
                                 </li>
                             ))}
                         </ul>

@@ -6,6 +6,64 @@ import {useLanguage} from "@/app/language/LanguageProvider";
 import {useParams, usePathname, useRouter} from "next/navigation";
 import {getGameById} from "@/app/DataBases/gamesData";
 
+type SubItem = { label: string; type: "scroll"; id: string };
+interface NavGroupProps {
+    primary: string;
+    onPrimary: () => void;
+    subs?: SubItem[];
+    align: "left" | "right";
+    scrollTo: (id: string) => void;
+    fontFamily?: string;
+}
+
+function NavGroup({
+                      primary,
+                      onPrimary,
+                      subs = [],
+                      scrollTo,
+                      fontFamily = "Cinzel",
+                  }: NavGroupProps) {
+    return (
+        <div className="flex flex-col items-center text-center">
+            <button
+                onClick={onPrimary}
+                className="tracking-wider uppercase hover:opacity-60 transition text-base lg:text-[22px] xl:text-[25px] leading-none text-white"
+                style={{ fontFamily }}
+            >
+                {primary}
+            </button>
+
+            {subs.length > 0 && (
+                <>
+                    <div className="w-full h-px bg-white/15 mt-3 mb-2" />
+                    <div className="flex items-center justify-center gap-0 flex-wrap">
+                        {subs.map((sub, i) => (
+                            <span key={sub.label} className="flex items-center">
+                                {i > 0 && (
+                                    <span
+                                        className="text-white/20 mx-2 leading-none select-none"
+                                        style={{ fontFamily, fontSize: 13 }}
+                                    >
+                                        ·
+                                    </span>
+                                )}
+                                <button
+                                    onClick={() => scrollTo(sub.id)}
+                                    className="tracking-wider uppercase text-white/40 hover:text-white/75 transition-colors leading-none text-sm lg:text-base"
+                                    style={{ fontFamily }}
+                                >
+                                    {sub.label}
+                                </button>
+                            </span>
+                        ))}
+                    </div>
+                </>
+            )}
+        </div>
+    );
+}
+
+
 export function Header() {
     const pathname = usePathname();
     const params = useParams();
@@ -81,11 +139,19 @@ export function Header() {
     };
 
     const menuItems = [
-        { id: "hero",      label: t.menu.home },
-        { id: "highlight", label: t.menu.highlight },
-        { id: "games",     label: t.menu.games },
-        { id: "about",     label: t.menu.about },
-        { id: "contact",   label: t.menu.contact },
+        { id: "hero", label: t.menu.home, subs: [{ id: "highlight", label: t.menu.highlight }] },
+        { id: "games", label: t.menu.games, subs: [
+                { id: "ourvision", label: t.menu.ourvision },
+                { id: "devblog", label: t.menu.devblog },
+            ]},
+        { id: "about", label: t.menu.about, subs: [
+                { id: "team", label: t.menu.team },
+                { id: "community", label: t.menu.community },
+            ]},
+        { id: "contact", label: t.menu.contact, subs: [
+                { id: "join", label: t.menu.join },
+                { id: "faq", label: t.menu.faq },
+            ]},
     ];
 
     const game_menuItems = game
@@ -464,6 +530,42 @@ export function Header() {
             </header>
         );
     }
+
+    const DropdownGroupBtn = ({ label, onClick, subs = [],}: {
+        label: string;
+        onClick: () => void;
+        subs?: { id: string; label: string }[];
+    }) => (
+        <div className="group relative border-2 border-white/30 p-6 text-left hover:border-white hover:bg-white/5 transition-all duration-300">
+            <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-white/40 group-hover:border-white transition-colors duration-300" />
+            <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-white/40 group-hover:border-white transition-colors duration-300" />
+
+            <button
+                onClick={onClick}
+                className="text-l tracking-wider uppercase text-white/30 group-hover:text-white/80 mb-1 transition-colors"
+                style={{ fontFamily: "Cinzel", fontWeight: 300 }}
+            >
+                {label}
+            </button>
+
+            {subs.length > 0 && (
+                <div className="mt-2 flex flex-wrap gap-x-2 gap-y-1">
+                    {subs.map((sub, i) => (
+                        <span key={sub.id} className="flex items-center">
+                        {i > 0 && <span className="text-white/15 mr-2 text-[10px]">·</span>}
+                            <button
+                                onClick={() => scrollTo(sub.id)}
+                                className="text-[11px] tracking-wide uppercase text-white/25 hover:text-white/70 transition-colors"
+                                style={{ fontFamily: "Cinzel" }}
+                            >
+                            {sub.label}
+                        </button>
+                    </span>
+                    ))}
+                </div>
+            )}
+        </div>
+    );
     
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${isScrolled ? "bg-black/95 backdrop-blur-sm shadow-2xl" : "bg-transparent"}`}>
@@ -497,32 +599,50 @@ export function Header() {
                         </div>
                         <div className="hidden lg:grid grid-cols-3 items-center">
                             <ul className="flex gap-8 xl:gap-12 items-center text-white justify-start">
-                                <li>
-                                    <button onClick={() => scrollTo("highlight")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
-                                        {t.menu.highlight}
-                                    </button>
-                                </li>
-                                <li>
-                                    <button onClick={() => scrollTo("games")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
-                                        {t.menu.games}
-                                    </button>
-                                </li>
+                                <NavGroup
+                                    primary={t.menu.highlight}
+                                    onPrimary={() => scrollTo("highlight")}
+                                    subs={[
+                                    ]}
+                                    align="left"
+                                    scrollTo={scrollTo}
+                                />
+                                <NavGroup
+                                    primary={t.menu.games}
+                                    onPrimary={() => scrollTo("games")}
+                                    subs={[
+                                        { label: t.menu.ourvision, type: "scroll", id: "ourvision" },
+                                        { label: t.menu.devblog, type: "scroll", id: "devblog" },
+                                    ]}
+                                    align="left"
+                                    scrollTo={scrollTo}
+                                />
                             </ul>
                             <div className="flex flex-col items-center justify-center -mt-4 gap-4">
                                 <img src="/logos/IconHeader.png" alt="Rhon Studios Header" className="block w-auto h-[90px] lg:h-[130px] xl:h-[155px] shrink-0 transition-all duration-500 ease-out scale-90" />
                                 <LangSwitcherDesktop />
                             </div>
                             <ul className="flex gap-8 xl:gap-12 items-center text-white justify-end">
-                                <li>
-                                    <button onClick={() => scrollTo("about")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
-                                        {t.menu.about}
-                                    </button>
-                                </li>
-                                <li>
-                                    <button onClick={() => scrollTo("contact")} style={{ fontFamily: "Cinzel" }} className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition">
-                                        {t.menu.contact}
-                                    </button>
-                                </li>
+                                <NavGroup
+                                    primary={t.menu.about}
+                                    onPrimary={() => scrollTo("about")}
+                                    subs={[
+                                        { label: t.menu.team, type: "scroll", id: "team" },
+                                        { label: t.menu.community, type: "scroll", id: "community" },
+                                    ]}
+                                    align="right"
+                                    scrollTo={scrollTo}
+                                />
+                                <NavGroup
+                                    primary={t.menu.contact}
+                                    onPrimary={() => scrollTo("contact")}
+                                    subs={[
+                                        { label: t.menu.join, type: "scroll", id: "join" },
+                                        { label: t.menu.faq, type: "scroll", id: "faq" },
+                                    ]}
+                                    align="left"
+                                    scrollTo={scrollTo}
+                                />
                             </ul>
                         </div>
                     </>
@@ -532,16 +652,14 @@ export function Header() {
                 {isScrolled && isMenuOpen && (
                     <div ref={menuRef} className="hidden lg:block overflow-hidden bg-black/98 backdrop-blur-sm border-t-2 border-white/20">
                         <div className="container mx-auto px-4 lg:px-16 py-6 lg:py-8">
-                            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-6">
+                            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
                                 {menuItems.map((item) => (
-                                    <button key={item.id} onClick={() => scrollTo(item.id)} className="group relative border-2 border-white/30 p-6 text-left hover:border-white hover:bg-white/5 transition-all duration-300">
-                                        <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-white/40 group-hover:border-white transition-colors duration-300" />
-                                        <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-white/40 group-hover:border-white transition-colors duration-300" />
-                                        <h3 className="text-l tracking-wider uppercase text-white/30 group-hover:text-white/80 mb-1 transition-colors" style={{ fontFamily: "Cinzel", fontWeight: 300 }}>
-                                            {item.label}
-                                        </h3>
-                                        <div className="h-[2px] bg-white/30 group-hover:w-full group-hover:bg-white transition-all duration-500" />
-                                    </button>
+                                    <DropdownGroupBtn
+                                        key={item.id}
+                                        label={item.label}
+                                        onClick={() => scrollTo(item.id)}
+                                        subs={item.subs}
+                                    />
                                 ))}
                             </div>
                         </div>
