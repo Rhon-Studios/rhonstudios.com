@@ -26,17 +26,6 @@
     }
   ],
   "collaborators": [
-    {
-      "id": 1,
-      "name": "Colaborador",
-      "role": "Artista de Entornos — Tonkori",
-      "area": "Arte"
-    },
-    {
-      "id": 2,
-      "name": "Colaborador",
-      "role": "Programador Unity — Afterlight",
-      "area": "Programación"
-    }
+   
   ]
 }

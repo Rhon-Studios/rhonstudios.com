@@ -17,7 +17,7 @@ const socials: {
         icon: MessageSquare,
         name: "Discord",
         handle: "Rhon Studios",
-        url: "#",
+        url: "https://discord.gg/7T8n8VYRkw",
         highlight: true,
     },
     {
@@ -25,7 +25,7 @@ const socials: {
         icon: Twitter,
         name: "Twitter / X",
         handle: "@RhonStudios",
-        url: "#",
+        url: "https://x.com/RhonStudios",
         highlight: false,
     },
     {
@@ -33,7 +33,7 @@ const socials: {
         icon: Instagram,
         name: "Instagram",
         handle: "@rhonstudios",
-        url: "#",
+        url: "https://www.instagram.com/rhonstudios/",
         highlight: false,
     },
     {
@@ -41,7 +41,7 @@ const socials: {
         icon: Youtube,
         name: "YouTube",
         handle: "Rhon Studios",
-        url: "#",
+        url: "https://www.youtube.com/@RhonStudios",
         highlight: false,
     },
 ]
@@ -113,9 +113,10 @@ export function Community() {
                             </p>
                         </div>
                         <a
-                            href="#"
+                            href="https://discord.gg/7T8n8VYRkw"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="shrink-0 inline-flex items-center gap-3 border-2 border-white px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
-                            style={{ fontFamily: "Cinzel", fontWeight: 300 }}
                         >
                             {tt.discord.button}
                             <ArrowRight className="w-4 h-4" />
@@ -128,6 +129,8 @@ export function Community() {
                                 <motion.a
                                     key={social.name}
                                     href={social.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: index * 0.1 }}
