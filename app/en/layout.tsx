@@ -1,7 +1,8 @@
-﻿export default function EnglishLayout({ children }) {
+﻿export default function EnglishLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
         <body>{children}</body>
         </html>
     );
 }
+ 
