@@ -1,8 +1,8 @@
 ﻿import {useLanguage} from "@/app/language/LanguageProvider";
-import {ArrowRight, Instagram, LucideIcon, MessageSquare, Twitter, Youtube} from "lucide-react";
+import {ArrowRight, Instagram, LucideIcon, MessageSquare, Music2, Twitter, Youtube} from "lucide-react";
 import { motion } from "framer-motion";
 
-type SocialId = "discord" | "twitter" | "instagram" | "youtube";
+type SocialId = "discord" | "twitter" | "instagram" | "youtube" | "tiktok";
 
 const socials: {
     id: SocialId;
@@ -29,6 +29,14 @@ const socials: {
         highlight: false,
     },
     {
+        id: "youtube",
+        icon: Youtube,
+        name: "YouTube",
+        handle: "Rhon Studios",
+        url: "https://www.youtube.com/@RhonStudios",
+        highlight: false,
+    },
+    {
         id: "instagram",
         icon: Instagram,
         name: "Instagram",
@@ -37,13 +45,13 @@ const socials: {
         highlight: false,
     },
     {
-        id: "youtube",
-        icon: Youtube,
-        name: "YouTube",
-        handle: "Rhon Studios",
-        url: "https://www.youtube.com/@RhonStudios",
+        id: "tiktok",
+        icon: Music2,
+        name: "Tik Tok",
+        handle: "rhonstudios",
+        url: "https://www.tiktok.com/rhon.studios",
         highlight: false,
-    },
+    }
 ]
 
 export function Community() {
@@ -122,7 +130,7 @@ export function Community() {
                             <ArrowRight className="w-4 h-4" />
                         </a>
                     </motion.div>
-                    <div className="grid md:grid-cols-3 gap-4">
+                    <div className="grid md:grid-cols-4 gap-4">
                         {socials.filter((s) => !s.highlight).map((social, index) => {
                             const Icon = social.icon;
                             return (

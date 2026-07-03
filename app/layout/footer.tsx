@@ -1,9 +1,10 @@
 ﻿"use client"
 
-import {Facebook, Instagram, Twitter} from 'lucide-react';
+import {Facebook, Instagram, Linkedin, MessageSquare, Music2, Twitter, Youtube} from 'lucide-react';
 import {useLanguage} from "@/app/language/LanguageProvider";
 import {useParams, usePathname, useRouter} from "next/navigation";
 import {getGameById} from "@/app/DataBases/gamesData";
+import React from "react";
 
 export function Footer() {
     const pathname = usePathname();
@@ -188,38 +189,71 @@ export function Footer() {
                     </div>
                     <div className="text-center">
                         <h4
-                            className="text-xs sm:text-sm tracking-[0.2em] uppercase mb-4 sm:mb-6 border-b-2 border-white pb-2 inline-block"
+                            className="text-xs sm:text-sm tracking-[0.2em] uppercase mb-3 sm:mb-4 border-b-2 border-white pb-2 inline-block"
                             style={{ fontFamily: "Cinzel", fontWeight: "bold" }}
                         >
                             {t.footer.follow}
                         </h4>
-                        <div className="flex gap-3 sm:gap-4 mb-6 sm:mb-10 justify-center items-center">
+
+                        <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-6 sm:mb-8 place-items-center mx-auto max-w-[220px]">
                             <a
-                                href="https://instagram.com/rhonstudios"
+                                href="https://discord.gg/7T8n8VYRkw"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="w-11 h-11 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
-                                aria-label="Instagram"
+                                className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                                aria-label="Discord"
                             >
-                                <Instagram size={18} strokeWidth={2} />
+                                <MessageSquare size={18} strokeWidth={2} />
                             </a>
+
                             <a
-                                href="https://x.com/rhonstudios"
+                                href="https://x.com/RhonStudios"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="w-11 h-11 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                                className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
                                 aria-label="Twitter"
                             >
                                 <Twitter size={18} strokeWidth={2} />
                             </a>
+
                             <a
-                                href="https://www.facebook.com/people/Rhon-Studios/61588496083607/"
+                                href="https://www.youtube.com/@RhonStudios"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="w-11 h-11 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
-                                aria-label="Facebook"
+                                className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                                aria-label="Youtube"
                             >
-                                <Facebook size={18} strokeWidth={2} />
+                                <Youtube size={18} strokeWidth={2} />
+                            </a>
+
+                            <a
+                                href="https://instagram.com/rhonstudios"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                                aria-label="Instagram"
+                            >
+                                <Instagram size={18} strokeWidth={2} />
+                            </a>
+
+                            <a
+                                href="https://www.tiktok.com/rhon.studios"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                                aria-label="TikTok"
+                            >
+                                <Music2 size={18} strokeWidth={2} />
+                            </a>
+
+                            <a
+                                href="https://www.linkedin.com/company/rhon-studios"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                                aria-label="LinkedIn"
+                            >
+                                <Linkedin size={18} strokeWidth={2} />
                             </a>
                         </div>
                     </div>

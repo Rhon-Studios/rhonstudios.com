@@ -166,6 +166,10 @@
       "youtube": {
         "text": "Devlogs en vídeo, prototipos en movimiento y behind the scenes del estudio.",
         "cta": "Suscribirse"
+      },
+      "tiktok": {
+        "text": "Devlogs en vídeo, prototipos en movimiento y behind the scenes del estudio.",
+        "cta": "Seguir"
       }
     }
   },

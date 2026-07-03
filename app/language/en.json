@@ -166,6 +166,10 @@
       "youtube": {
         "text": "Video devlogs, gameplay prototypes, and behind-the-scenes content from the studio.",
         "cta": "Subscribe"
+      },
+      "tiktok": {
+        "text": "Video devlogs, gameplay prototypes, and behind-the-scenes content from the studio.",
+        "cta": "Follow"
       }
     }
   },
