@@ -18,26 +18,22 @@ const GAME_SEO: Record<GameId, {
 }> = {
     afterlight: {
         title: "Afterlight | Metroidvania de Luz y Sombra",
-        description:
-            "Afterlight es el metroidvania atmosférico de Rhon Studios donde la coexistencia de luz y sombra define quién eres. Sin palabras, solo diseño y emoción.",
+        description: "Afterlight es el metroidvania atmosférico de Rhon Studios donde la coexistencia de luz y sombra define quién eres. Sin palabras, solo diseño y emoción.",
         keywords: ["afterlight metroidvania", "metroidvania indie español", "luz sombra videojuego"],
     },
     tinycare: {
         title: "Tiny Care | Tu Mascota Virtual con Consecuencias Reales",
-        description:
-            "Tiny Care es el juego de mascotas virtuales de Rhon Studios para móvil donde las consecuencias son reales. Cuida a tu compañero antes de que sea tarde.",
+        description: "Tiny Care es el juego de mascotas virtuales de Rhon Studios para móvil donde las consecuencias son reales. Cuida a tu compañero antes de que sea tarde.",
         keywords: ["tiny care mascotas virtuales", "cozy mobile game", "juego mascotas android ios"],
     },
     theobserver: {
         title: "The Observer | Novela Visual Otome de Misterio",
-        description:
-            "The Observer es la novela visual otome de Rhon Studios donde el amor y la sospecha conviven. Descubre quién miente antes de que sea tarde.",
+        description: "The Observer es la novela visual otome de Rhon Studios donde el amor y la sospecha conviven. Descubre quién miente antes de que sea tarde.",
         keywords: ["the observer visual novel", "novela visual otome misterio", "otome game español"],
     },
     tonkori: {
         title: "Tonkori | RPG donde no Existen Respuestas Correctas",
-        description:
-            "Tonkori es el RPG de dilemas morales de Rhon Studios donde cada decisión redefine el mundo. No hay bien ni mal: solo consecuencias.",
+        description: "Tonkori es el RPG de dilemas morales de Rhon Studios donde cada decisión redefine el mundo. No hay bien ni mal: solo consecuencias.",
         keywords: ["tonkori rpg", "rpg decisiones morales indie"],
     },
 };

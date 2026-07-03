@@ -462,7 +462,6 @@ export function GamePageClient({ id }: { id: string }) {
                 <GameGallery images={game.gallery} gameTitle={game.title} theme={theme} />
             )}
 
-            {/* ── Contacto ────────────────────────── */}
             <section id="contact" className={`${theme.bgColor} py-16 sm:py-24 border-t-2 ${theme.panelBorderOpacity}`}>
                 <div className="container mx-auto px-4 sm:px-8 lg:px-16">
                     <div className="max-w-4xl mx-auto text-center">

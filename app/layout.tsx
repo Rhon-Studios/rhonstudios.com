@@ -48,16 +48,15 @@ export const metadata: Metadata = {
         type: "website",
         url: "https://rhonstudios.com/",
         siteName: "Rhon Studios",
-        title: "Rhon Studios — Estudio de Videojuegos Indie",
-        description:
-            "Estudio independiente de videojuegos creador de Afterlight, Tiny Care, The Observer y Tonkori. Colabora con nosotros en Revenue Share.",
+        title: "Rhon Studios | Estudio de Videojuegos Indie",
+        description: "Estudio independiente de videojuegos creador de Afterlight, Tiny Care, The Observer y Tonkori. Colabora con nosotros en Revenue Share.",
         locale: "es_ES",
         images: [
             {
                 url: "https://rhonstudios.com/og/og-default.png",
                 width: 1200,
                 height: 630,
-                alt: "Rhon Studios — Estudio de Videojuegos Indie",
+                alt: "Rhon Studios | Estudio de Videojuegos Indie",
                 type: "image/png",
             },
         ],
@@ -66,12 +65,12 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         site: "@rhonstudios",
         creator: "@rhonstudios",
-        title: "Rhon Studios — Estudio de Videojuegos Indie",
+        title: "Rhon Studios | Estudio de Videojuegos Indie",
         description:
             "Creadores de Afterlight, Tiny Care, The Observer y Tonkori. Estudio indie fundado por Rashri Amorós y Camilo Jumelle.",
         images: {
             url: "https://rhonstudios.com/og/og-default.png",
-            alt: "Rhon Studios — Estudio de Videojuegos Indie",
+            alt: "Rhon Studios | Estudio de Videojuegos Indie",
         },
     },
     authors: [
