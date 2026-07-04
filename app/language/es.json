@@ -384,5 +384,8 @@
       "apply": "Quiero colaborar",
       "empty_area": "Ningún rol en esta área para este proyecto."
     }
+  },
+  "devblogpage":{
+    "writed": "Escrito por:"
   }
 }

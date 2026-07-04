@@ -2,18 +2,32 @@
 
 import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
-import { getDevBlogBySlug } from "@/app/DataBases/devblogsData";
+import {DevBlogPost, getDevBlogBySlug} from "@/app/DataBases/devblogsData";
 import { useLanguage } from "@/app/language/LanguageProvider";
 import { ArrowLeft, Clock } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import {team, collaborators, TeamMember} from "@/app/DataBases/teamData";
+
+function getAuthor(post: DevBlogPost) {
+    if (post.authorType === "team") {
+        return team.find(member => member.id === post.authorId);
+    }
+
+    if (post.authorType === "collaborator") {
+        return collaborators.find(col => col.id === post.authorId);
+    }
+
+    return null;
+}
 
 export default function DevBlogPage() {
     const { slug } = useParams();
 
     const post = getDevBlogBySlug(slug as string);
-
     if (!post) {
         return <div>Post not found</div>;
     }
+    const author = getAuthor(post);
     const router = useRouter();
     const { t } = useLanguage();
     const devT = t.devblogs[post.id];
@@ -51,12 +65,34 @@ export default function DevBlogPage() {
                         {devT.excerpt}
                     </p>
                     <div className="w-full h-[2px] bg-white/15 mb-10 sm:mb-12" />
-                    <div className="text-white/75 leading-relaxed space-y-6" style={{ fontFamily: "Cinzel", fontWeight: 200 }}>
-                        {devT.content.split("\n\n").map((para, i) => (
-                            <p key={i} className="text-sm sm:text-base leading-relaxed">
-                                {para}
+                    <div className="text-white/75 text-xl lg:text-xl sm:text-base text-justify leading-relaxed space-y-6" style={{ fontFamily: "Cormorant" }}>
+                        <ReactMarkdown>
+                            {devT.content}
+                        </ReactMarkdown>
+                        <div className="mt-16 pt-8 border-t border-white/15 ml-auto text-right w-fit">
+                            <p
+                                className="text-sm uppercase tracking-[0.2em] text-white/40 mb-2"
+                                style={{ fontFamily: "Cinzel" }}
+                            >
+                                Escrito por
                             </p>
-                        ))}
+
+                            <h3
+                                className="text-2xl text-white"
+                                style={{ fontFamily: "Rye", fontWeight: 200 }}
+                            >
+                                {author?.name ?? "Unknown author"}
+                            </h3>
+
+                            <p
+                                className="text-white/50"
+                                style={{ fontFamily: "Cormorant" }}
+                            >
+                                {post.authorType === "team"
+                                    ? (author as TeamMember).role
+                                    : ""}
+                            </p>
+                        </div>
                     </div>
                 </div>
 

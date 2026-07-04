@@ -1,31 +1,18 @@
 {
-  "main-team": [
-    {
-      "id": 1,
-      "name": "Rashri Amorós",
-      "img": "",
-      "role": "CEO & Lead Designer",
+  "main_team": {
+    "rashri": {
       "bioShort": "It's not just about designing, it's about building identities.",
-      "bio": "I am a designer passionate about giving visual form to ideas and turning them into experiences that connect emotionally with people. I specialize in creating worlds with their own unique identity, where every artistic detail serves a narrative purpose. At Rhon Studios, my goal is to ensure every pixel tells a story and every game feels like a universe worth exploring.",
-      "linkedin": "https://www.linkedin.com/in/rashriamoros/",
-      "github": "https://github.com/rashxx-exe",
-      "twitter": "https://x.com/arcisax",
-      "email": "rashriamoros@gmail.com"
+      "bio": "I am a designer passionate about giving visual form to ideas and turning them into experiences that connect emotionally with people. I specialize in creating worlds with their own unique identity, where every artistic detail serves a narrative purpose. At Rhon Studios, my goal is to ensure every pixel tells a story and every game feels like a universe worth exploring."
     },
-    {
-      "id": 2,
-      "name": "Camilo Jumelle",
-      "img": "",
-      "role": "CEO & Lead Programmer",
+    "camilo": {
       "bioShort": "I don't just develop, I create stories.",
-      "bio": "I am a game developer passionate about creating interactive experiences and immersive gameplay systems. I have experience with Unreal Engine, Unity, and Godot, as well as multiplayer, virtual reality (VR), and both 2D and 3D game development. My goal is to create memorable games that deliver unique experiences to players.",
-      "linkedin": "https://www.linkedin.com/in/jumelle-camilo/",
-      "github": "https://github.com/jumelleCL",
-      "twitter": "https://x.com/Kaios_LK",
-      "email": "jumellecamilo@gmail.com"
+      "bio": "I am a game developer passionate about creating interactive experiences and immersive gameplay systems. I have experience with Unreal Engine, Unity, and Godot, as well as multiplayer, virtual reality (VR), and both 2D and 3D game development. My goal is to create memorable games that deliver unique experiences to players."
     }
-  ],
-  "collaborators": [
-    
-  ]
+  },
+  "collaborators": {
+    "diana": {
+      "role": "",
+      "area": ""
+    }
+  }
 }

@@ -386,5 +386,8 @@
       "apply": "I'd Like to Collaborate",
       "empty_area": "No roles available in this area for this project."
     }
+  },
+  "devblogpage":{
+    "writed": "Writed by:"
   }
 }
