@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Header } from "./layout/header";
 import { Footer } from "./layout/footer";
 import { LanguageProvider } from "@/app/language/LanguageProvider";
@@ -11,6 +11,7 @@ import {
 import "./styles/theme.css";
 import "./styles/tailwind.css";
 import {Analytics} from "@vercel/analytics/next";
+import {SpeedInsights} from "@vercel/speed-insights/next";
 
 const rye= Rye({ subsets: ["latin"], weight: ["400"], variable: "--font-rye" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel" });
@@ -180,6 +181,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Footer />
             </LanguageProvider>
             <Analytics/>
+            <SpeedInsights/>
         </body>
         </html>
     );
