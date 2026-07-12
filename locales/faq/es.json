@@ -1,0 +1,24 @@
+{
+  "studio_faq": [
+    {
+      "question": "¿En qué fase están los proyectos?",
+      "answer": "Tonkori está en fase de concepto avanzado y prototipo de arte. Afterlight está en prototipo de mecánicas de combate. Ambos tienen documentos de diseño sólidos y una visión definida. Ninguno tiene fecha de lanzamiento confirmada todavía."
+    },
+    {
+      "question": "¿Cómo se financia el estudio?",
+      "answer": "Actualmente el estudio se financia con recursos propios de los fundadores. No tenemos inversión externa, ni crowdfunding activo, ni publisher. Operamos de forma sostenible dentro de nuestras posibilidades mientras desarrollamos los proyectos."
+    },
+    {
+      "question": "¿Puedo invertir en Rhon Studios?",
+      "answer": "Estamos abiertos a conversaciones sobre inversión en fases futuras. Si tienes interés, la mejor manera es contactar directamente a través del formulario de Contact. Todas las conversaciones sobre inversión se gestionan con total transparencia y documentación formal."
+    },
+    {
+      "question": "¿Tienen presencia legal y fiscal?",
+      "answer": "Sí. Rhon Studios está en proceso de constitución formal como entidad legal. Todas las colaboraciones y acuerdos se formalizan por escrito. No operamos de manera informal."
+    },
+    {
+      "question": "¿Cómo puedo seguir el desarrollo de cerca?",
+      "answer": "La forma más directa es nuestro Discord, donde el equipo está activo y compartimos actualizaciones en tiempo real. También publicamos devblogs periódicamente y tenemos presencia en Twitter e Instagram."
+    }
+  ]
+}

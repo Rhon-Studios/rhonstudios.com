@@ -1,0 +1,26 @@
+{
+  "main_team": {
+    "rashri": {
+      "bioShort": "It's not just about designing, it's about building identities.",
+      "bio": "I am a designer passionate about giving visual form to ideas and turning them into experiences that connect emotionally with people. I specialize in creating worlds with their own unique identity, where every artistic detail serves a narrative purpose. At Rhon Studios, my goal is to ensure every pixel tells a story and every game feels like a universe worth exploring."
+    },
+    "camilo": {
+      "bioShort": "I don't just develop, I create stories.",
+      "bio": "I am a game developer passionate about creating interactive experiences and immersive gameplay systems. I have experience with Unreal Engine, Unity, and Godot, as well as multiplayer, virtual reality (VR), and both 2D and 3D game development. My goal is to create memorable games that deliver unique experiences to players."
+    }
+  },
+  "collaborators": {
+    "test": {
+      "role": "Art",
+      "subrole": "2D Environment Artist",
+      "tagline": "Painting Tonkori's dreams, one biome at a time.",
+      "bio": "Illustrator specializing in dreamlike environments and fantasy landscapes. Her work on Tonkori defines the visual aesthetic of its world of fragmented memories. She creates using Photoshop and Procreate, with influences from Studio Ghibli and Japanese concept art.",
+      "contributions": [
+        "Designed the main backgrounds for the first biome",
+        "Color style guide for Tonkori",
+        "Concept art for architectural structures",
+        "Emotional color palette for each area of the game"
+      ]
+    }
+  }
+}

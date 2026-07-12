@@ -1,0 +1,422 @@
+{
+  "menu": {
+    "home": "Home",
+    "highlight": "Highlight",
+    "games": "Games",
+    "about": "About",
+    "contact": "Contact",
+    "ourvision": "Our Vision",
+    "devblog": "DevBlogs",
+    "team": "Team",
+    "community": "Community",
+    "join": "Join",
+    "faq": "FAQ"
+  },
+  "game_menu": {
+    "home": "Home",
+    "vision": "Game",
+    "gallery": "Gallery",
+    "investment": "Investment",
+    "roadmap": "Roadmap",
+    "contact": "Contact"
+  },
+  "join_menu": {
+    "join": "Nuestras Oportunidades",
+    "home": "Inicio",
+    "conditions": "Condiciones",
+    "opportunities": "Opportunities"
+  },
+  "devblog_menu": {
+    "home": "Inicio",
+    "devblogs": "Dev Blogs"
+  },
+  "hero": {
+    "subtitle": "Since 2025",
+    "description":
+    {
+      "p1": "Creating worlds",
+      "p2": "that stay with you"
+    },
+    "button": "Explore Our Worlds",
+    "soul_products": 
+    {
+      "p1": "Products", 
+      "p2": "with soul"
+    }
+  },
+  "highlight": {
+    "game_header": "Explore the world of: ",
+    "button": "Know More"
+  },
+  "games": {
+    "top_title": "Our Worlds",
+    "title": "Games",
+    "subtitle": "Discover",
+    "more_projects": "More projects on their way",
+    "game_card": 
+    {
+      "no_image": "Comming soon",
+      "state": "State:",
+      "year": "Year:",
+      "genre": "Genre:",
+      "know_more": "Know More"
+    }
+  },
+  "ourvision": {
+    "top_title": "Our Studio",
+    "title": "Our Vision",
+    "subtitle": "Our Ambition",
+    "description": {
+      "p1": "Rhon Studios is building a long-term creative company focused on sustainable growth, strong intellectual property, and disciplined execution.",
+      "p2": "Our ambition is not volume",
+      "p3": "it is legacy."
+    },
+    "commitment": "Our Commitment",
+    "com_description": "At Rhon Studios, every project is approached with strategic clarity and production discipline. We operate lean, prioritize high-impact development, and build with scalability in mind. Our commitment is to create valuable intellectual property, maintain ethical production standards, and grow deliberately — transforming a focused two-founder studio into a respected independent brand.",
+    "boxes": [
+      { "id": 1, "num": "2+", "text": "Proprietary IPs" },
+      { "id": 2, "num": "2026", "text": "Commercial Debut" },
+      { "id": 3, "num": "100%", "text": "Founder-Owned" }
+    ]
+  },
+  "devblog": {
+    "top_title": "Development Journal",
+    "title": "DevBlog",
+    "subtitle": "Behind the Scenes",
+    "description": "We don't build in silence. We share the entire journey openly—the decisions, the setbacks, the progress, and the vision that drives us.",
+    "button": "Read More",
+    "view_all": "Ver todos los devlogs"
+  },
+  "about": {
+    "top_title": "Our Story",
+    "title": "About",
+    "section_1" :
+    {
+      "title": "Who We Are",
+      "text" :
+      {
+        "p1": "Rhon Studios is an independent video game development studio founded in 2025.",
+        "p2": "Each world we create is designed to stay with you long after you finish playing, with immersive experiences that combine narrative, emotion, and style."
+      }
+    },
+    "section_2":
+    {
+      "title": "Our Code",
+      "text":
+      {
+        "p1":
+        {
+          "p1": "Rhon Studios operates under a code of excellence:",
+          "p2": "creativity, discipline, and ethical responsibility."
+        },
+        "p2": "Every action we undertake reflects our principles, keeping us independent, relevant, and valuable."
+      }
+    },
+    "creativity":
+    {
+      "title": "Creativity",
+      "text": "Innovation in every detail"
+    },
+    "passion":
+    {
+      "title": "Passion",
+      "text": "Love for what we do"
+    },
+    "quality":
+    {
+      "title": "Quality",
+      "text": "Excellence without compromise"
+    }
+  },
+  "team": {
+    "top_title": "Meet the founders",
+    "title": "Our Team",
+    "subtitle": "Led by industry veterans with a shared passion for innovative storytelling",
+    "collaborators": {
+      "top_title": "Those Building With Us",
+      "title": "Collaborators",
+      "subtitle": "Talented people who have chosen to build something real together with us.",
+      "placeholder": "Your place here",
+      "empty": "There are no collaborators yet. Want to be the first?"
+    }
+  },
+  "community": {
+    "top_title": "Follow Our Journey",
+    "title": "Community",
+    "subtitle": "Stay Connected",
+    "description": "We don't build in silence. Every decision, every prototype, every challenge is shared with those who want to see what it's like to build a real game studio from the ground up.",
+    "discord": {
+      "title": "Main Community",
+      "description": "Talk directly with the team, follow development in real time, and connect with others who share the same passion. This is where we're most active.",
+      "button": "Join the Server"
+    },
+    "socials": {
+      "discord": {
+        "text": "Talk directly with the team, follow development in real time, and connect with the community.",
+        "cta": "Join the Server"
+      },
+      "twitter": {
+        "text": "Quick updates, sneak peeks, and conversations about game design.",
+        "cta": "Follow"
+      },
+      "instagram": {
+        "text": "Artwork, concept art, and the creative process behind Tonkori and Afterlight.",
+        "cta": "Follow"
+      },
+      "youtube": {
+        "text": "Video devlogs, gameplay prototypes, and behind-the-scenes content from the studio.",
+        "cta": "Subscribe"
+      },
+      "tiktok": {
+        "text": "Video devlogs, gameplay prototypes, and behind-the-scenes content from the studio.",
+        "cta": "Follow"
+      }
+    },
+    "coffee": {
+      "title": "Support us with a coffee",
+      "description": "Every coffee goes directly into development, tools, assets, and late nights"
+    }
+  },
+  "join_part": {
+    "top_title": "Collaborate With Us",
+    "title": "Join Rhon Studios",
+    "subtitle": "Join Our World",
+    "description": "We're building from passion. If you have talent and want to leave your mark, there's a place for you.",
+    "count": "contributors actively sought",
+    "card": {
+      "open": "open",
+      "open_p": "open",
+      "no_offers": "No openings"
+    },
+    "button": "View Opportunities"
+  },
+  "contact": {
+    "title": "Contact",
+    "type_contact": "Particual / Bussines",
+    "name": "Name",
+    "company": "Companu",
+    "message": {
+      "title": "Message",
+      "placeholder": "We love you, you are the best."
+    },
+    "button":
+    {
+      "idle": "Send Message",
+      "invalid": "Invalid Message",
+      "sending": "Sending...",
+      "sent": "Message sent",
+      "alreadySent": "Message already sent",
+      "error": "Error - Try again"
+    },
+    "messageSend": "Message sended!",
+    "openhours": "Bussines Hours",
+    "days": "MONDAY - FRIDAY",
+    "hours": "12:00 - 18:00h",
+    "weekend": "WEEKEND",
+    "appointment": "ONLY BY APPOINTMENT",
+    "button_appointment": "MAKE AN APPOINTMENT",
+    "thankscard":
+    {
+      "title": "THANK YOU FOR TRUSTING US",
+      "text":
+      {
+        "p1": "From Rhon Studios, we truly appreciate everyone who stops by. We work hard every day to make people fall in love with our creations, just as we do.",
+        "p2": "We do this not just for ourselves, but so you can see the world and its beauty the way we do.",
+        "p3": "Don't forget to reach out!"
+      }
+    },
+    "follow": "Follow us!",
+    "newsLetter": "Our NewsLetter"
+  },
+  "newsLetter": {
+    "title": "Newsletter",
+    "subtitle": "Subscribe to receive the latest news about our games",
+    "subscribe": "Subscribe"
+  },
+  "faq_section": {
+    "top_title": "FAQ",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Rhon Studios, nuestros proyectos y cómo trabajamos"
+  },
+  "footer": {
+    "links": "Quick Links",
+    "follow": "Follow Us",
+    "rights": "All rights reserved"
+  },
+  "gamePage": {
+    "notfound":
+    {
+      "game": "Juego no encontrado",
+      "button": "Volver al inicio"
+    },
+    "mechanics":
+    {
+      "title": "Propuesta de Valor",
+      "subtitle": "Innovación y Oportunidad",
+      "mechanics":
+      {
+        "title": "Mecánicas Innovadoras"
+      },
+      "market":
+      {
+        "title" : "Oportunidad de Mercado"
+      },
+      "technics":
+      {
+        "title": "Tech Specifications"
+      }
+    },
+    "roadmap":
+    {
+      "title": "Roadmap",
+      "subtitle": "",
+      "vision":
+      {
+        "title": "Visión General",
+        "progress": "Progreso",
+        "completed": "Completado"
+      },
+      "roadmap": 
+      {
+        "title": "Roadmap",
+        "completed": "Completed",
+        "inProgress": "In Progress",
+        "planned": "Planned",
+        "toDecide": "Por Decidir"
+      }
+    },
+    "investment":
+    {
+      "title": "Investment Opportunity",
+      "subtitle": "Growth and Opportunity",
+      "monetization": "Monetization Model",
+      "roi": "Return Potential",
+      "keys": "Key Highlights for Investors"
+    },
+    "contact":
+    {
+      "title": "",
+      "description": "",
+      "button": "",
+      "pressKit": ""
+    }
+  },
+  "gameGallery": {
+    "screenshot": "ScreenShot",
+    "conceptArt": "Concept Art",
+    "gameplay": "Gameplay",
+    "characters": "Characters",
+    "environment": "Environment",
+    "all": "All",
+    "title": "Gallery",
+    "subtitle": "Art & Captures"
+  },
+  "error": {
+    "title": "Page not found",
+    "button": "Go Back"
+  },
+  "join_page": {
+    "top_title": "Collaborate With Us",
+    "title": "Our Opportunities",
+    "subtitle": "Join Us",
+    "description": "At Rhon Studios, we believe great projects are built by great people. We are a growing studio with no revenue yet, but with original IPs in development and a clear vision for the future. These opportunities are voluntary collaborations with no salary but with real and transparent conditions.",
+    "conditions": {
+      "top_title": "What We Offer",
+      "title": "Our Conditions",
+      "subtitle": "Full Transparency",
+      "items": [
+        {
+          "title": "Official Credit",
+          "description": "You will be officially credited in all games and projects you contribute to, ensuring your work and contributions are properly recognized."
+        },
+        {
+          "title": "Revenue Sharing",
+          "description": "If a project you co-develop generates revenue after release, you will receive a previously agreed-upon share based on your level of involvement and contribution."
+        },
+        {
+          "title": "Real Hiring Path",
+          "description": "Our goal is to build a stable team. As the studio grows and secures funding, outstanding collaborators will be given priority for future paid positions."
+        },
+        {
+          "title": "Real Production Experience",
+          "description": "Work on real indie video game projects and gain hands-on experience in professional development workflows, including design, programming, art, testing, and publishing."
+        },
+        {
+          "title": "Full Flexibility",
+          "description": "100% remote collaboration with no fixed schedules, making it easy to balance with studies, work, or other projects. Tasks are organized around each team member's availability."
+        },
+        {
+          "title": "Recommendation Letter",
+          "description": "Upon completing your collaboration, you may request a personalized recommendation letter highlighting your skills, responsibilities, and contributions to the project."
+        }
+      ]
+    },
+    "legal": {
+      "title": "Important Notice",
+      "description": "All collaborations are formalized through a written agreement specifying the role, revenue-sharing conditions, and terms of the relationship. This does not constitute an employment relationship. Rhon Studios operates with full transparency."
+    },
+    "roles": {
+      "top_title": "Open Positions",
+      "title": "Available Roles",
+      "subtitle": "Find Your Place"
+    },
+    "filters": {
+      "project_label": "Filter by project:",
+      "area_label": "Filter by area:",
+      "all": "All",
+      "areas":
+      {
+        "all": "All",
+        "art": "Art",
+        "programming": "Programming",
+        "design": "Design",
+        "audio": "Audio",
+        "narrative": "Narrative",
+        "marketing": "Marketing",
+        "other": "Other"
+      }
+    },
+    "card": {
+      "urgent": "Urgent",
+      "open": "Open",
+      "filled": "○ Filled",
+      "open_roles_one": "{{count}} open role",
+      "open_roles_other": "{{count}} open roles",
+      "no_roles": "No openings",
+      "requirements": "What We're Looking For",
+      "offer": "What We Offer",
+      "see_more": "See More",
+      "see_less": "See Less",
+      "apply": "I'd Like to Collaborate",
+      "empty_area": "No roles available in this area for this project."
+    }
+  },
+  "devblogpage":{
+    "writed": "Writed by:"
+  },
+  "collaboratorsDetails": {
+    "notfound": "Collaborator Not Found",
+    "back": "Go Back",
+    "links": {
+      "web": "Web Page",
+      "buymeacoffee": "Buy me a Coffee"
+    },
+    "about": "About",
+    "work": "My work",
+    "contributions": "Contributions to Rhon Studios",
+    "collaborate": {
+      "title": "Colaborate with",
+      "see": "See Our Oportunities"
+    }
+  },
+  "links":{
+    "links": {
+      "coffee": "Buy Me a Coffee",
+      "games": "Our Games",
+      "opps": "Opportunities",
+      "contact": "Contact",
+      "web": "Oficial Web"
+    },
+    "subtitle": "Creating Worlds that stay with you"
+  }
+}

@@ -1,7 +1,7 @@
 ﻿"use client"
 
 import {ArrowLeft} from "lucide-react";
-import {useLanguage} from "@/app/language/LanguageProvider";
+import {useLanguage} from "@/libs/utils/LanguageProvider";
 import {useRouter} from "next/navigation";
 
 export default function NotFound() {

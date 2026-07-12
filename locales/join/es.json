@@ -1,0 +1,211 @@
+{
+  "opportunities": {
+    "studio-concept-artist": {
+      "title": "Concept Artist",
+      "shortDescription": "Buscamos un concept artist para el estudio en general. Trabajarás en todos nuestros proyectos activos, definiendo personajes, entornos y elementos visuales desde la fase más temprana.",
+      "area": "Arte",
+      "requirements": [
+        "Portfolio con concept art de personajes y/o entornos",
+        "Capacidad de trabajar en estilos distintos según el proyecto",
+        "Habilidad para traducir ideas vagas en referencias visuales claras",
+        "Disponibilidad para colaborar de forma continua con varios equipos"
+      ],
+      "offer": [
+        "Crédito visible en todos los proyectos en los que participes",
+        "Variedad real: un día Tonkori, otro Afterlight, otro algo nuevo",
+        "Influencia directa en la identidad visual del estudio desde el inicio"
+      ]
+    },
+    "studio-community-manager": {
+      "title": "Community Manager para el estudio",
+      "shortDescription": "Buscamos un Community Manager que se encargue de construir y cuidar la comunidad de Rhon Studios. Gestionarás nuestras redes sociales, conectarás con la audiencia y ayudarás a dar voz al estudio mientras crecemos.",
+      "area": "marketing",
+      "requirements": [
+        "Experiencia gestionando redes sociales (Instagram, X/Twitter, TikTok, Discord, etc.)",
+        "Capacidad de crear contenido atractivo y coherente con la identidad del estudio",
+        "Habilidad para comunicar de forma cercana y profesional con la comunidad",
+        "Organización y constancia para mantener una presencia activa en el tiempo",
+        "Valorable experiencia previa en marketing de videojuegos o proyectos indie"
+      ],
+      "offer": [
+        "Crédito oficial en los proyectos en los que participes",
+        "Participación en ingresos si el proyecto genera beneficios tras su lanzamiento",
+        "Prioridad en futuras contrataciones remuneradas cuando el estudio crezca",
+        "Experiencia real gestionando la comunidad de un estudio indie en desarrollo",
+        "Colaboración 100% remota y flexible, compatible con estudios o trabajo",
+        "Carta de recomendación personalizada al finalizar la colaboración"
+      ]
+    },
+    "tonkori-concept-artist": {
+      "title": "Concept Artist",
+      "shortDescription": "Buscamos un concept artist para Tonkori. Trabajarás en Tonkori definiendo personajes, entornos y elementos visuales desde la fase más temprana.",
+      "area": "Arte",
+      "requirements": [
+        "Portfolio con concept art de personajes y/o entornos",
+        "Habilidad para traducir ideas vagas en referencias visuales claras"
+      ],
+      "offer": [
+        "Crédito visible en todos los proyectos en los que participes",
+        "Influencia directa en la identidad visual del proyecto desde el inicio"
+      ]
+    },
+    "other-artist": {
+      "title": "Artista para proyectos pequeños",
+      "shortDescription": "Buscamos artista versátil para sumarse a proyectos pequeños de ciclo corto. Ideal para quien quiera experimentar con estilos distintos y ver su trabajo lanzado rápido.",
+      "area": "Arte",
+      "requirements": [
+        "Portfolio variado (no es necesario un estilo único)",
+        "Capacidad de adaptarse a proyectos cortos y distintos entre sí",
+        "Comodidad trabajando con plazos ajustados"
+      ],
+      "offer": [
+        "Crédito visible en cada proyecto lanzado",
+        "Libertad para proponer estilo y dirección visual",
+        "Ciclos cortos: ves tu trabajo terminado y publicado rápido"
+      ]
+    },
+    "other-designer": {
+      "title": "Diseñador de juego para proyectos pequeños",
+      "shortDescription": "Sumate a diseñar mecánicas y experiencias compactas en proyectos pequeños pensados para lanzarse rápido, antes de escalar a los títulos grandes del estudio.",
+      "area": "Diseño",
+      "requirements": [
+        "Interés en prototipado rápido y mecánicas simples pero pulidas",
+        "Capacidad de iterar con feedback constante",
+        "No se requiere experiencia previa publicada, sí compromiso"
+      ],
+      "offer": [
+        "Crédito como diseñador en cada proyecto",
+        "Espacio para experimentar sin la presión de un proyecto grande",
+        "Posibilidad de crecer junto al estudio hacia proyectos mayores"
+      ]
+    },
+    "other-narrator": {
+      "title": "Narrador / escritor para proyectos pequeños",
+      "shortDescription": "Buscamos a alguien que disfrute contar historias compactas y con peso emocional en formatos cortos, ideales para experimentar con voz y estructura narrativa.",
+      "area": "Narrativa",
+      "requirements": [
+        "Buen manejo de la escritura en español (diálogos, texto in-game)",
+        "Capacidad de contar historias completas en formatos breves",
+        "Apertura a recibir feedback y trabajar en equipo pequeño"
+      ],
+      "offer": [
+        "Crédito como narrador/escritor del proyecto",
+        "Libertad creativa en tono y estructura narrativa",
+        "Publicación rápida: tu historia llega a jugadores en poco tiempo"
+      ]
+    },
+    "tiny-programmer": {
+      "title": "Programador de apoyo para juego móvil",
+      "shortDescription": "Si tienes experiencia en programación de gameplay y quieres contribuir a un juego móvil, hay espacio para apoyo ocasional o continuo según tu disponibilidad.",
+      "area": "Programación",
+      "requirements": [
+        "Conocimiento del motor utilizado por el proyecto",
+        "Experiencia en sistemas de gameplay para Android",
+        "Buenas habilidades de comunicación para trabajar en un equipo pequeño"
+      ],
+      "offer": [
+        "Crédito como colaborador del proyecto",
+        "Compromiso flexible según tu disponibilidad",
+        "Trabajo directo con el equipo principal",
+        "Trabajo junto a programadores profesionales"
+      ]
+    },
+    "tiny-artist": {
+      "title": "Artista para juego de mascotas acogedor y adorable",
+      "shortDescription": "Buscamos un artista para unirse a nuestro proyecto móvil.",
+      "area": "Arte",
+      "requirements": [
+        "Portafolio de ilustración 2D",
+        "Sensibilidad para estilos de juegos adorables y acogedores",
+        "Capacidad para trabajar dentro de guías de estilo y mantener consistencia visual",
+        "Disponibilidad para colaborar de forma continua (no solo ocasional)"
+      ],
+      "offer": [
+        "Libertad para proponer estilo y dirección visual",
+        "Crédito como colaborador del proyecto",
+        "Compromiso flexible según tu disponibilidad",
+        "Trabajo directo con el equipo principal"
+      ]
+    },
+    "observer-programmer": {
+      "title": "Programador para juego narrativo de puzles / observación",
+      "shortDescription": "Buscamos un programador de gameplay para apoyar el desarrollo de sistemas en The Observer, enfocado en interacción, pistas y lógica narrativa.",
+      "area": "Programación",
+      "requirements": [
+        "Experiencia en programación de gameplay o sistemas",
+        "Comprensión de sistemas de interacción o mecánicas de puzles",
+        "Capacidad para implementar eventos o lógica activados por narrativa",
+        "Buenas habilidades de comunicación y trabajo en equipo en un grupo pequeño"
+      ],
+      "offer": [
+        "Crédito como colaborador del proyecto",
+        "Participación flexible (ocasional o continua)",
+        "Colaboración directa con el equipo principal",
+        "Oportunidad de trabajar en sistemas de gameplay narrativos"
+      ]
+    },
+    "observer-narrator": {
+      "title": "Diseñador narrativo / escritor para juego de misterio de observación",
+      "shortDescription": "Buscamos un escritor para ayudar a dar forma a la estructura narrativa y la narración ambiental de The Observer.",
+      "area": "Narrativa",
+      "requirements": [
+        "Experiencia en diseño narrativo o escritura creativa para videojuegos",
+        "Capacidad para escribir historias sutiles y atmosféricas",
+        "Buen sentido del ritmo y estructura del misterio",
+        "Habilidad para integrar la historia en el entorno y los detalles en lugar de la exposición directa"
+      ],
+      "offer": [
+        "Crédito como colaborador narrativo",
+        "Aporte creativo en la historia y el mundo",
+        "Colaboración flexible según disponibilidad",
+        "Trabajo cercano con los equipos de diseño y arte"
+      ]
+    },
+    "observer-female-voice-actor": {
+      "title": "Actriz de voz para videojuego narrativo de misterio",
+      "shortDescription": "Buscamos una actriz de voz para dar vida a uno o varios personajes de The Observer mediante interpretaciones inmersivas y emocionalmente auténticas.",
+      "area": "Voice Acting",
+      "requirements": [
+        "Voz clara y expresiva con sólidas habilidades interpretativas",
+        "Capacidad para transmitir emociones sutiles y realizar interpretaciones con una atmósfera envolvente",
+        "Acceso a un micrófono de buena calidad y a un entorno de grabación silencioso",
+        "Capacidad para grabar y entregar archivos de audio limpios de forma remota",
+        "Buena comunicación y responsabilidad al trabajar con un equipo pequeño"
+      ],
+      "offer": [
+        "Créditos como integrante del reparto de voces",
+        "Horario de grabación flexible según disponibilidad",
+        "Colaboración directa con los equipos de narrativa y audio",
+        "Oportunidad de contribuir a un videojuego narrativo de misterio psicológico"
+      ]
+    }
+  },
+  "projects": {
+    "tonkori": {
+      "name": "Tonkori",
+      "shortDescription": "Tonkori es un RPG narrativo en 2D donde cada decisión deja huella. Tus elecciones moldean la historia, tus vínculos con los compañeros y la forma en que el mundo responde a ti. No existen dos partidas iguales: solo la que tú construyes."
+    },
+    "afterlight": {
+      "name": "Afterlight",
+      "shortDescription": "Afterlight es un metroidvania donde luz y sombra no se enfrentan, sino que coexisten. Explora un mundo que cambia según cómo te muevas entre ambas."
+    },
+    "studio": {
+      "name": "Estudio",
+      "shortDescription": "Roles transversales que sostienen el estudio en su conjunto: comunicación, comunidad, gestión y todo lo que mantiene vivo el ecosistema Rhon Studios más allá de los juegos."
+    },
+    "other": {
+      "name": "Otros",
+      "shortDescription": "Proyectos más pequeños, experimentales o paralelos donde probamos ideas, mecánicas y estilos fuera de nuestros títulos principales."
+    },
+    "tinycare": {
+      "name": "Tiny Care",
+      "shortDescription": "Tiny Care es un acogedor juego móvil sobre cuidar mascotas adorables. Una experiencia cálida y relajante diseñada para sesiones cortas de juego en cualquier momento.",
+      "url": "rhonstudios.vercel.app/games/tinycare"
+    },
+    "theobserver": {
+      "name": "The Observer",
+      "shortDescription": "The Observer es un juego narrativo de misterio basado en la narración ambiental y la atención cuidadosa al detalle. Cada pista está oculta a simple vista.",
+      "url": "rhonstudios.vercel.app/games/theobserver"
+    }
+  }
+}

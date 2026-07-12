@@ -1,15 +1,15 @@
 ﻿import type { Metadata } from "next";
-import { Header } from "./layout/header";
-import { Footer } from "./layout/footer";
-import { LanguageProvider } from "@/app/language/LanguageProvider";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components//layout/footer";
+import { LanguageProvider } from "@/libs/utils/LanguageProvider";
 
 import {
     Rye, Cinzel, Cormorant_Garamond, Skranji, Cinzel_Decorative,
     IM_Fell_English, EB_Garamond, Amarante, Inter, Jua, Nunito,
 } from "next/font/google";
 
-import "./styles/theme.css";
-import "./styles/tailwind.css";
+import "@/styles/theme.css";
+import "@/styles/tailwind.css";
 import {Analytics} from "@vercel/analytics/next";
 
 const rye= Rye({ subsets: ["latin"], weight: ["400"], variable: "--font-rye" });
