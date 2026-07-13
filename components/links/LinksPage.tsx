@@ -15,6 +15,7 @@ export default function LinksPage() {
         { ...SOCIALS.twitter },
         { ...SOCIALS.instagram },
         { ...SOCIALS.youtube },
+        { ...SOCIALS.linkedin },
         { ...SOCIALS.games, name: tt.links.games },
         { ...SOCIALS.join, name: tt.links.opps },
         { ...SOCIALS.devblog },
