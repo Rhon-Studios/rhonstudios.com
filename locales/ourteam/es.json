@@ -11,15 +11,12 @@
   },
   "collaborators": {
     "test": {
-      "role": "Arte",
-      "subrole": "Artista de Entornos 2D",
-      "tagline": "Pintando los sueños de Tonkori, un bioma a la vez.",
-      "bio": "Illustradora especializada en entornos oníricos y paisajes de fantasía. Su trabajo en Tonkori define la estética visual del mundo de memorias fragmentadas. Crea con Photoshop y Procreate, con influencias de Studio Ghibli y el arte conceptual japonés.",
+      "role": "Art",
+      "subrole": "2D Environment Artist",
+      "tagline": "",
+      "bio": "",
       "contributions": [
-        "Diseño de los fondos principales del primer bioma",
-        "Guía de estilo de color para Tonkori",
-        "Concept art de estructuras arquitectónicas",
-        "Paleta emocional para cada zona del juego"
+
       ]
     },
     "angelramirez": {
