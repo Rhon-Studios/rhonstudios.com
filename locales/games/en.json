@@ -22,18 +22,18 @@
       }
     ],
     "market": [
-        {
-          "title": "Metrics",
-          "description": "16–35 · $28.7B USD · 12% · NA · EU · APAC"
-        },
-        {
-          "title": "Competitive Advantage",
-          "description": "Tonkori does not compete through fast-paced action. It targets players seeking immersion in a story that remembers them. The combination of emotionally impactful decisions, dynamic companions, and carefully crafted storytelling sets it apart from generic indie RPGs."
-        },
-        {
-          "title": "Tags",
-          "description": "Meaningful Choices · No Predetermined Endings · Dynamic Companions · Developed in Spanish · Passionate Indie Studio"
-        }
+      {
+        "title": "Metrics",
+        "description": "16–35 · $28.7B USD · 12% · NA · EU · APAC"
+      },
+      {
+        "title": "Competitive Advantage",
+        "description": "Tonkori does not compete through fast-paced action. It targets players seeking immersion in a story that remembers them. The combination of emotionally impactful decisions, dynamic companions, and carefully crafted storytelling sets it apart from generic indie RPGs."
+      },
+      {
+        "title": "Tags",
+        "description": "Meaningful Choices · No Predetermined Endings · Dynamic Companions · Developed in Spanish · Passionate Indie Studio"
+      }
     ],
     "technic": [
       {
@@ -80,7 +80,7 @@
     },
     "vision": "An RPG where every decision matters, companions remember, and the story you experience is uniquely yours. There are no correct paths—only consequences.",
     "roadmap": [
-        {
+      {
         "phase": "Concept and Design",
         "status": "completed",
         "items": [
@@ -90,8 +90,8 @@
           "Base narrative",
           "Game aesthetic"
         ]
-        },
-        {
+      },
+      {
         "phase": "Pre-Production",
         "status": "in-progress",
         "items": [
@@ -100,8 +100,8 @@
           "Final engine selection",
           "Production planning"
         ]
-        },
-        {
+      },
+      {
         "phase": "Technical Prototype",
         "status": "planned",
         "items": [
@@ -109,395 +109,384 @@
           "First companions implemented",
           "Playable combat prototype"
         ]
-        },
-        {
+      },
+      {
         "phase": "Voice Acting",
         "status": "to-decide",
-        "items": [
-          "Add voice acting",
-          "English localization"
-        ]
-        },
-        {
+        "items": ["Add voice acting", "English localization"]
+      },
+      {
         "phase": "Vertical Slice",
         "status": "planned",
         "items": [
           "Playable demo of the first act showcasing the complete experience: narrative, companions, combat, and decisions"
         ]
-        },
-        {
+      },
+      {
         "phase": "Early Access (Possible)",
         "status": "to-decide",
         "items": [
           "Evaluate launching in Early Access to gather community feedback before the full release."
         ]
-        },
-        {
+      },
+      {
         "phase": "Full Release",
         "status": "to-decide",
-        "items": [
-          "Official release on PC (Steam) and console platforms."
-        ]
+        "items": ["Official release on PC (Steam) and console platforms."]
       }
     ],
     "investment": {
-    "monetization": "Premium one-time purchase or Early Access followed by full release. Final decision will be made after evaluating community feedback once the prototype is available.",
-    "roi": "Narrative RPG market growing steadily at 12% annually. Indie successes such as Hades and Disco Elysium demonstrate strong demand for games with a unique identity.",
-    "keys": [
-      "Strong concept with clear differentiation in the indie narrative RPG market.",
-      "Small and committed team with complementary skills (narrative + programming/art).",
-      "Studio's first project: greater agility and no accumulated technical debt.",
-      "Active target audience willing to pay for high-quality narrative experiences.",
-      "Developed in Spanish, the native language of a massive and underrepresented player market."
-    ]
-    }
-},
-"afterlight": {
-  "subtitle": "A Wordless Story Between Light and Darkness",
-  "description": "AfterLight tells the story of Lumen, a being of light who rescues Umbra, a being of darkness trapped and weakened in the middle region of the world. Lumen decides to accompany Umbra back to his homeland, even knowing the journey will weaken him in return.",
-  "description2": "A platforming and exploration game that conveys calmness and melancholy without dialogue, allowing music and visual changes to tell the story of two opposing beings learning to help one another throughout their journey.",
-  "status": "In Pre-Production",
-  "genre": "Platformer / Adventure / Exploration",
-  "year": "To Be Determined",
-  "pitch": "Light and shadow cross the world together: the stronger one becomes, the weaker the other grows.",
-  "mechanics": [
-    {
-      "title": "Fluid Movement and Combat",
-      "description": "Lumen can jump, perform directional dashes, and use a contextual attack/interaction, allowing players to combine abilities to dodge and strike the Forsaken and hostile wildlife with precision."
-    },
-    {
-      "title": "Light and Darkness Puzzles",
-      "description": "The environment features lanterns, portable flames, and breakable branches that players must activate, extinguish, or carry to reveal hidden paths and progress through each area."
-    },
-    {
-      "title": "Narrative Inversion Across Zones",
-      "description": "Throughout the game's five regions, Lumen gradually loses agility and strength while Umbra regains them, translating their relationship of mutual support directly into gameplay."
-    }
-  ],
-  "market": [
-    {
-      "title": "Target Audience",
-      "description": "Players aged 14–35 interested in slow-paced narrative experiences without dialogue or explicit violence."
-    },
-    {
-      "title": "Market Size",
-      "description": "Narrative platformer and metroidvania niche on PC (Steam), a segment with a proven loyal audience."
-    },
-    {
-      "title": "Competitive Advantage",
-      "description": "A strength-transfer mechanic directly tied to the narrative, combined with a hand-painted visual identity inspired by MIO: Memories in Orbit."
-    }
-  ],
-  "technic": [
-    {
-    "title": "Operating System",
-    "description": "Microsoft Windows 8.1 or later"
-    },
-    {
-      "title": "Processor",
-      "description": "Intel N4100 (or equivalent) or better"
-    },
-    {
-      "title": "Memory",
-      "description": "8 GB RAM"
-    },
-    {
-      "title": "Graphics",
-      "description": "GPU compatible with DirectX 9 / OpenGL 4.1"
-    },
-    {
-      "title": "DirectX",
-      "description": "Version 9.0c"
-    },
-    {
-      "title": "Storage",
-      "description": "2 GB available space"
-    }
-  ],
-  "development": {
-    "current_phase": "Game Design Documentation (GDD) and Concept Art",
-    "team_size": "To Be Determined",
-    "timeline": "To Be Determined"
-  },
-  "vision": "AfterLight aims to tell an intimate story about sacrifice and friendship between two opposing beings without using words. Through music, hand-painted art, and the gradual physical transformation of the characters, players experience firsthand how the balance between strength and weakness shifts throughout the journey.",
-  "roadmap": [
-    {
-      "phase": "Concept and Documentation",
-      "status": "completed",
-      "items": [
-        "Complete Game Design Document (GDD)",
-        "Definition of core mechanics and narrative arc"
-    ]
-    },
-    {
-      "phase": "Pre-Production",
-      "status": "in-progress",
-      "items": [
-        "Concept art for characters and enemies",
-        "Movement, dash, and combat prototype"
+      "monetization": "Premium one-time purchase or Early Access followed by full release. Final decision will be made after evaluating community feedback once the prototype is available.",
+      "roi": "Narrative RPG market growing steadily at 12% annually. Indie successes such as Hades and Disco Elysium demonstrate strong demand for games with a unique identity.",
+      "keys": [
+        "Strong concept with clear differentiation in the indie narrative RPG market.",
+        "Small and committed team with complementary skills (narrative + programming/art).",
+        "Studio's first project: greater agility and no accumulated technical debt.",
+        "Active target audience willing to pay for high-quality narrative experiences.",
+        "Developed in Spanish, the native language of a massive and underrepresented player market."
       ]
-    },
-    {
-      "phase": "Production - Core Systems",
-      "status": "planned",
-      "items": [
-        "Enemy AI and Umbra AI implementation",
-        "Puzzle systems based on light and darkness"
-      ]
-    },
-    {
-      "phase": "Production - Content and Levels",
-      "status": "planned",
-      "items": [
-        "Creation of the five narrative regions (White to Black)",
-        "Soundtrack and sound design integration"
-      ]
-    },
-    {
-      "phase": "Polish and Release",
-      "status": "planned",
-      "items": [
-        "Testing, balancing, and optimization",
-        "Steam release"
-      ]
-    }
-  ],
-  "investment": {
-    "monetization": "Premium one-time purchase on PC via Steam",
-    "roi": "Narrative indie niche with potential comparable to successes such as Hollow Knight and Neva",
-    "keys": [
-      "Distinctive hand-painted visual identity inspired by MIO: Memories in Orbit",
-      "Dialogue-free storytelling conveyed through mechanics, music, and art"
-    ]
     }
   },
-  "theobserver": { 
-    "subtitle": "Otome Mystery & Suspense Visual Novel", 
-    "description": "The Observer is an otome visual novel where you choose one of five characters to accompany, and your story always saves at the moment they die. Once tragedy strikes, you travel back several days to prevent it.", 
-    "description2": "Discover who is killing them, keep their trust without looking insane, and decide the killer's fate. Every death you prevent grants experience to improve your Charisma, Manipulation, and more. Will you earn the ending you deserve... or doom everyone to relive the same story?", 
-    "status": "In Development", 
-    "genre": "Visual Novel · Otome · Narrative", 
-    "year": "TBD", 
-    "pitch": "The save point is always their death. You decide whether that changes.", 
-    "mechanics": [ 
-      { 
+  "afterlight": {
+    "subtitle": "A Wordless Story Between Light and Darkness",
+    "description": "AfterLight tells the story of Lumen, a being of light who rescues Umbra, a being of darkness trapped and weakened in the middle region of the world. Lumen decides to accompany Umbra back to his homeland, even knowing the journey will weaken him in return.",
+    "description2": "A platforming and exploration game that conveys calmness and melancholy without dialogue, allowing music and visual changes to tell the story of two opposing beings learning to help one another throughout their journey.",
+    "status": "In Pre-Production",
+    "genre": "Platformer / Adventure / Exploration",
+    "year": "To Be Determined",
+    "pitch": "Light and shadow cross the world together: the stronger one becomes, the weaker the other grows.",
+    "mechanics": [
+      {
+        "title": "Fluid Movement and Combat",
+        "description": "Lumen can jump, perform directional dashes, and use a contextual attack/interaction, allowing players to combine abilities to dodge and strike the Forsaken and hostile wildlife with precision."
+      },
+      {
+        "title": "Light and Darkness Puzzles",
+        "description": "The environment features lanterns, portable flames, and breakable branches that players must activate, extinguish, or carry to reveal hidden paths and progress through each area."
+      },
+      {
+        "title": "Narrative Inversion Across Zones",
+        "description": "Throughout the game's five regions, Lumen gradually loses agility and strength while Umbra regains them, translating their relationship of mutual support directly into gameplay."
+      }
+    ],
+    "market": [
+      {
+        "title": "Target Audience",
+        "description": "Players aged 14–35 interested in slow-paced narrative experiences without dialogue or explicit violence."
+      },
+      {
+        "title": "Market Size",
+        "description": "Narrative platformer and metroidvania niche on PC (Steam), a segment with a proven loyal audience."
+      },
+      {
+        "title": "Competitive Advantage",
+        "description": "A strength-transfer mechanic directly tied to the narrative, combined with a hand-painted visual identity inspired by MIO: Memories in Orbit."
+      }
+    ],
+    "technic": [
+      {
+        "title": "Operating System",
+        "description": "Microsoft Windows 8.1 or later"
+      },
+      {
+        "title": "Processor",
+        "description": "Intel N4100 (or equivalent) or better"
+      },
+      {
+        "title": "Memory",
+        "description": "8 GB RAM"
+      },
+      {
+        "title": "Graphics",
+        "description": "GPU compatible with DirectX 9 / OpenGL 4.1"
+      },
+      {
+        "title": "DirectX",
+        "description": "Version 9.0c"
+      },
+      {
+        "title": "Storage",
+        "description": "2 GB available space"
+      }
+    ],
+    "development": {
+      "current_phase": "Game Design Documentation (GDD) and Concept Art",
+      "team_size": "To Be Determined",
+      "timeline": "To Be Determined"
+    },
+    "vision": "AfterLight aims to tell an intimate story about sacrifice and friendship between two opposing beings without using words. Through music, hand-painted art, and the gradual physical transformation of the characters, players experience firsthand how the balance between strength and weakness shifts throughout the journey.",
+    "roadmap": [
+      {
+        "phase": "Concept and Documentation",
+        "status": "completed",
+        "items": [
+          "Complete Game Design Document (GDD)",
+          "Definition of core mechanics and narrative arc"
+        ]
+      },
+      {
+        "phase": "Pre-Production",
+        "status": "in-progress",
+        "items": ["Concept art for characters and enemies", "Movement, dash, and combat prototype"]
+      },
+      {
+        "phase": "Production - Core Systems",
+        "status": "planned",
+        "items": [
+          "Enemy AI and Umbra AI implementation",
+          "Puzzle systems based on light and darkness"
+        ]
+      },
+      {
+        "phase": "Production - Content and Levels",
+        "status": "planned",
+        "items": [
+          "Creation of the five narrative regions (White to Black)",
+          "Soundtrack and sound design integration"
+        ]
+      },
+      {
+        "phase": "Polish and Release",
+        "status": "planned",
+        "items": ["Testing, balancing, and optimization", "Steam release"]
+      }
+    ],
+    "investment": {
+      "monetization": "Premium one-time purchase on PC via Steam",
+      "roi": "Narrative indie niche with potential comparable to successes such as Hollow Knight and Neva",
+      "keys": [
+        "Distinctive hand-painted visual identity inspired by MIO: Memories in Orbit",
+        "Dialogue-free storytelling conveyed through mechanics, music, and art"
+      ]
+    }
+  },
+  "theobserver": {
+    "subtitle": "Otome Mystery & Suspense Visual Novel",
+    "description": "The Observer is an otome visual novel where you choose one of five characters to accompany, and your story always saves at the moment they die. Once tragedy strikes, you travel back several days to prevent it.",
+    "description2": "Discover who is killing them, keep their trust without looking insane, and decide the killer's fate. Every death you prevent grants experience to improve your Charisma, Manipulation, and more. Will you earn the ending you deserve... or doom everyone to relive the same story?",
+    "status": "In Development",
+    "genre": "Visual Novel · Otome · Narrative",
+    "year": "TBD",
+    "pitch": "The save point is always their death. You decide whether that changes.",
+    "mechanics": [
+      {
         "title": "Death Loop & Time Rewind",
         "description": "The game automatically saves the moment your love interest dies. From there, you can rewind several days and act using the knowledge you've already gained to change the outcome."
-      }, 
-      { 
+      },
+      {
         "title": "Undercover Investigation",
         "description": "Uncover the killer's identity without revealing you know too much. Telling the truth to your companion may cause them to ignore you—or something even worse. Explore, talk to people, and gradually unlock clues."
-      }, 
-      { 
+      },
+      {
         "title": "Influence Stats",
         "description": "Every death you prevent grants experience to improve Charisma (to make others listen) or Manipulation (to control situations). Your love interest may reject you depending on how you've used these abilities."
-      } ], 
+      }
+    ],
     "market": [
-      { 
-        "title": "Target Audience", 
+      {
+        "title": "Target Audience",
         "description": "Players aged 16 and up who enjoy otome visual novels and narrative mystery games such as Raging Loop and Paranormasight."
       },
-      { 
-        "title": "Market Size", 
+      {
+        "title": "Market Size",
         "description": "The otome and PC visual novel genre has a loyal and active audience on Steam, with indie titles often reaching tens of thousands of sales despite modest budgets."
       },
       {
-        "title": "Competitive Advantage", 
+        "title": "Competitive Advantage",
         "description": "Its combination of time-rewind mechanics, multiple endings influenced by player stats, and a fragile trust system sets it apart from traditional otome games."
-      } 
-    ], 
+      }
+    ],
     "technic": [
       {
-        "title": "Engine", 
+        "title": "Engine",
         "description": "Godot 2D"
       },
       {
-        "title": "Platforms", 
+        "title": "Platforms",
         "description": "PC (primary) · Controller & Keyboard · Mobile (possible)"
       },
-      { 
+      {
         "title": "Genre",
         "description": "Visual Novel · Otome · Narrative"
-      }, 
-      { 
+      },
+      {
         "title": "Players",
         "description": "Single Player"
       },
-      { 
-        "title": "Status", 
+      {
+        "title": "Status",
         "description": "Concept / Pre-production (~5% complete)"
-      }, 
-      { 
+      },
+      {
         "title": "Release",
         "description": "To Be Determined"
       }
     ],
-    "development": { 
+    "development": {
       "current_phase": "Concept & Pre-production",
       "team_size": "Small Team - Rhon Studios",
       "timeline": "TBD"
-    }, 
+    },
     "vision": "An otome where romance coexists with the horror of knowing the person you love is destined to die—and that you're the only one who can stop it, over and over again, without anyone believing you.",
-    "roadmap": [ 
-      { 
-        "phase": "Concept & Design", 
-        "status": "completed", 
-        "items": [ 
-          "Core premise and gameplay loop defined", 
+    "roadmap": [
+      {
+        "phase": "Concept & Design",
+        "status": "completed",
+        "items": [
+          "Core premise and gameplay loop defined",
           "Romanceable cast outlined (Julian, Kieran, Ivy, Luna + 1)",
-          "Ending system drafted", "Visual and gameplay references collected"
+          "Ending system drafted",
+          "Visual and gameplay references collected"
         ]
       },
-      { 
-        "phase": "Pre-production", 
-        "status": "in-progress", 
+      {
+        "phase": "Pre-production",
+        "status": "in-progress",
         "items": [
           "Complete Game Design Document",
-          "Character and world design", "Main route script",
+          "Character and world design",
+          "Main route script",
           "Charisma / Manipulation stat system design"
         ]
       },
-      { 
+      {
         "phase": "Prototype",
         "status": "planned",
-        "items": [ 
+        "items": [
           "Functional death-loop and rewind prototype",
           "First playable route (pilot character)",
           "Automatic save system at the moment of death"
         ]
-      }, 
-      { 
-        "phase": "Production", 
+      },
+      {
+        "phase": "Production",
         "status": "planned",
-        "items": [ 
-          "All 5 complete routes with unique killers", 
-          "Character art and backgrounds", 
-          "Original soundtrack and sound effects", 
-          "Voice acting (under evaluation)" 
+        "items": [
+          "All 5 complete routes with unique killers",
+          "Character art and backgrounds",
+          "Original soundtrack and sound effects",
+          "Voice acting (under evaluation)"
         ]
-      }, 
-      { 
+      },
+      {
         "phase": "Launch",
         "status": "to-decide",
-        "items": [
-          "Testing and polishing", 
-          "PC release (Steam)",
-          "Mobile version evaluation" 
-        ]
-      } 
-    ], 
+        "items": ["Testing and polishing", "PC release (Steam)", "Mobile version evaluation"]
+      }
+    ],
     "investment": {
-      "monetization": "Premium one-time purchase on Steam for PC. Early Access may be considered to gather community feedback before full release.", 
-      "roi": "The otome genre on Steam has an active fanbase willing to pay for high-quality experiences. Indie titles like Cinderella Phenomenon demonstrate that original concepts can reach large audiences with small teams.", 
+      "monetization": "Premium one-time purchase on Steam for PC. Early Access may be considered to gather community feedback before full release.",
+      "roi": "The otome genre on Steam has an active fanbase willing to pay for high-quality experiences. Indie titles like Cinderella Phenomenon demonstrate that original concepts can reach large audiences with small teams.",
       "keys": [
         "Unique time-rewind mechanic within the otome genre",
         "Stat system that rewards or penalizes player choices",
-        "5 routes with different killers provide high replayability", 
+        "5 routes with different killers provide high replayability",
         "Dedicated target audience on digital platforms",
-        "Committed team with a strong narrative and visual identity" 
+        "Committed team with a strong narrative and visual identity"
       ]
     }
-  }, 
-  "tinycare": { 
-    "subtitle": "A Virtual Pet with Real Consequences", 
-    "description": "Tiny Care is a mobile virtual pet game where every decision truly matters. Your pet isn't just a cute sprite—it eats, sleeps, gets dirty, becomes bored, develops its own personality, and can even die if you fail to care for it properly.", 
-    "description2": "Choose from 14 species with different rarity levels, from cats and dogs to axolotls and owls, and care for them throughout every stage of their lives. Neglect their mental health and you'll notice signs of sadness; ignore their nutrition and they'll suffer the consequences. Are you responsible enough to keep them alive?", 
-    "status": "In Development", 
-    "genre": "Life Simulation · Virtual Pet · Collection", 
-    "year": "TBD", 
-    "pitch": "It's more than a pet game. It's a reminder of what it means to care for someone.", 
+  },
+  "tinycare": {
+    "subtitle": "A Virtual Pet with Real Consequences",
+    "description": "Tiny Care is a mobile virtual pet game where every decision truly matters. Your pet isn't just a cute sprite—it eats, sleeps, gets dirty, becomes bored, develops its own personality, and can even die if you fail to care for it properly.",
+    "description2": "Choose from 14 species with different rarity levels, from cats and dogs to axolotls and owls, and care for them throughout every stage of their lives. Neglect their mental health and you'll notice signs of sadness; ignore their nutrition and they'll suffer the consequences. Are you responsible enough to keep them alive?",
+    "status": "In Development",
+    "genre": "Life Simulation · Virtual Pet · Collection",
+    "year": "TBD",
+    "pitch": "It's more than a pet game. It's a reminder of what it means to care for someone.",
     "mechanics": [
-      { 
-        "title": "Interconnected Needs System", 
+      {
+        "title": "Interconnected Needs System",
         "description": "Hunger, sleep, hygiene, and happiness influence one another in real time. Playing too much tires your pet, while neglecting it lowers your bond. Every action has consequences."
-      }, 
+      },
       {
         "title": "Dynamic Personality",
         "description": "Every pet is born with fixed personality traits (Materialistic, Playful, Silly) and can develop new ones depending on how you raise it. Neglect its emotional well-being and it may become Aggressive, Fearful, or Clingy."
-      }, 
-      { 
-        "title": "14 Species with Rarity & Life Cycle", 
+      },
+      {
+        "title": "14 Species with Rarity & Life Cycle",
         "description": "From common pets (cats, dogs, rabbits) to SSR creatures (hedgehogs, owls, axolotls), every species has its own lifespan—from two weeks to a month and a half—and will eventually die of old age if properly cared for."
-      } 
-    ], 
-    "market": [ 
-      { 
-        "title": "Target Audience", 
+      }
+    ],
+    "market": [
+      {
+        "title": "Target Audience",
         "description": "Players aged 16 and up who enjoy virtual pet games such as Tamagotchi, Tsuki Odyssey, or Can Your Pet? and are looking for greater depth and meaningful consequences."
       },
-      { 
-        "title": "Market Size", 
+      {
+        "title": "Market Size",
         "description": "The casual mobile life-simulation market generates billions in annual revenue. Tiny Care differentiates itself by adding emotional depth beyond traditional virtual pet games."
-      }, 
-      { 
-        "title": "Competitive Advantage", 
+      },
+      {
+        "title": "Competitive Advantage",
         "description": "Unlike conventional pet games, Tiny Care features real consequences for neglect, including depression-like behavior, health problems, and death, creating a genuine emotional bond between player and pet."
       }
     ],
-    "technic": [ 
-      { 
-        "title": "Platform", 
+    "technic": [
+      {
+        "title": "Platform",
         "description": "Mobile - Android & iOS"
       },
-      { 
-        "title": "Genre", 
+      {
+        "title": "Genre",
         "description": "Life Simulation · Virtual Pet · Collection · Raising Sim"
       },
-      { 
-        "title": "Players", 
+      {
+        "title": "Players",
         "description": "Single Player"
-      }, 
-      { 
-        "title": "Status", 
+      },
+      {
+        "title": "Status",
         "description": "Concept / Pre-production (~10% complete)"
       },
       {
-        "title": "Release", 
+        "title": "Release",
         "description": "To Be Determined"
       },
-      { 
-        "title": "Planned Tools", 
+      {
+        "title": "Planned Tools",
         "description": "TBD - Designed for native mobile development"
-      } 
-    ], 
-    "development": { 
+      }
+    ],
+    "development": {
       "current_phase": "Concept & Design",
       "team_size": "Small Team - Rhon Studios",
       "timeline": "TBD"
     },
-    "vision": "A virtual pet game that makes you feel what it truly means to care for a living being: the joy of watching it grow, the guilt of neglecting it, and the weight of every decision you make on its behalf.", 
-    "roadmap": [ 
+    "vision": "A virtual pet game that makes you feel what it truly means to care for a living being: the joy of watching it grow, the guilt of neglecting it, and the weight of every decision you make on its behalf.",
+    "roadmap": [
       {
-        "phase": "Concept & Design", 
-        "status": "in-progress", 
+        "phase": "Concept & Design",
+        "status": "in-progress",
         "items": [
           "Core GDD completed (needs, personality, 14 species)",
           "Rarity and lifespan tables defined",
-          "Friendship and personality systems designed", 
-          "Visual references collected (Rii Abrego)" 
+          "Friendship and personality systems designed",
+          "Visual references collected (Rii Abrego)"
         ]
       },
-      { 
+      {
         "phase": "Pre-production",
         "status": "planned",
-        "items": [ 
+        "items": [
           "Concept art for all 14 species and life stages",
-          "Mobile UI design (main screen and status indicators)", 
-          "Real-time needs system prototype", "Currency and shop system definition" 
+          "Mobile UI design (main screen and status indicators)",
+          "Real-time needs system prototype",
+          "Currency and shop system definition"
         ]
       },
-      { 
-        "phase": "Prototype", 
+      {
+        "phase": "Prototype",
         "status": "planned",
-        "items": [ 
-          "Playable pet with core gameplay loop (hunger, sleep, happiness)", 
+        "items": [
+          "Playable pet with core gameplay loop (hunger, sleep, happiness)",
           "First minigame prototype (laser or ball)",
           "Functional personality system"
         ]
-      }, 
+      },
       {
         "phase": "Production",
-        "status": "planned", 
+        "status": "planned",
         "items": [
           "All 14 animated species with full life stages",
           "Complete personality, health, and mood systems",
@@ -507,19 +496,19 @@
       },
       {
         "phase": "Launch",
-        "status": "to-decide", 
-        "items": [ 
+        "status": "to-decide",
+        "items": [
           "Testing on Android and iOS devices",
-          "Google Play and App Store release", 
+          "Google Play and App Store release",
           "Free-to-play with in-app purchases"
         ]
-      } 
-    ], 
+      }
+    ],
     "investment": {
       "monetization": "TBD. Options under evaluation include free-to-play with cosmetic purchases or a hybrid model. Clothing, skins, and gifts provide natural, non-intrusive monetization opportunities.",
-      "roi": "The virtual pet market has proven demand (Tamagotchi Uni, Pou, Tsuki Odyssey). Tiny Care stands out through its emotional depth, real consequences, mental health mechanics, and permanent loss, appealing to players looking for a more meaningful casual experience.", 
-      "keys": [ 
-        "Real consequences create a genuine emotional bond", 
+      "roi": "The virtual pet market has proven demand (Tamagotchi Uni, Pou, Tsuki Odyssey). Tiny Care stands out through its emotional depth, real consequences, mental health mechanics, and permanent loss, appealing to players looking for a more meaningful casual experience.",
+      "keys": [
+        "Real consequences create a genuine emotional bond",
         "14 species with varying rarities encourage collection and replayability",
         "Dynamic personalities make every pet unique",
         "Large and active mobile simulation audience",
@@ -528,4 +517,3 @@
     }
   }
 }
-

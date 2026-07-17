@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rhon Studios
+
+This is a Next.js project built with the App Router.
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application will automatically reload as changes are made.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Code Style
 
-To learn more about Next.js, take a look at the following resources:
+This project uses:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **ESLint** for code quality and linting
+- **Prettier** for code formatting and styling consistency
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Format the Project
 
-## Deploy on Vercel
+```bash
+npm run format
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Check Formatting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run format:check
+```
+
+### Run ESLint
+
+```bash
+npm run lint
+```
+
+---
+
+## Formatting Rules
+
+The current Prettier configuration follows these conventions:
+
+- Use semicolons (`;`)
+- Use double quotes (`"`)
+- Use trailing commas where valid in ES5
+- Use 2 spaces for indentation
+- Wrap lines around 100 characters
+- Always include parentheses around arrow function parameters
+
+Example:
+
+```ts
+const titles = gamesData.map((game) => game.title);
+
+const scrollTo = (id: string) => {
+  console.log(id);
+};
+```
+
+These rules help keep the codebase consistent and reduce formatting-related noise in pull requests.

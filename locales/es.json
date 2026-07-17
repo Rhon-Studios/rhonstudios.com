@@ -32,14 +32,12 @@
   },
   "hero": {
     "subtitle": "Desde 2025",
-    "description":
-    {
+    "description": {
       "p1": "Creando mundos",
       "p2": "que se quedan contigo"
     },
     "button": "Explora Nuestros Mundos",
-    "soul_products":
-    {
+    "soul_products": {
       "p1": "Productos",
       "p2": "con alma"
     }
@@ -53,8 +51,7 @@
     "title": "Juegos",
     "subtitle": "Descubre",
     "more_projects": "Más proyectos en desarrollo...",
-    "game_card":
-    {
+    "game_card": {
       "no_image": "Próximamente",
       "state": "Estado:",
       "year": "Año:",
@@ -90,40 +87,32 @@
   "about": {
     "top_title": "Nuestra Historia",
     "title": "Nosotros",
-    "section_1" :
-    {
+    "section_1": {
       "title": "¿Quiénes Somos?",
-      "text" :
-      {
+      "text": {
         "p1": "Rhon Studios es un estudio de desarrollo de videojuegos independiente fundado en 2025.",
         "p2": "Cada mundo que creamos está diseñado para quedarse contigo mucho después de que termines de jugar, con experiencias inmersivas que combinan narrativa, emoción y estilo."
       }
     },
-    "section_2":
-    {
+    "section_2": {
       "title": "Nuestro Código",
-      "text":
-      {
-        "p1":
-        {
+      "text": {
+        "p1": {
           "p1": "Rhon Studios opera bajo un código de excelencia:",
           "p2": "creatividad, disciplina y responsabilidad ética."
         },
         "p2": "Cada acción que emprendemos refleja nuestros principios, manteniéndonos independientes, relevantes y valiosos."
       }
     },
-    "creativity":
-    {
+    "creativity": {
       "title": "Creatividad",
       "text": "Innovación en cada detalle"
     },
-    "passion":
-    {
+    "passion": {
       "title": "Pasión",
       "text": "Amor por lo que hacemos"
     },
-    "quality":
-    {
+    "quality": {
       "title": "Calidad",
       "text": "Excelencia sin compromisos"
     }
@@ -152,7 +141,7 @@
       "button": "Unirse al servidor"
     },
     "socials": {
-      "discord":{
+      "discord": {
         "text": "Habla directamente con el equipo, sigue el desarrollo en tiempo real y conecta con la comunidad.",
         "cta": "Unirse al servidor"
       },
@@ -173,7 +162,7 @@
         "cta": "Seguir"
       }
     },
-    "coffee":{
+    "coffee": {
       "title": "Invítanos un café",
       "description": "Cada café va directo al desarrollo, herramientas, assets y noches largas"
     }
@@ -200,8 +189,7 @@
       "title": "Mensaje",
       "placeholder": "Hola os amo sois los mejores jiji."
     },
-    "button":
-    {
+    "button": {
       "idle": "ENVIAR MENSAJE",
       "invalid": "Mensaje invalido, rellena todos los campos",
       "sending": "ENVIANDO...",
@@ -216,11 +204,9 @@
     "weekend": "FINES DE SEMANA",
     "appointment": "SOLO CON RESERVA",
     "button_appointment": "RESERVA TU HORA",
-    "thankscard":
-    {
+    "thankscard": {
       "title": "GRACIAS DE CORAZÓN",
-      "text":
-      {
+      "text": {
         "p1": "Desde Rhon Studios apreciamos a todos los que nos visitan.",
         "p2": "Hacemos esto no solo por nosotros, sino para que puedas ver el mundo y su belleza tal como lo vemos nosotros.",
         "p3": "No olvides contactarnos."
@@ -245,34 +231,27 @@
     "rights": "Todos los derechos reservados."
   },
   "gamePage": {
-    "notfound": 
-    {
+    "notfound": {
       "game": "Juego no encontrado",
       "button": "Volver al inicio"
     },
-    "mechanics":
-    {
+    "mechanics": {
       "title": "Propuesta de Valor",
       "subtitle": "Innovación y Oportunidad",
-      "mechanics":
-      {
+      "mechanics": {
         "title": "Mecánicas Innovadoras"
       },
-      "market":
-      {
-        "title" : "Oportunidad de Mercado"
+      "market": {
+        "title": "Oportunidad de Mercado"
       },
-      "technics":
-      {
+      "technics": {
         "title": "Especificaciones Técnicas"
       }
     },
-    "roadmap":
-    {
+    "roadmap": {
       "title": "Roadmap",
       "subtitle": "Visión y Ejecución",
-      "vision":
-      {
+      "vision": {
         "title": "Visión General",
         "progress": "Progreso",
         "completed": "Completado"
@@ -285,16 +264,14 @@
         "toDecide": "Por Decidir"
       }
     },
-    "investment":
-    {
+    "investment": {
       "title": "Oportunidad de Inversión",
       "subtitle": "Crecimiento y Oportunidad",
       "monetization": "Modelo de Monetización",
       "roi": "Proyección de Retorno",
       "keys": "Puntos Destacados para Inversores"
     },
-    "contact":
-    {
+    "contact": {
       "title": "¿Interesado en Colaborar?",
       "description": "Estamos buscando etc",
       "button": "Contactar",
@@ -390,7 +367,7 @@
       "empty_area": "Ningún rol en esta área para este proyecto."
     }
   },
-  "devblogpage":{
+  "devblogpage": {
     "writed": "Escrito por:"
   },
   "collaboratorsDetails": {
@@ -408,7 +385,7 @@
       "see": "Ver oportunidades"
     }
   },
-  "links":{
+  "links": {
     "links": {
       "coffee": "Invitanos a un café",
       "games": "Nuestros Juegos",

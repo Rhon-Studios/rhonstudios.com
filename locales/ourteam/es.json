@@ -15,19 +15,14 @@
       "subrole": "2D Environment Artist",
       "tagline": "",
       "bio": "",
-      "contributions": [
-
-      ]
+      "contributions": []
     },
     "angelramirez": {
       "role": "Programador",
       "subrole": "Programador en Godot",
       "tagline": "Ingeniero de sistemas que construye herramientas y videojuegos donde la ingeniería y el diseño se complementan.",
       "bio": "Ingeniero en Sistemas especializado en observabilidad, Actualmente trabajo diseñando soluciones de monitoreo con Grafana y OpenTelemetry, mientras exploro el desarrollo de videojuegos con Godot como proyecto personal. Me interesa crear herramientas y experiencias donde la ingeniería y el diseño se complementen.",
-      "contributions": [
-        "Maquina de estados",
-        "Ataques del jugador"
-      ]
+      "contributions": ["Maquina de estados", "Ataques del jugador"]
     },
     "sage": {
       "role": "Recursos Humanos",
@@ -45,9 +40,7 @@
       "subrole": "Artista 2D",
       "tagline": "",
       "bio": "Ilustradora publicada en el mundo editorial con pasión por contar historias por medio de personajes y ambientes. Música los sábados.\n",
-      "contributions": [
-
-      ]
+      "contributions": []
     }
   }
 }

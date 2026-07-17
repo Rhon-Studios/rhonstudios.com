@@ -71,48 +71,36 @@
       {
         "phase": "",
         "status": "",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "phase": "",
         "status": "",
-        "items": [
-        ]
+        "items": []
       },
       {
         "phase": "",
         "status": "",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "phase": "",
         "status": "",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "phase": "",
         "status": "",
-        "items": [
-
-        ]
+        "items": []
       }
     ],
     "investment": {
       "monetization": "",
       "roi": "",
-      "keys": [
-
-      ]
+      "keys": []
     }
   },
-  "tonkori":
-  {
+  "tonkori": {
     "subtitle": "¿Prefieres salvar el mundo... o salvarte a ti?",
     "description": "Tonkori es la gran estrella de Rhon, un juego que llevamos desarrollando desde 2024. Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
     "description2": "Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
@@ -129,7 +117,8 @@
         "title": "Compañeros con memoria",
         "description": "Los compañeros recuerdan todo. Pueden convertirse en aliados, amantes o enemigos según cómo los trates."
       },
-      { "title": "Sin respuestas correctas",
+      {
+        "title": "Sin respuestas correctas",
         "description": "Narrativa en tres actos con libertad de orden. Toda pregunta tiene respuesta; el camino lo eliges tú."
       }
     ],
@@ -148,15 +137,24 @@
       }
     ],
     "technic": [
-      { "title": "Motor", "description": "Por definir -Iniciado en Godot; escalando a motor 3D potente o motor propio según avance el proyecto" },
+      {
+        "title": "Motor",
+        "description": "Por definir -Iniciado en Godot; escalando a motor 3D potente o motor propio según avance el proyecto"
+      },
       { "title": "Plataformas", "description": "PC · PlayStation · Xbox Series" },
       { "title": "Género ", "description": "RPG narrativo" },
       { "title": "Jugadores", "description": "Un jugador" },
-      { "title":  "Estado", "description":  "Concepto/Pre-Producción (-8% completado)"},
-      { "title":  "Lanzamiento", "description":  "Fecha por definir"},
-      { "title":  "Idiomas", "description":  "Español (lengua nativa) + Inglés confirmado. Voice acting previsto en español como lengua principal"},
-      { "title":  "Monetización", "description":  "Pago único (premium) con/o sin Early Access + lanzamiento completo"},
-      { "title":  "Herramientas", "description":  "Affinity · Krita · Aesprite · Notion"}
+      { "title": "Estado", "description": "Concepto/Pre-Producción (-8% completado)" },
+      { "title": "Lanzamiento", "description": "Fecha por definir" },
+      {
+        "title": "Idiomas",
+        "description": "Español (lengua nativa) + Inglés confirmado. Voice acting previsto en español como lengua principal"
+      },
+      {
+        "title": "Monetización",
+        "description": "Pago único (premium) con/o sin Early Access + lanzamiento completo"
+      },
+      { "title": "Herramientas", "description": "Affinity · Krita · Aesprite · Notion" }
     ],
     "development": {
       "current_phase": "Concepto/Pre-Producción (-8% completado)",
@@ -198,10 +196,7 @@
       {
         "phase": "Voice acting",
         "status": "to-decide",
-        "items": [
-          "Añadir voice acting",
-          "Traducción al inglés"
-        ]
+        "items": ["Añadir voice acting", "Traducción al inglés"]
       },
       {
         "phase": "Vertical slice",
@@ -220,13 +215,10 @@
       {
         "phase": "Lanzamiento completo",
         "status": "to-decide",
-        "items": [
-          "Lanzamiento oficial y final en PC (Steam) y plataformas de consola."
-        ]
+        "items": ["Lanzamiento oficial y final en PC (Steam) y plataformas de consola."]
       }
     ],
-    "investment":
-    {
+    "investment": {
       "monetization": "Pago único (premium) o Early Access seguido de lanzamiento completo. Decisión final tras evaluar la comunidad una vez el prototipo esté activo.",
       "roi": " Mercado de RPG narrativos en crecimiento sostenido del 12% anual. Referentes como Hades o Disco Elysium demuestran el apetito por propuestas indie con identidad fuerte.",
       "keys": [
@@ -342,10 +334,7 @@
       {
         "phase": "Pulido y Lanzamiento",
         "status": "planned",
-        "items": [
-          "Testing, balanceo y optimización",
-          "Lanzamiento en Steam"
-        ]
+        "items": ["Testing, balanceo y optimización", "Lanzamiento en Steam"]
       }
     ],
     "investment": {
@@ -468,11 +457,7 @@
       {
         "phase": "Lanzamiento",
         "status": "to-decide",
-        "items": [
-          "Testing y pulido",
-          "Lanzamiento en PC (Steam)",
-          "Evaluación de versión móvil"
-        ]
+        "items": ["Testing y pulido", "Lanzamiento en PC (Steam)", "Evaluación de versión móvil"]
       }
     ],
     "investment": {

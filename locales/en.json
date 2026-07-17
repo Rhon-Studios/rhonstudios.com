@@ -32,15 +32,13 @@
   },
   "hero": {
     "subtitle": "Since 2025",
-    "description":
-    {
+    "description": {
       "p1": "Creating worlds",
       "p2": "that stay with you"
     },
     "button": "Explore Our Worlds",
-    "soul_products": 
-    {
-      "p1": "Products", 
+    "soul_products": {
+      "p1": "Products",
       "p2": "with soul"
     }
   },
@@ -53,8 +51,7 @@
     "title": "Games",
     "subtitle": "Discover",
     "more_projects": "More projects on their way",
-    "game_card": 
-    {
+    "game_card": {
       "no_image": "Comming soon",
       "state": "State:",
       "year": "Year:",
@@ -90,40 +87,32 @@
   "about": {
     "top_title": "Our Story",
     "title": "About",
-    "section_1" :
-    {
+    "section_1": {
       "title": "Who We Are",
-      "text" :
-      {
+      "text": {
         "p1": "Rhon Studios is an independent video game development studio founded in 2025.",
         "p2": "Each world we create is designed to stay with you long after you finish playing, with immersive experiences that combine narrative, emotion, and style."
       }
     },
-    "section_2":
-    {
+    "section_2": {
       "title": "Our Code",
-      "text":
-      {
-        "p1":
-        {
+      "text": {
+        "p1": {
           "p1": "Rhon Studios operates under a code of excellence:",
           "p2": "creativity, discipline, and ethical responsibility."
         },
         "p2": "Every action we undertake reflects our principles, keeping us independent, relevant, and valuable."
       }
     },
-    "creativity":
-    {
+    "creativity": {
       "title": "Creativity",
       "text": "Innovation in every detail"
     },
-    "passion":
-    {
+    "passion": {
       "title": "Passion",
       "text": "Love for what we do"
     },
-    "quality":
-    {
+    "quality": {
       "title": "Quality",
       "text": "Excellence without compromise"
     }
@@ -200,8 +189,7 @@
       "title": "Message",
       "placeholder": "We love you, you are the best."
     },
-    "button":
-    {
+    "button": {
       "idle": "Send Message",
       "invalid": "Invalid Message",
       "sending": "Sending...",
@@ -216,11 +204,9 @@
     "weekend": "WEEKEND",
     "appointment": "ONLY BY APPOINTMENT",
     "button_appointment": "MAKE AN APPOINTMENT",
-    "thankscard":
-    {
+    "thankscard": {
       "title": "THANK YOU FOR TRUSTING US",
-      "text":
-      {
+      "text": {
         "p1": "From Rhon Studios, we truly appreciate everyone who stops by. We work hard every day to make people fall in love with our creations, just as we do.",
         "p2": "We do this not just for ourselves, but so you can see the world and its beauty the way we do.",
         "p3": "Don't forget to reach out!"
@@ -245,40 +231,32 @@
     "rights": "All rights reserved"
   },
   "gamePage": {
-    "notfound":
-    {
+    "notfound": {
       "game": "Juego no encontrado",
       "button": "Volver al inicio"
     },
-    "mechanics":
-    {
+    "mechanics": {
       "title": "Propuesta de Valor",
       "subtitle": "Innovación y Oportunidad",
-      "mechanics":
-      {
+      "mechanics": {
         "title": "Mecánicas Innovadoras"
       },
-      "market":
-      {
-        "title" : "Oportunidad de Mercado"
+      "market": {
+        "title": "Oportunidad de Mercado"
       },
-      "technics":
-      {
+      "technics": {
         "title": "Tech Specifications"
       }
     },
-    "roadmap":
-    {
+    "roadmap": {
       "title": "Roadmap",
       "subtitle": "",
-      "vision":
-      {
+      "vision": {
         "title": "Visión General",
         "progress": "Progreso",
         "completed": "Completado"
       },
-      "roadmap": 
-      {
+      "roadmap": {
         "title": "Roadmap",
         "completed": "Completed",
         "inProgress": "In Progress",
@@ -286,16 +264,14 @@
         "toDecide": "Por Decidir"
       }
     },
-    "investment":
-    {
+    "investment": {
       "title": "Investment Opportunity",
       "subtitle": "Growth and Opportunity",
       "monetization": "Monetization Model",
       "roi": "Return Potential",
       "keys": "Key Highlights for Investors"
     },
-    "contact":
-    {
+    "contact": {
       "title": "",
       "description": "",
       "button": "",
@@ -365,8 +341,7 @@
       "project_label": "Filter by project:",
       "area_label": "Filter by area:",
       "all": "All",
-      "areas":
-      {
+      "areas": {
         "all": "All",
         "art": "Art",
         "programming": "Programming",
@@ -392,7 +367,7 @@
       "empty_area": "No roles available in this area for this project."
     }
   },
-  "devblogpage":{
+  "devblogpage": {
     "writed": "Writed by:"
   },
   "collaboratorsDetails": {
@@ -410,7 +385,7 @@
       "see": "See Our Oportunities"
     }
   },
-  "links":{
+  "links": {
     "links": {
       "coffee": "Buy Me a Coffee",
       "games": "Our Games",
