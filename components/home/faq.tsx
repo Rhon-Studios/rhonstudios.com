@@ -21,7 +21,7 @@ export function FAQ() {
   return (
     <section
       id="faq"
-      className="scroll-mt-[5px] relative bg-black text-white overflow-hidden"
+      className="scroll-mt-1.25 relative bg-black text-white overflow-hidden"
       style={{ minHeight: "20vh" }}
     >
       <div className="container mx-auto px-4 sm:p-8 lg:px-16 mb-10">
@@ -57,13 +57,13 @@ export function FAQ() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: i * 0.05 }}
                   viewport={{ once: true }}
-                  className={`border transition-all duration-300 ${
+                  className={` border transition-all duration-300 ${
                     open === i ? "border-white/60" : "border-white/25 hover:border-white/45"
                   }`}
                 >
                   <button
                     onClick={() => setOpen(open === i ? null : i)}
-                    className="w-full flex items-center justify-between gap-6 px-8 py-6 text-left"
+                    className="cursor-pointer w-full flex items-center justify-between gap-6 px-8 py-6 text-left"
                   >
                     <span
                       className="text-base tracking-wide"

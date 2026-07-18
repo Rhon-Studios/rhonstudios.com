@@ -107,7 +107,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="scroll-mt-[10px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
+      className="scroll-mt-2.5 relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
       style={{ minHeight: "100vh" }}
     >
       <div className="container mx-auto px-4 sm:px-8 lg:px-10">
@@ -127,7 +127,7 @@ export function Contact() {
                 {t.contact.type_contact}
               </p>
               <div className="flex items-center justify-center gap-4 sm:gap-6 mb-6 sm:mb-8">
-                <div className="w-16 sm:w-24 h-[2px] bg-white" />
+                <div className="w-16 sm:w-24 h-0.5 bg-white" />
                 <button
                   onClick={handleToggleCompany}
                   className={`
@@ -151,7 +151,7 @@ export function Contact() {
                     transition={{ type: "spring", stiffness: 500, damping: 30 }}
                   />
                 </button>
-                <div className="w-16 sm:w-24 h-[2px] bg-white" />
+                <div className="w-16 sm:w-24 h-0.5 bg-white" />
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@ export function Contact() {
                   onClick={() => {
                     if (status === "alreadySent") setStatus("alreadySentV2");
                   }}
-                  className="w-full py-3 sm:py-4 border-2 border-white text-xs sm:text-sm tracking-wider uppercase bg-black hover:bg-white hover:text-black transition-all duration-300"
+                  className="cursor-pointer w-full py-3 sm:py-4 border-2 border-white text-xs sm:text-sm tracking-wider uppercase bg-black hover:bg-white hover:text-black transition-all duration-300"
                   style={{ fontFamily: "Cormorant Garamond" }}
                   disabled={
                     status === "sending" ||
@@ -263,7 +263,7 @@ export function Contact() {
                     <div className="flex items-center gap-4 sm:gap-6">
                       <a
                         href={SOCIALS.mail.url}
-                        className="w-12 h-12 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center flex-shrink-0 hover:bg-white hover:text-black transition-all duration-300"
+                        className="w-12 h-12 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center shrink-0 hover:bg-white hover:text-black transition-all duration-300"
                         aria-label="Mail"
                       >
                         <SOCIALS.mail.icon size={18} strokeWidth={2} />
@@ -297,12 +297,12 @@ export function Contact() {
                         <span>{t.contact.days}</span>
                         <span>{t.contact.hours}</span>
                       </div>
-                      <div className="w-full h-[1px] bg-white/20"></div>
+                      <div className="w-full h-px bg-white/20"></div>
                       <div className="flex justify-between text-xs sm:text-sm tracking-wide">
                         <span>{t.contact.weekend}</span>
                         <span>{t.contact.appointment}</span>
                       </div>
-                      <div className="w-full h-[1px] bg-white/20"></div>
+                      <div className="w-full h-px bg-white/20"></div>
                       <div className="mt-4">
                         <a
                           className="inline-flex items-center gap-2 text-xs tracking-wider uppercase px-3 sm:px-4 py-2 border-2 border-white rounded-md transition-all duration-300"
@@ -319,7 +319,7 @@ export function Contact() {
                     <div className="flex items-center gap-4 sm:gap-6">
                       <a
                         href={SOCIALS.github.url}
-                        className="w-12 h-12 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center flex-shrink-0 hover:bg-white hover:text-black transition-all duration-300"
+                        className="w-12 h-12 sm:w-14 sm:h-14 border-2 border-white flex items-center justify-center shrink-0 hover:bg-white hover:text-black transition-all duration-300"
                         aria-label="GitHub"
                       >
                         <SOCIALS.github.icon size={18} strokeWidth={2} />
@@ -346,14 +346,14 @@ export function Contact() {
                 <>
                   <div className="border-2 border-white p-5 sm:p-8 text-center">
                     <div className="flex justify-center items-center gap-4 sm:gap-6 mb-3">
-                      <Heart className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
+                      <Heart className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
                       <h4
                         className="text-base sm:text-xl tracking-wider"
                         style={{ fontFamily: "Cinzel", fontWeight: "bold" }}
                       >
                         {t.contact.thankscard.title}
                       </h4>
-                      <Heart className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
+                      <Heart className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
                     </div>
                     <p
                       className="text-sm leading-relaxed mb-3 text-left"

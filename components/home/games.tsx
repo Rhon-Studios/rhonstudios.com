@@ -15,7 +15,7 @@ export function Games() {
   return (
     <section
       id="games"
-      className="scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
+      className="scroll-mt-25 relative bg-black text-white pt-16 sm:pt-32 overflow-hidden"
       style={{ minHeight: "100vh" }}
     >
       <div className="container mx-auto px-4 sm:p-8 lg:px-16">
@@ -35,14 +35,14 @@ export function Games() {
             {t.games.title}
           </h2>
           <div className="flex items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-12">
-            <div className="w-12 sm:w-24 lg:w-100 h-[2px] bg-white" />
+            <div className="w-12 sm:w-24 lg:w-100 h-0.5 bg-white" />
             <p
               className="text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase"
               style={{ fontFamily: "Cinzel" }}
             >
               {t.games.subtitle}
             </p>
-            <div className="w-12 sm:w-24 lg:w-100 h-[2px] bg-white" />
+            <div className="w-12 sm:w-24 lg:w-100 h-0.5 bg-white" />
           </div>
         </div>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-12">
@@ -52,7 +52,7 @@ export function Games() {
               <div
                 onClick={() => setSelectedGame(game)}
                 key={game.id}
-                className="relative border-2 border-white p-5 sm:p-6 md:p-8 overflow-hidden group h-[260px] md:h-[350px] flex flex-col items-center justify-center text-center sm:items-start sm:text-left cursor-pointer hover:bg-white/5 transition-all duration-300"
+                className="relative border-2 border-white p-5 sm:p-6 md:p-8 overflow-hidden group h-65 md:h-87.5 flex flex-col items-center justify-center text-center sm:items-start sm:text-left cursor-pointer hover:bg-white/5 transition-all duration-300"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center opacity-40"
@@ -155,7 +155,7 @@ export function Games() {
                     </p>
                     <div className="space-y-3 mb-6 sm:mb-8">
                       <div className="flex items-center gap-3 sm:gap-4">
-                        <div className="w-2 h-2 bg-white flex-shrink-0" />
+                        <div className="w-2 h-2 bg-white shrink-0" />
                         <span
                           className="text-xs sm:text-sm tracking-wider text-white/60"
                           style={{ fontFamily: "Cinzel" }}
@@ -170,7 +170,7 @@ export function Games() {
                         </span>
                       </div>
                       <div className="flex items-center gap-3 sm:gap-4">
-                        <div className="w-2 h-2 bg-white flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-white shrink-0"></div>
                         <span
                           className="text-xs sm:text-sm tracking-wider text-white/60"
                           style={{ fontFamily: "Cinzel" }}
@@ -185,7 +185,7 @@ export function Games() {
                         </span>
                       </div>
                       <div className="flex items-center gap-3 sm:gap-4">
-                        <div className="w-2 h-2 bg-white flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-white shrink-0"></div>
                         <span
                           className="text-xs sm:text-sm tracking-wider text-white/60"
                           style={{ fontFamily: "Cinzel" }}
@@ -202,7 +202,7 @@ export function Games() {
                     </div>
                     <button
                       onClick={() => router.push(`/games/${selectedGame.id}`)}
-                      className="w-full sm:w-auto border-2 border-white px-8 sm:px-12 py-3 text-xs sm:text-sm tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
+                      className="cursor-pointer w-full sm:w-auto border-2 border-white px-8 sm:px-12 py-3 text-xs sm:text-sm tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
                       style={{ fontFamily: "Cinzel", fontWeight: 200 }}
                     >
                       {t.games.game_card.know_more}

@@ -44,7 +44,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black"></div>
       <div className="relative z-10 container mx-auto px-6 sm:px-8 lg:px-16 text-center">
         <div className="mb-6 sm:mb-8">
-          <div className="inline-block border border-white px-6 sm:px-8 py-2 sm:py-3 mt-[120px] sm:mt-[250px]">
+          <div className="inline-block border border-white px-6 sm:px-8 py-2 sm:py-3 mt-30 sm:mt-62.5">
             <p
               className="text-[9px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase"
               style={{ fontFamily: "Cinzel" }}
@@ -60,7 +60,7 @@ export function Hero() {
           Rhon Studios
         </h1>
         <div className="flex items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-12">
-          <div className="w-12 sm:w-24 h-[2px] bg-white"></div>
+          <div className="w-12 sm:w-24 h-0.5 bg-white"></div>
           <AnimatePresence mode="wait">
             <motion.div
               key={titles[index]}
@@ -74,7 +74,7 @@ export function Hero() {
               {titles[index]}
             </motion.div>
           </AnimatePresence>
-          <div className="w-12 sm:w-24 h-[2px] bg-white"></div>
+          <div className="w-12 sm:w-24 h-0.5 bg-white"></div>
         </div>
         <p
           className="text-sm sm:text-base lg:text-lg max-w-xs sm:max-w-xl lg:max-w-3xl mx-auto mb-10 sm:mb-16 leading-relaxed tracking-wide px-2"
@@ -92,7 +92,7 @@ export function Hero() {
           transition={{ duration: 0.3 }}
         >
           <span
-            className="inline-block px-10 sm:px-16 py-4 sm:py-5 border-2 border-white text-xs sm:text-sm tracking-[0.2em] uppercase bg-black group-hover:bg-white group-hover:text-black transition-all duration-300"
+            className="cursor-pointer inline-block px-10 sm:px-16 py-4 sm:py-5 border-2 border-white text-xs sm:text-sm tracking-[0.2em] uppercase bg-black group-hover:bg-white group-hover:text-black transition-all duration-300"
             style={{ fontFamily: "Cinzel", fontWeight: 200 }}
           >
             {t.hero.button}

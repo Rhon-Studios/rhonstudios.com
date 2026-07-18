@@ -28,7 +28,7 @@ function NavGroup({
     <div className="flex flex-col items-center text-center">
       <button
         onClick={onPrimary}
-        className="tracking-wider uppercase hover:opacity-60 transition text-base lg:text-[22px] xl:text-[25px] leading-none text-white"
+        className="cursor-pointer tracking-wider uppercase hover:opacity-60 transition text-base lg:text-[22px] xl:text-[25px] leading-none text-white"
         style={{ fontFamily }}
       >
         {primary}
@@ -50,7 +50,7 @@ function NavGroup({
                 )}
                 <button
                   onClick={() => scrollTo(sub.id)}
-                  className="tracking-wider uppercase text-white/40 hover:text-white/75 transition-colors leading-none text-sm lg:text-base"
+                  className="cursor-pointer tracking-wider uppercase text-white/40 hover:text-white/75 transition-colors leading-none text-sm lg:text-base"
                   style={{ fontFamily }}
                 >
                   {sub.label}
@@ -222,7 +222,7 @@ export function Header() {
     <div className="relative flex items-center border-2 border-white rounded-sm overflow-hidden">
       <button
         onClick={() => setLanguage("en")}
-        className="relative flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
+        className="cursor-pointer relative flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
         style={{ fontFamily: "Cinzel" }}
       >
         <p className="text-white text-center text-sm">EN</p>
@@ -233,7 +233,7 @@ export function Header() {
       <div className="w-px h-6 bg-white/40" />
       <button
         onClick={() => setLanguage("es")}
-        className="relative flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
+        className="cursor-pointer relative flex-1 px-4 py-2 tracking-widest uppercase hover:bg-white/10 transition-all duration-300"
         style={{ fontFamily: "Cinzel" }}
       >
         <p className="text-white text-center text-sm">ES</p>
@@ -247,7 +247,7 @@ export function Header() {
   const HamburgerBtn = ({ border2 = false }: { border2?: boolean }) => (
     <button
       onClick={() => setIsMenuOpen(!isMenuOpen)}
-      className={`relative w-10 h-10 ${border2 ? "border-2" : "border"} border-white rounded-sm flex flex-col items-center justify-center gap-1.5 hover:bg-white/10 transition-all duration-300`}
+      className={`cursor-pointer relative w-10 h-10 ${border2 ? "border-2" : "border"} border-white rounded-sm flex flex-col items-center justify-center gap-1.5 hover:bg-white/10 transition-all duration-300`}
       aria-label="Toggle menu"
     >
       <span
@@ -347,7 +347,7 @@ export function Header() {
           <Image
             src={logo}
             alt={logoAlt}
-            width={180}
+            width={100}
             height={90}
             sizes="(max-width: 640px) 140px, 180px"
             className="h-22.5 transition-all duration-500 ease-out scale-90 opacity-0 animate-logoPop"
@@ -545,7 +545,7 @@ export function Header() {
                   <button
                     onClick={() => router.push("/#games")}
                     style={{ fontFamily: game?.theme.fontTitle }}
-                    className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
+                    className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
                   >
                     {t.game_menu.home}
                   </button>
@@ -662,7 +662,9 @@ export function Header() {
             style={{ fontFamily: "Cinzel" }}
           >
             <ArrowLeft size={18} />
-            <span className="hidden sm:inline text-sm tracking-wider uppercase">{t.menu.team}</span>
+            <span className="cursor-pointer hidden sm:inline text-sm tracking-wider uppercase">
+              {t.menu.team}
+            </span>
           </button>
 
           <a href="/" className="absolute left-1/2 -translate-x-1/2">
@@ -789,20 +791,20 @@ export function Header() {
 
       <button
         onClick={onClick}
-        className="text-l tracking-wider uppercase text-white/30 group-hover:text-white/80 mb-1 transition-colors"
+        className="cursor-pointer text-l tracking-wider uppercase text-white/30 group-hover:text-white/80 mb-1 transition-colors"
         style={{ fontFamily: "Cinzel", fontWeight: 300 }}
       >
         {label}
       </button>
 
       {subs.length > 0 && (
-        <div className="mt-2 flex flex-wrap gap-x-2 gap-y-1">
+        <div className=" mt-2 flex flex-wrap gap-x-2 gap-y-1">
           {subs.map((sub, i) => (
             <span key={sub.id} className="flex items-center">
               {i > 0 && <span className="text-white/15 mr-2 text-[10px]">·</span>}
               <button
                 onClick={() => scrollTo(sub.id)}
-                className="text-[11px] tracking-wide uppercase text-white/25 hover:text-white/70 transition-colors"
+                className="cursor-pointer text-[11px] tracking-wide uppercase text-white/25 hover:text-white/70 transition-colors"
                 style={{ fontFamily: "Cinzel" }}
               >
                 {sub.label}

@@ -149,7 +149,7 @@ export function Footer() {
           ? t.devblog_menu.devblogs
           : t.footer.links;
 
-  const footerLogo = isGamePage && game?.logo ? game.logo : "/Logos/RhonLabel.png";
+  const footerLogo = isGamePage && game?.logo ? game.logo : "/logos/RhonLabel.png";
   const footerLogoAlt = isGamePage ? (game?.title ?? "Rhon Studios") : "Rhon Studios";
 
   const showBackLink = isJoinPage || isGamePage || isDevBlogPage || isCollabPage;
@@ -206,7 +206,7 @@ export function Footer() {
                           )}
                           <button
                             onClick={sub.onClick}
-                            className="text-[10px] sm:text-[11px] tracking-wide text-white/50 hover:text-white/80 transition"
+                            className="cursor-pointer text-[10px] sm:text-[11px] tracking-wide text-white/50 hover:text-white/80 transition"
                             style={{ fontFamily: "Cinzel" }}
                           >
                             {sub.label}

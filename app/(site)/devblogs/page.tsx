@@ -7,8 +7,15 @@ import { devBlogPosts, DevBlogPost as DevBlogPostData } from "@/libs/database/de
 import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { useRouter } from "next/navigation";
 
-type ProjectFilter = "Todos" | "Tonkori" | "Afterlight" | "Estudio" | "General";
-const FILTERS: ProjectFilter[] = ["Todos", "Tonkori", "Afterlight", "Estudio", "General"];
+type ProjectFilter = "Todos" | "Rhon Studios" | "Tonkori" | "Afterlight" | "Estudio" | "General";
+const FILTERS: ProjectFilter[] = [
+  "Todos",
+  "Rhon Studios",
+  "Tonkori",
+  "Afterlight",
+  "Estudio",
+  "General",
+];
 
 export default function DevBlogsIndex() {
   const [filter, setFilter] = useState<ProjectFilter>("Todos");
@@ -48,7 +55,7 @@ export default function DevBlogsIndex() {
               <button
                 key={f}
                 onClick={() => setFilter(f)}
-                className={`text-xs tracking-[0.15em] uppercase px-4 py-2 border transition-all duration-200 ${
+                className={`cursor-pointer text-xs tracking-[0.15em] uppercase px-4 py-2 border transition-all duration-200 ${
                   filter === f
                     ? "border-white bg-white text-black"
                     : "border-white/25 text-white/45 hover:border-white/55 hover:text-white"
@@ -141,7 +148,7 @@ function PostCard({ post }: { post: DevBlogPostData }) {
         </span>
         <button
           onClick={() => router.push(`/devblogs/${post.slug}`)}
-          className="text-xs tracking-[0.2em] uppercase text-white/40 group-hover:text-white transition flex items-center gap-1"
+          className="cursor-pointer text-xs tracking-[0.2em] uppercase text-white/40 group-hover:text-white transition flex items-center gap-1"
           style={{ fontFamily: "Cinzel" }}
         >
           Leer <ArrowLeft className="w-3 h-3 rotate-180" />

@@ -146,7 +146,7 @@ export function Highlight() {
       <div className="absolute bottom-10 sm:bottom-14 left-1/2 -translate-x-1/2">
         <button
           onClick={() => router.push(`/games/${game.id}`)}
-          className="inline-block px-8 sm:px-16 py-3 sm:py-5 border-2 border-white text-xs sm:text-sm tracking-[0.2em] uppercase bg-black hover:bg-white hover:text-black transition-all duration-300 whitespace-nowrap"
+          className="cursor-pointer inline-block px-8 sm:px-16 py-3 sm:py-5 border-2 border-white text-xs sm:text-sm tracking-[0.2em] uppercase bg-black hover:bg-white hover:text-black transition-all duration-300 whitespace-nowrap"
           style={{ fontFamily: "Cinzel", fontWeight: 200 }}
         >
           {t.highlight.button}

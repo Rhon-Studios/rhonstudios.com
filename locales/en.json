@@ -22,12 +22,12 @@
   },
   "join_menu": {
     "join": "Nuestras Oportunidades",
-    "home": "Inicio",
+    "home": "Home",
     "conditions": "Condiciones",
     "opportunities": "Opportunities"
   },
   "devblog_menu": {
-    "home": "Inicio",
+    "home": "Home",
     "devblogs": "Dev Blogs"
   },
   "hero": {
@@ -232,17 +232,17 @@
   },
   "gamePage": {
     "notfound": {
-      "game": "Juego no encontrado",
-      "button": "Volver al inicio"
+      "game": "Game not found",
+      "button": "Go back home"
     },
     "mechanics": {
-      "title": "Propuesta de Valor",
-      "subtitle": "Innovación y Oportunidad",
+      "title": "Value Proposition",
+      "subtitle": "Innovation and Opportunity.",
       "mechanics": {
-        "title": "Mecánicas Innovadoras"
+        "title": "Innovative Mechanics."
       },
       "market": {
-        "title": "Oportunidad de Mercado"
+        "title": "Market Opportunity."
       },
       "technics": {
         "title": "Tech Specifications"
@@ -252,16 +252,16 @@
       "title": "Roadmap",
       "subtitle": "",
       "vision": {
-        "title": "Visión General",
-        "progress": "Progreso",
-        "completed": "Completado"
+        "title": "General Overview",
+        "progress": "Progress",
+        "completed": "Completed"
       },
       "roadmap": {
         "title": "Roadmap",
         "completed": "Completed",
         "inProgress": "In Progress",
         "planned": "Planned",
-        "toDecide": "Por Decidir"
+        "toDecide": "To Be Decided"
       }
     },
     "investment": {
