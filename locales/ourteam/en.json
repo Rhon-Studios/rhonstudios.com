@@ -37,6 +37,13 @@
       "tagline": "Combining creativity and coding",
       "bio": "I work on the full development pipeline, from modelling, texturing, and animating in Blender to assembling, wiring and programming in game engines. I especially love modelling architecture, towns, cities, putting together levels, and programming systems that make worlds feel alive and interactive. ",
       "contributions": ["3D Object Modeling", "3D Buildings Modeling"]
+    },
+    "tinomhedziso": {
+      "role": "Programmer",
+      "subrole": "Web Developer",
+      "tagline": "Be safe, friend. Don't you dare go hollow.",
+      "bio": "Web developer by trade, professional overthinker, and lifelong learner. I enjoy the technical side of things, improving performance, refining user experiences, and making sure the small details don't get overlooked, but what keeps me excited about any project is the people behind it.\nRhon Studios is more than a collection of games. It's a group of ambitious people building something they genuinely believe in. The games are important, but for me the best part of the journey is the conversations, the ideas, the lessons learned, and the people I get to build alongside.",
+      "contributions": ["Web Develop Support", "Web Optimization"]
     }
   }
 }

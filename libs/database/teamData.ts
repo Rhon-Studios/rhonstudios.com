@@ -1,6 +1,7 @@
 ﻿export type TeamMemberId = "rashri" | "camilo";
 
-export type CollaboratorId = "test" | "angelramirez" | "marielodiard" | "sayyidali";
+export type CollaboratorId =
+  "test" | "angelramirez" | "marielodiard" | "sayyidali" | "tinomhedziso";
 
 export interface Person {
   name: string;
@@ -141,5 +142,26 @@ export const collaborators: Collaborator[] = [
     },
     status: "active",
     name: "Sayyid Ali",
+  },
+  {
+    id: "tinomhedziso",
+    visible: true,
+    role: "Dev",
+    area: "Rhon Studios",
+    coverImage:
+      "https://digital-atlas1.vercel.app/_next/image?url=%2Fimages%2Fhero-image.jpg&w=3840&q=75",
+    links: {
+      portfolio: "https://digital-atlas1.vercel.app/",
+      web: undefined,
+      github: "https://github.com/Passion-Over-Pain",
+      linkedin: "https://linkedin.com/in/tinotenda-mhedziso",
+      twitter: undefined,
+      instagram: undefined,
+      youtube: undefined,
+      buymeacoffee: undefined,
+      email: undefined,
+    },
+    status: "active",
+    name: "Tino Mhedziso",
   },
 ];
