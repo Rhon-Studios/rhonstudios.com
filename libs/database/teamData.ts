@@ -130,7 +130,7 @@ export const collaborators: Collaborator[] = [
     area: "Tonkori",
     coverImage: "",
     links: {
-      portfolio: "sayyid-ali-game-developer.pages.dev",
+      portfolio: "https://sayyid-ali-game-developer.pages.dev/",
       web: undefined,
       github: undefined,
       linkedin: undefined,
