@@ -37,6 +37,13 @@
       "tagline": "Combinando creatividad y programación",
       "bio": "Trabajo en todo el proceso de desarrollo, desde el modelado, texturizado y animación en Blender hasta el montaje, la integración y la programación en motores de videojuegos. Me apasiona especialmente modelar arquitectura, pueblos y ciudades, diseñar niveles y programar sistemas que hagan que los mundos se sientan vivos e interactivos.",
       "contributions": ["Modelado de objetos 3D", "Modelado de edificios 3D"]
+    },
+    "tinomhedziso": {
+      "role": "Programador",
+      "subrole": "Desarrollador Web",
+      "tagline": "Cuídate, amigo. No te atrevas a volverte Hueco.",
+      "bio": "Desarrollador web de profesión, sobrepensador profesional y aprendiz de por vida. Disfruto del lado técnico de las cosas: mejorar el rendimiento, perfeccionar la experiencia de usuario y asegurarme de que los pequeños detalles no pasen desapercibidos. Pero lo que realmente me entusiasma de cualquier proyecto es la gente que hay detrás.\nRhon Studios es mucho más que una colección de juegos. Es un grupo de personas ambiciosas construyendo algo en lo que creen de verdad. Los juegos son importantes, pero para mí la mejor parte del camino son las conversaciones, las ideas, las lecciones aprendidas y las personas con las que tengo la oportunidad de construir.",
+      "contributions": ["Soporte de Desarrollo Web", "Optimización Web"]
     }
   }
 }

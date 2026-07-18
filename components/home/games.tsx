@@ -83,14 +83,6 @@ export function Games() {
             );
           })}
         </div>
-        <div className="text-center mt-12 sm:mt-20">
-          <p
-            className="text-sm sm:text-lg tracking-wide opacity-60"
-            style={{ fontFamily: "Cinzel" }}
-          >
-            {t.games.more_projects}
-          </p>
-        </div>
       </div>
       <AnimatePresence>
         {selectedGame &&
