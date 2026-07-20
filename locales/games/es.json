@@ -102,15 +102,15 @@
   },
   "tonkori": {
     "subtitle": "¿Prefieres salvar el mundo... o salvarte a ti?",
-    "description": "Tonkori es la gran estrella de Rhon, un juego que llevamos desarrollando desde 2024. Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
+    "description": "Tonkori es la gran estrella de Rhon, un RPG narrativo en 3D que llevamos desarrollando desde 2024. Eres Scrap, un don nadie de Uranus, el asentamiento más pobre y despreciado de Khal'Loth, arrastrado por accidente a una expedición que debía terminar en fracaso y que en cambio se convierte en la primera grieta de una conspiración que llega hasta el trono más alto de la civilización humana.",
     "description2": "Tus elecciones crean la historia, tus relaciones con los compañeros y la forma en la que el mundo reacciona a ti. No hay una historia igual, solo la que eliges.",
-    "status": "En Desarrollo",
-    "genre": "RPG Narrativo",
+    "status": "En Pausa - Desarrollo Narrativo",
+    "genre": "RPG Narrativo 3D",
     "year": "Próximamente",
     "pitch": "Tus decisiones cambian el mundo y las relaciones con tus compañeros.",
     "mechanics": [
       {
-        "title": "Decision con peso real",
+        "title": "Decisión con peso real",
         "description": "Cada elección, quién eres o cómo te comportas, redefine la historia, las relaciones y el mundo de Arceon que te rodea."
       },
       {
@@ -118,8 +118,8 @@
         "description": "Los compañeros recuerdan todo. Pueden convertirse en aliados, amantes o enemigos según cómo los trates."
       },
       {
-        "title": "Sin respuestas correctas",
-        "description": "Narrativa en tres actos con libertad de orden. Toda pregunta tiene respuesta; el camino lo eliges tú."
+        "title": "Sistema de orígenes",
+        "description": "Cinco orígenes distintos (Khalnoith, Vaelen, Grunthor, Ashford, Enkurok) son lentes diferentes sobre los mismos hechos, no niveles de dificultad. Ninguno es el camino 'correcto'."
       }
     ],
     "market": [
@@ -129,22 +129,22 @@
       },
       {
         "title": "Ventaja Competitiva",
-        "description": "Tonkori no compite con la acción rápida. Apunta al jugador que busca sumergirse en una historia que lo recuerde a él. La combinación de un sistema de decisiones con peso emocional real, compañeros dinámicos y narrativa elaborada lo diferencia de los RPGs genéricos del mercado indie."
+        "description": "Tonkori no compite con la acción rápida. Apunta al jugador que busca sumergirse en un mundo tridimensional cálido y artesanal, con una historia profunda y compañeros que responden de verdad a sus decisiones. La combinación de un sistema narrativo con peso emocional real y una ambientación cuidada lo diferencia de los RPGs genéricos del mercado indie."
       },
       {
         "title": "Tags",
-        "description": "Decisiones con consecuencias · Sin finales predeterminados · Compañeros dinámicos · Desarrollado en español · Estudio indie apasionado"
+        "description": "RPG 3D narrativo · Decisiones con consecuencias · Sin finales predeterminados · Compañeros dinámicos · Desarrollado en español · Estudio indie apasionado"
       }
     ],
     "technic": [
       {
         "title": "Motor",
-        "description": "Por definir -Iniciado en Godot; escalando a motor 3D potente o motor propio según avance el proyecto"
+        "description": "Por definir - En evaluación entre distintos motores 3D para lograr la experiencia deseada"
       },
       { "title": "Plataformas", "description": "PC · PlayStation · Xbox Series" },
-      { "title": "Género ", "description": "RPG narrativo" },
+      { "title": "Género", "description": "RPG narrativo 3D de acción y aventura" },
       { "title": "Jugadores", "description": "Un jugador" },
-      { "title": "Estado", "description": "Concepto/Pre-Producción (-8% completado)" },
+      { "title": "Estado", "description": "En pausa / Proceso narrativo (-8% completado)" },
       { "title": "Lanzamiento", "description": "Fecha por definir" },
       {
         "title": "Idiomas",
@@ -157,17 +157,17 @@
       { "title": "Herramientas", "description": "Affinity · Krita · Aesprite · Notion" }
     ],
     "development": {
-      "current_phase": "Concepto/Pre-Producción (-8% completado)",
+      "current_phase": "Pausado - Consolidando la Biblia Narrativa antes de retomar producción (-8% completado)",
       "team_size": "Equipo de 2 personas",
       "timeline": "Q4 2022 - Inicio del proyecto"
     },
-    "vision": "Un RPG donde cada decisión importa, los compañeros recuerdan, y la historia que vives es únicamente tuya. No hay caminos correctos — solo consecuencias.",
+    "vision": "Un RPG 3D donde cada decisión importa, los compañeros recuerdan, y la historia que vives es únicamente tuya. No hay caminos correctos, solo consecuencias.",
     "roadmap": [
       {
         "phase": "Concepto y diseño",
         "status": "completed",
         "items": [
-          "Definición del mundo de Arceon",
+          "Definición del mundo",
           "Personajes principales",
           "Mecánicas core",
           "Narrativa base",
@@ -175,17 +175,26 @@
         ]
       },
       {
-        "phase": "Pre-producción",
+        "phase": "Biblia narrativa",
         "status": "in-progress",
         "items": [
-          "Documentación técnica",
+          "Brief narrativo del juego",
+          "Fichas de personaje de compañeros y romances",
+          "Estructura de actos y giros clave",
+          "Documentación técnica"
+        ]
+      },
+      {
+        "phase": "Pre-producción",
+        "status": "planned",
+        "items": [
           "Arte conceptual",
-          "Selección definitiva de motor",
+          "Selección definitiva de motor 3D",
           "Planificación de producción"
         ]
       },
       {
-        "phase": "Prototipo técnico ",
+        "phase": "Prototipo técnico",
         "status": "planned",
         "items": [
           "Sistema de decisiones funcional",
@@ -220,11 +229,11 @@
     ],
     "investment": {
       "monetization": "Pago único (premium) o Early Access seguido de lanzamiento completo. Decisión final tras evaluar la comunidad una vez el prototipo esté activo.",
-      "roi": " Mercado de RPG narrativos en crecimiento sostenido del 12% anual. Referentes como Hades o Disco Elysium demuestran el apetito por propuestas indie con identidad fuerte.",
+      "roi": "Mercado de RPG narrativos en crecimiento sostenido del 12% anual. El apetito por propuestas con sistemas de compañeros profundos e identidad artística fuerte sigue en aumento dentro del segmento indie.",
       "keys": [
-        "Concepto sólido con diferenciación clara en el mercado indie de RPGs narrativos.",
+        "Concepto sólido con diferenciación clara en el mercado indie de RPGs narrativos en 3D.",
         "Equipo pequeño y comprometido, con perfil complementario (narrativa + programación/arte)",
-        "Primer proyecto del estudio: mayor agilidad y sin deuda técnica acumulada.",
+        "Primer proyecto grande del estudio: mayor agilidad y sin deuda técnica acumulada.",
         "Público objetivo activo y dispuesto a pagar por experiencias narrativas de calidad.",
         "Desarrollado en español, lengua nativa de un mercado de jugadores masivo e infrarrepresentado."
       ]

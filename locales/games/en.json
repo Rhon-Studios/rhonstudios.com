@@ -1,24 +1,24 @@
 {
   "tonkori": {
-    "subtitle": "Would You Rather Save the World... or Save Yourself?",
-    "description": "Tonkori is Rhon's flagship title, a game we have been developing since 2024. Your choices shape the story, your relationships with companions, and the way the world reacts to you. No two stories are alike—only the one you choose.",
-    "description2": "Your choices shape the story, your relationships with companions, and the way the world reacts to you. No two stories are alike—only the one you choose.",
-    "status": "In Development",
-    "genre": "Narrative RPG",
+    "subtitle": "Would you rather save the world... or save yourself?",
+    "description": "Tonkori is Rhon's flagship title, a 3D narrative RPG we've been developing since 2024. You are Scrap, a nobody from Uranus, the poorest and most looked-down-upon settlement in Khal'Loth, dragged by accident into an expedition meant to end in failure, one that instead becomes the first crack in a conspiracy reaching all the way to the highest seat of human civilization.",
+    "description2": "Your choices shape the story, your relationships with companions, and the way the world reacts to you. No story is the same, only the one you choose.",
+    "status": "On Hold - Narrative Development",
+    "genre": "3D Narrative RPG",
     "year": "Coming Soon",
     "pitch": "Your decisions change the world and your relationships with your companions.",
     "mechanics": [
       {
-        "title": "Meaningful Decisions",
-        "description": "Every choice, who you are, and how you behave redefine the story, relationships, and the world of Arceon around you."
+        "title": "Choices with real weight",
+        "description": "Every choice, who you are or how you behave, redefines the story, the relationships, and the world of Arceon around you."
       },
       {
-        "title": "Companions with Memory",
+        "title": "Companions who remember",
         "description": "Companions remember everything. They can become allies, lovers, or enemies depending on how you treat them."
       },
       {
-        "title": "No Right Answers",
-        "description": "A three-act narrative with freedom of progression. Every question has an answer; the path is yours to choose."
+        "title": "Origin system",
+        "description": "Five distinct origins (Khalnoith, Vaelen, Grunthor, Ashford, Enkurok) are different lenses on the same events, not difficulty settings. None of them is the 'correct' path."
       }
     ],
     "market": [
@@ -27,123 +27,114 @@
         "description": "16–35 · $28.7B USD · 12% · NA · EU · APAC"
       },
       {
-        "title": "Competitive Advantage",
-        "description": "Tonkori does not compete through fast-paced action. It targets players seeking immersion in a story that remembers them. The combination of emotionally impactful decisions, dynamic companions, and carefully crafted storytelling sets it apart from generic indie RPGs."
+        "title": "Competitive Edge",
+        "description": "Tonkori doesn't compete with fast-paced action. It targets players looking to immerse themselves in a warm, handcrafted three-dimensional world, with a deep story and companions who genuinely respond to their decisions. The combination of a narrative system with real emotional weight and a carefully crafted setting sets it apart from generic RPGs in the indie market."
       },
       {
         "title": "Tags",
-        "description": "Meaningful Choices · No Predetermined Endings · Dynamic Companions · Developed in Spanish · Passionate Indie Studio"
+        "description": "3D narrative RPG · Choices with consequences · No predetermined endings · Dynamic companions · Developed in Spanish · Passionate indie studio"
       }
     ],
     "technic": [
       {
         "title": "Engine",
-        "description": "To be determined - Started in Godot; scaling to a powerful 3D engine or proprietary engine depending on project growth"
+        "description": "To be determined - Evaluating different 3D engines to achieve the desired experience"
       },
-      {
-        "title": "Platforms",
-        "description": "PC · PlayStation · Xbox Series"
-      },
-      {
-        "title": "Genre",
-        "description": "Narrative RPG"
-      },
-      {
-        "title": "Players",
-        "description": "Single-player"
-      },
-      {
-        "title": "Status",
-        "description": "Concept / Pre-Production (~8% completed)"
-      },
-      {
-        "title": "Release",
-        "description": "Date to be determined"
-      },
+      { "title": "Platforms", "description": "PC · PlayStation · Xbox Series" },
+      { "title": "Genre", "description": "3D narrative action-adventure RPG" },
+      { "title": "Players", "description": "Single player" },
+      { "title": "Status", "description": "On hold / Narrative process (-8% complete)" },
+      { "title": "Release", "description": "Date to be determined" },
       {
         "title": "Languages",
-        "description": "Spanish (native language) + English confirmed. Voice acting planned primarily in Spanish"
+        "description": "Spanish (native language) + English confirmed. Voice acting planned in Spanish as the main language"
       },
       {
         "title": "Monetization",
-        "description": "Premium one-time purchase with or without Early Access, followed by full release"
+        "description": "One-time purchase (premium) with/or without Early Access + full release"
       },
-      {
-        "title": "Tools",
-        "description": "Affinity · Krita · Aseprite · Notion"
-      }
+      { "title": "Tools", "description": "Affinity · Krita · Aesprite · Notion" }
     ],
     "development": {
-      "current_phase": "Concept / Pre-Production (~8% completed)",
-      "team_size": "2-person team",
-      "timeline": "Q4 2022 - Project started"
+      "current_phase": "On hold - Consolidating the Narrative Bible before resuming production (-8% complete)",
+      "team_size": "Team of 2 people",
+      "timeline": "Q4 2022 - Project start"
     },
-    "vision": "An RPG where every decision matters, companions remember, and the story you experience is uniquely yours. There are no correct paths—only consequences.",
+    "vision": "A 3D RPG where every decision matters, companions remember, and the story you live is uniquely yours. There are no right paths, only consequences.",
     "roadmap": [
       {
-        "phase": "Concept and Design",
+        "phase": "Concept and design",
         "status": "completed",
         "items": [
-          "Definition of the world of Arceon",
+          "World definition",
           "Main characters",
           "Core mechanics",
           "Base narrative",
-          "Game aesthetic"
+          "Game aesthetics"
         ]
       },
       {
-        "phase": "Pre-Production",
+        "phase": "Narrative bible",
         "status": "in-progress",
         "items": [
-          "Technical documentation",
+          "Game narrative brief",
+          "Companion and romance character sheets",
+          "Act structure and key plot turns",
+          "Technical documentation"
+        ]
+      },
+      {
+        "phase": "Pre-production",
+        "status": "planned",
+        "items": [
           "Concept art",
-          "Final engine selection",
+          "Final 3D engine selection",
           "Production planning"
         ]
       },
       {
-        "phase": "Technical Prototype",
+        "phase": "Technical prototype",
         "status": "planned",
         "items": [
-          "Functional decision-making system",
+          "Functional decision system",
           "First companions implemented",
           "Playable combat prototype"
         ]
       },
       {
-        "phase": "Voice Acting",
+        "phase": "Voice acting",
         "status": "to-decide",
-        "items": ["Add voice acting", "English localization"]
+        "items": ["Add voice acting", "English translation"]
       },
       {
-        "phase": "Vertical Slice",
+        "phase": "Vertical slice",
         "status": "planned",
         "items": [
-          "Playable demo of the first act showcasing the complete experience: narrative, companions, combat, and decisions"
+          "Playable demo of the first act showcasing the full experience: narrative, companions, combat, and decisions"
         ]
       },
       {
-        "phase": "Early Access (Possible)",
+        "phase": "Early Access (possible)",
         "status": "to-decide",
         "items": [
-          "Evaluate launching in Early Access to gather community feedback before the full release."
+          "Evaluation of launching in early access to gather community feedback before the full release."
         ]
       },
       {
-        "phase": "Full Release",
+        "phase": "Full release",
         "status": "to-decide",
-        "items": ["Official release on PC (Steam) and console platforms."]
+        "items": ["Official, final launch on PC (Steam) and console platforms."]
       }
     ],
     "investment": {
-      "monetization": "Premium one-time purchase or Early Access followed by full release. Final decision will be made after evaluating community feedback once the prototype is available.",
-      "roi": "Narrative RPG market growing steadily at 12% annually. Indie successes such as Hades and Disco Elysium demonstrate strong demand for games with a unique identity.",
+      "monetization": "One-time purchase (premium) or Early Access followed by full release. Final decision to be made after evaluating community feedback once the prototype is live.",
+      "roi": "Narrative RPG market growing steadily at 12% annually. Appetite for titles with deep companion systems and strong artistic identity keeps rising within the indie segment.",
       "keys": [
-        "Strong concept with clear differentiation in the indie narrative RPG market.",
-        "Small and committed team with complementary skills (narrative + programming/art).",
-        "Studio's first project: greater agility and no accumulated technical debt.",
-        "Active target audience willing to pay for high-quality narrative experiences.",
-        "Developed in Spanish, the native language of a massive and underrepresented player market."
+        "Solid concept with clear differentiation in the indie narrative 3D RPG market.",
+        "Small, committed team with complementary skill sets (narrative + programming/art)",
+        "Studio's first major project: greater agility and no accumulated technical debt.",
+        "Active target audience willing to pay for quality narrative experiences.",
+        "Developed in Spanish, the native language of a massive and underrepresented gaming market."
       ]
     }
   },
