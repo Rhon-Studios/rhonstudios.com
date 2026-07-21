@@ -44,7 +44,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black"></div>
       <div className="relative z-10 container mx-auto px-6 sm:px-8 lg:px-16 text-center">
         <div className="mb-6 sm:mb-8">
-          <div className="inline-block border border-white px-6 sm:px-8 py-2 sm:py-3 sm:mt-10 md:mt-25 lg:mt-85">
+          <div className="inline-block border border-white px-6 sm:px-8 py-2 sm:py-3 sm:mt-10 md:mt-25 lg:mt-65">
             <p
               className="text-[9px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase"
               style={{ fontFamily: "Cinzel" }}
