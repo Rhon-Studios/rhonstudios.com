@@ -1,5 +1,5 @@
 ﻿export interface DevBlogPost {
-  id: "db-001" | "db-002" | "db-003";
+  id: "db-001" | "db-002" | "db-003" | "db-004";
   slug: string;
   project: "Tonkori" | "Afterlight" | "Rhon Studios" | "The Observer" | "Tiny Care";
   publishedAt: string;
@@ -30,7 +30,7 @@ export const devBlogPosts: DevBlogPost[] = [
     project: "Rhon Studios",
     publishedAt: "2026-07-04",
     readingTime: 5,
-    featured: true,
+    featured: false,
     authorType: "team",
     authorId: "rashri",
   },
@@ -41,6 +41,17 @@ export const devBlogPosts: DevBlogPost[] = [
     publishedAt: "2026-07-13",
     readingTime: 10,
     featured: true,
+    authorType: "team",
+    authorId: "rashri",
+  },
+  {
+    id: "db-004",
+    project: "Afterlight",
+    publishedAt: "2026-07-20",
+    readingTime: 6,
+    featured: true,
+    slug: "afterlight-enemy-design",
+    coverImage: "/logos/RhonStudios_Banner.png",
     authorType: "team",
     authorId: "rashri",
   },
