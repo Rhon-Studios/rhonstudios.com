@@ -17,7 +17,7 @@ import {
 import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { GameGallery } from "./GameGallery";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { getGameGallery } from "@/libs/database/mediaData";
 
 export interface GameTheme {
@@ -332,6 +332,37 @@ export function GamePageClient({ id }: { id: string }) {
   const game = getGameById(id);
   const { t } = useLanguage();
   const theme: GameTheme = { ...defaultTheme, ...(game?.theme ?? {}) };
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    if (!game?.music) return;
+    const audio = new Audio(game.music);
+    audio.loop = true;
+    audio.volume = 0;
+    audioRef.current = audio;
+    const targetVolume = 0.08;
+    const fadeSteps = 40;
+    const fadeDuration = 2000;
+    const fadeIncrement = targetVolume / fadeSteps;
+    const fadeInterval = fadeDuration / fadeSteps;
+
+    audio
+      .play()
+      .then(() => {
+        let currentVolume = 0;
+        const fadeIn = setInterval(() => {
+          currentVolume = Math.min(currentVolume + fadeIncrement, targetVolume);
+          audio.volume = currentVolume;
+          if (currentVolume >= targetVolume) clearInterval(fadeIn);
+        }, fadeInterval);
+      })
+      .catch(() => {});
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+      audioRef.current = null;
+    };
+  }, [game?.music]);
 
   const renderStatusIcon = (status: string) => {
     switch (status) {

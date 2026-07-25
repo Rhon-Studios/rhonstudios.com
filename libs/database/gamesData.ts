@@ -8,6 +8,7 @@ export interface GameData {
 
   heroImage: string;
   thumbnail: string;
+  music?: string;
 
   media: {
     screenshots: string[];
@@ -114,6 +115,7 @@ export const gamesData: GameData[] = [
     developmentProgress: 20,
     thumbnail: "/afterlight/Header.png",
     heroImage: "/afterlight/HeaderEmpty.png",
+    music: "/afterlight/music/Afterlight Piano Solo.wav",
     links: {
       steam: "",
       demo: "",
