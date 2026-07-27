@@ -38,11 +38,11 @@ export default function DevBlogPage() {
         <div className="container mx-auto max-w-4xl">
           <button
             onClick={() => router.push("/devblogs")}
-            className="inline-flex items-center gap-2 text-white/40 hover:text-white transition mb-10 sm:mb-12 text-sm tracking-wider"
+            className="cursor-pointer inline-flex items-center gap-2 text-white/40 hover:text-white transition mb-10 sm:mb-12 text-sm tracking-wider"
             style={{ fontFamily: "Cinzel" }}
           >
             <ArrowLeft className="w-4 h-4" />
-            Todos los posts
+            {t.devblog_menu.home}
           </button>
 
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
@@ -91,7 +91,7 @@ export default function DevBlogPage() {
                 className="text-sm uppercase tracking-[0.2em] text-white/40 mb-2"
                 style={{ fontFamily: "Cinzel" }}
               >
-                Escrito por
+                {t.devblog_menu.author}
               </p>
 
               <h3 className="text-2xl text-white" style={{ fontFamily: "Rye", fontWeight: 200 }}>

@@ -131,7 +131,7 @@ export function Contact() {
                 <button
                   onClick={handleToggleCompany}
                   className={`
-                                        relative w-28 sm:w-32 h-9 sm:h-10 border-2 border-white
+                                       cursor-pointer relative w-28 sm:w-32 h-9 sm:h-10 border-2 border-white
                                         transition-all duration-500
                                         hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]
                                         ${isCompany ? "bg-white" : "bg-black"}

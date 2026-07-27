@@ -126,7 +126,7 @@ function ThemedButton({
       onClick={onClick}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className={`border-2 transition-all duration-300 ${className ?? ""}`}
+      className={`cursor-pointer border-2 transition-all duration-300 ${className ?? ""}`}
       style={{
         ...style,
         borderColor: theme.accentBorder,
@@ -234,14 +234,14 @@ function SectionHeading({
           {title}
         </h2>
         <div className="flex items-center justify-center gap-3 sm:gap-4">
-          <div className="w-12 sm:w-20 h-[2px]" style={{ backgroundColor: accentBg }} />
+          <div className="w-12 sm:w-20 h-0.5" style={{ backgroundColor: accentBg }} />
           <p
             className="text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase"
             style={{ fontFamily: fontBody, color: fontBodyColor }}
           >
             {subtitle}
           </p>
-          <div className="w-12 sm:w-20 h-[2px]" style={{ backgroundColor: accentBg }} />
+          <div className="w-12 sm:w-20 h-0.5" style={{ backgroundColor: accentBg }} />
         </div>
       </div>
     </div>
@@ -268,7 +268,7 @@ function PanelBlock({
     <div className="p-6 sm:p-12 lg:p-16">
       <div className={`flex items-center gap-3 sm:gap-4 mb-8 sm:mb-12 ${alignClass}`}>
         {align !== "right" && (
-          <div className="w-8 sm:w-12 h-[2px]" style={{ backgroundColor: accentBg }} />
+          <div className="w-8 sm:w-12 h-0.5" style={{ backgroundColor: accentBg }} />
         )}
         <h3
           className="text-lg sm:text-3xl lg:text-4xl tracking-wider"
@@ -277,7 +277,7 @@ function PanelBlock({
           {heading}
         </h3>
         {align !== "left" && (
-          <div className="w-8 sm:w-12 h-[2px]" style={{ backgroundColor: accentBg }} />
+          <div className="w-8 sm:w-12 h-0.5" style={{ backgroundColor: accentBg }} />
         )}
       </div>
       {children}
@@ -390,9 +390,9 @@ export function GamePageClient({ id }: { id: string }) {
     return (
       <section
         id="gameError"
-        className="scroll-mt-[160px] relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
+        className="scroll-mt-40 relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black" />
         <div className="relative z-10 text-center">
           <h1
             className="text-3xl sm:text-4xl mb-8"
@@ -427,11 +427,11 @@ export function GamePageClient({ id }: { id: string }) {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${game.heroImage})`, filter: theme.heroFilter }}
         />
-        <div className={`absolute inset-0 bg-gradient-to-b ${theme.heroOverlay}`} />
+        <div className={`absolute inset-0 bg-linear-to-b ${theme.heroOverlay}`} />
         <div className="relative z-10 w-full mx-auto px-6 sm:px-8 lg:px-16 text-center">
           <div className="mb-6 sm:mb-10">
             <div
-              className="inline-block border px-6 sm:px-8 py-2 sm:py-3 mt-[80px] sm:mt-[250px]"
+              className="inline-block border px-6 sm:px-8 py-2 sm:py-3 mt-20 sm:mt-62.5"
               style={{ borderColor: theme.accentBorder }}
             >
               <p
@@ -455,14 +455,14 @@ export function GamePageClient({ id }: { id: string }) {
             {gameT.subtitle}
           </p>
           <div className="flex items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-12">
-            <div className="w-12 sm:w-24 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+            <div className="w-12 sm:w-24 h-0.5" style={{ backgroundColor: theme.accentBg }} />
             <div
               className="text-sm sm:text-xl tracking-[0.2em] uppercase"
               style={{ color: theme.fontBodyColor, fontFamily: theme.fontBody, fontWeight: 200 }}
             >
               {gameT.status} • {gameT.year}
             </div>
-            <div className="w-12 sm:w-24 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+            <div className="w-12 sm:w-24 h-0.5" style={{ backgroundColor: theme.accentBg }} />
           </div>
           <p
             className="text-sm sm:text-base lg:text-xl leading-relaxed max-w-xs sm:max-w-xl lg:max-w-3xl mx-auto mb-8 sm:mb-12"
@@ -538,7 +538,7 @@ export function GamePageClient({ id }: { id: string }) {
       </section>
       <section
         id="vision"
-        className="scroll-mt-[100px] relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
+        className="scroll-mt-25 relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
         style={{
           backgroundColor: theme.bgColor,
           color: theme.fontBodyColor,
@@ -575,7 +575,7 @@ export function GamePageClient({ id }: { id: string }) {
             />
           </PanelBlock>
 
-          <div className="h-[2px]" style={{ backgroundColor: theme.panelDividerBg }} />
+          <div className="h-0.5" style={{ backgroundColor: theme.panelDividerBg }} />
 
           <PanelBlock
             heading={t.gamePage.mechanics.market.title}
@@ -594,7 +594,7 @@ export function GamePageClient({ id }: { id: string }) {
             />
           </PanelBlock>
 
-          <div className="h-[2px]" style={{ backgroundColor: theme.panelDividerBg }} />
+          <div className="h-0.5" style={{ backgroundColor: theme.panelDividerBg }} />
 
           <PanelBlock
             heading={t.gamePage.mechanics.technics.title}
@@ -614,7 +614,7 @@ export function GamePageClient({ id }: { id: string }) {
                 >
                   <div className="flex items-start gap-3 sm:gap-4">
                     <div
-                      className="w-1.5 h-1.5 mt-2 flex-shrink-0"
+                      className="w-1.5 h-1.5 mt-2 shrink-0"
                       style={{
                         backgroundColor: theme.accentBg,
                       }}
@@ -649,7 +649,7 @@ export function GamePageClient({ id }: { id: string }) {
       </section>
       <section
         id="roadmap"
-        className="scroll-mt-[100px] relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
+        className="scroll-mt-25 relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
         style={{
           backgroundColor: theme.bgColor,
           color: theme.fontBodyColor,
@@ -750,7 +750,7 @@ export function GamePageClient({ id }: { id: string }) {
                 </HoverBorderPanel>
               </div>
             </PanelBlock>
-            <div className="h-[2px]" style={{ backgroundColor: theme.panelDividerBg }} />
+            <div className="h-0.5" style={{ backgroundColor: theme.panelDividerBg }} />
             <PanelBlock
               heading={t.gamePage.roadmap.roadmap.title}
               align="center"
@@ -775,7 +775,7 @@ export function GamePageClient({ id }: { id: string }) {
                           {phase.phase}
                         </h3>
                         <span
-                          className="text-[10px] sm:text-sm tracking-wider uppercase px-3 sm:px-4 py-1 border flex-shrink-0"
+                          className="text-[10px] sm:text-sm tracking-wider uppercase px-3 sm:px-4 py-1 border shrink-0"
                           style={{
                             fontFamily: theme.fontBody,
                             borderColor: theme.panelBorderOpacity,
@@ -796,7 +796,7 @@ export function GamePageClient({ id }: { id: string }) {
                             style={{ color: theme.textMuted }}
                           >
                             <div
-                              className="w-1.5 h-1.5 mt-2 flex-shrink-0"
+                              className="w-1.5 h-1.5 mt-2 shrink-0"
                               style={{ backgroundColor: theme.accentBg }}
                             />
                             <span
@@ -818,7 +818,7 @@ export function GamePageClient({ id }: { id: string }) {
       </section>
       <section
         id="investment"
-        className="scroll-mt-[100px] relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
+        className="scroll-mt-25 relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
         style={{
           backgroundColor: theme.bgColor,
           color: theme.fontBodyColor,
@@ -835,19 +835,19 @@ export function GamePageClient({ id }: { id: string }) {
                 {t.gamePage.investment.title}
               </h2>
               <div className="flex items-center justify-center gap-3 sm:gap-4">
-                <div className="w-12 sm:w-20 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+                <div className="w-12 sm:w-20 h-0.5" style={{ backgroundColor: theme.accentBg }} />
                 <p
                   className="text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                   style={{ fontFamily: theme.fontBody, color: theme.fontBodyColor }}
                 >
                   {t.gamePage.investment.subtitle}
                 </p>
-                <div className="w-12 sm:w-20 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+                <div className="w-12 sm:w-20 h-0.5" style={{ backgroundColor: theme.accentBg }} />
               </div>
               <div className="flex items-center justify-center gap-4 sm:gap-6 mt-2">
-                <div className="w-16 sm:w-24 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+                <div className="w-16 sm:w-24 h-0.5" style={{ backgroundColor: theme.accentBg }} />
                 <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6" style={{ color: theme.accentText }} />
-                <div className="w-16 sm:w-24 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+                <div className="w-16 sm:w-24 h-0.5" style={{ backgroundColor: theme.accentBg }} />
               </div>
             </div>
             <div className="space-y-4 sm:space-y-8 mb-8 sm:mb-12">
@@ -895,7 +895,7 @@ export function GamePageClient({ id }: { id: string }) {
                 {gameT.investment.keys.map((key: string, i: number) => (
                   <div key={i} className="flex items-start gap-2 sm:gap-3">
                     <CheckCircle2
-                      className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 mt-0.5"
+                      className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 mt-0.5"
                       style={{ color: theme.colorCompleted }}
                     />
                     <span

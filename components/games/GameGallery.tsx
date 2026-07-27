@@ -31,7 +31,7 @@ function FilterButton({
       onClick={onClick}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border-2 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase transition-all duration-300"
+      className="cursor-pointer border-2 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase transition-all duration-300"
       style={{
         fontFamily: theme.fontBody,
         borderColor: active ? theme.accentBorder : theme.panelBorderOpacity,
@@ -153,7 +153,7 @@ export function GameGallery({ images, gameTitle, theme }: GameGalleryProps) {
   return (
     <section
       id="gallery"
-      className="scroll-mt-[100px] relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
+      className="scroll-mt-25 relative pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16 border-y-2"
       style={{
         backgroundColor: theme.bgColor,
         color: theme.fontBodyColor,
@@ -170,19 +170,19 @@ export function GameGallery({ images, gameTitle, theme }: GameGalleryProps) {
               {t.gameGallery.title}
             </h2>
             <div className="flex items-center justify-center gap-3 sm:gap-4">
-              <div className="w-12 sm:w-20 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+              <div className="w-12 sm:w-20 h-0.5" style={{ backgroundColor: theme.accentBg }} />
               <p
                 className="text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                 style={{ fontFamily: theme.fontBody, color: theme.fontBodyColor }}
               >
                 {t.gameGallery.subtitle}
               </p>
-              <div className="w-12 sm:w-20 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+              <div className="w-12 sm:w-20 h-0.5" style={{ backgroundColor: theme.accentBg }} />
             </div>
             <div className="flex items-center justify-center gap-4 sm:gap-6 mt-2">
-              <div className="w-16 sm:w-24 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+              <div className="w-16 sm:w-24 h-0.5" style={{ backgroundColor: theme.accentBg }} />
               <ImageIcon className="w-5 h-5 sm:w-6 sm:h-6" style={{ color: theme.accentText }} />
-              <div className="w-16 sm:w-24 h-[2px]" style={{ backgroundColor: theme.accentBg }} />
+              <div className="w-16 sm:w-24 h-0.5" style={{ backgroundColor: theme.accentBg }} />
             </div>
           </div>
 
@@ -286,7 +286,7 @@ export function GameGallery({ images, gameTitle, theme }: GameGalleryProps) {
       {selectedImages && (
         <div
           onClick={() => setSelectedImages(null)}
-          className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-3 sm:p-4 lg:p-20"
+          className="fixed inset-0 z-100 bg-black/95 flex items-center justify-center p-3 sm:p-4 lg:p-20"
         >
           <CloseButton onClick={() => setSelectedImages(null)} theme={theme} />
           <div
@@ -319,7 +319,7 @@ export function GameGallery({ images, gameTitle, theme }: GameGalleryProps) {
                   />
                 </div>
               )}
-              <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/70 via-transparent to-black/70" />
+              <div className="absolute inset-0 pointer-events-none bg-linear-to-t from-black/70 via-transparent to-black/70" />
               <div
                 className="absolute top-3 left-3 sm:top-4 sm:left-4 w-8 h-8 sm:w-12 sm:h-12 border-t-2 border-l-2"
                 style={{ borderColor: theme.textSubtle }}

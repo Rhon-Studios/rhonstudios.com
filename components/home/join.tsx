@@ -21,7 +21,7 @@ export function Join() {
   return (
     <section
       id="join"
-      className="scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-32 pb-16 sm:pb-24 overflow-hidden"
+      className="scroll-mt-25 relative bg-black text-white pt-16 sm:pt-32 pb-16 sm:pb-24 overflow-hidden"
       style={{ minHeight: "100vh" }}
     >
       <div className="container mx-auto px-4 sm:px-8 lg:px-16">
@@ -42,14 +42,14 @@ export function Join() {
               {tt.title}
             </h2>
             <div className="flex items-center justify-center gap-3 sm:gap-6 mb-8 sm:mb-16 lg:mb-7">
-              <div className="w-8 sm:w-24 h-[2px] bg-white" />
+              <div className="w-8 sm:w-24 h-0.5 bg-white" />
               <p
                 className="text-[10px] sm:text-sm tracking-[0.15em] sm:tracking-[0.3em] uppercase"
                 style={{ fontFamily: "Cinzel" }}
               >
                 {tt.subtitle}
               </p>
-              <div className="w-8 sm:w-24 h-[2px] bg-white" />
+              <div className="w-8 sm:w-24 h-0.5 bg-white" />
             </div>
             <p
               className="text-base sm:text-lg tracking-wide text-white/70 max-w-2xl mx-auto mb-8 sm:mb-10 px-2"
@@ -83,7 +83,7 @@ export function Join() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.15 }}
                   viewport={{ once: true }}
-                  className="border border-white/30 p-5 sm:p-8 hover:border-white/70 transition-all duration-300 group flex flex-col justify-between min-h-[160px] sm:min-h-[200px]"
+                  className="border border-white/30 p-5 sm:p-8 hover:border-white/70 transition-all duration-300 group flex flex-col justify-between min-h-40 sm:min-h-50"
                   style={{ background: project.accentColor }}
                 >
                   <div>
@@ -123,7 +123,7 @@ export function Join() {
               onClick={() => router.push(`/join`)}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center gap-2 sm:gap-3 border-2 border-white px-8 sm:px-12 py-3 sm:py-4 text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
+              className="cursor-pointer inline-flex items-center gap-2 sm:gap-3 border-2 border-white px-8 sm:px-12 py-3 sm:py-4 text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
               style={{ fontFamily: "Cinzel", fontWeight: 300 }}
             >
               {tt.button}

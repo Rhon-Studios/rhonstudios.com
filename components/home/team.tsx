@@ -352,7 +352,7 @@ export function Team() {
                             className="text-[10px] tracking-wider text-white/25 group-hover:text-white/60 transition-colors uppercase"
                             style={{ fontFamily: "Cinzel" }}
                           >
-                            Ver →
+                            {t.collaboratorsDetails.view} →
                           </span>
                         </div>
                       </motion.div>
@@ -364,7 +364,7 @@ export function Team() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: collaborators.length * 0.08 }}
                 viewport={{ once: true }}
-                className="border border-dashed border-white/15 p-5 flex flex-col items-center justify-center text-center min-h-[140px] hover:border-white/35 transition-all duration-300"
+                className="border border-dashed border-white/15 p-5 flex flex-col items-center justify-center text-center min-h-35 hover:border-white/35 transition-all duration-300"
               >
                 <p className="text-white/25 text-2xl mb-2">+</p>
                 <p

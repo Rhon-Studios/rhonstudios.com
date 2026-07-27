@@ -50,16 +50,16 @@ export default function CollaboratorDetail() {
     return (
       <section
         id="collaboratorError"
-        className="scroll-mt-[160px] relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
+        className="scroll-mt-40 relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black" />
         <div className="relative z-10 text-center">
           <h1 className="text-3xl sm:text-4xl mb-8" style={{ fontFamily: "Cinzel" }}>
             {tt.notfound}
           </h1>
           <button
             onClick={() => router.push(`/#team`)}
-            className={`inline-flex items-center gap-2 border border-white/30 px-6 py-3 text-sm tracking-wider hover:border-white transition`}
+            className={`cursor-pointer inline-flex items-center gap-2 border border-white/30 px-6 py-3 text-sm tracking-wider hover:border-white transition`}
             style={{ fontFamily: "Cinzel" }}
           >
             {tt.back}
@@ -396,7 +396,7 @@ export default function CollaboratorDetail() {
               </p>
               <button onClick={() => router.push(`/#team`)}>
                 <p
-                  className="text-2xl tracking-widest text-white/70 hover:text-white transition-colors"
+                  className="cursor-pointer text-2xl tracking-widest text-white/70 hover:text-white transition-colors"
                   style={{ fontFamily: "Rye" }}
                 >
                   Rhon Studios

@@ -66,10 +66,10 @@ export const gamesData: GameData[] = [
     developmentProgress: 8,
 
     links: {
-      steam: "",
-      demo: "",
-      github: "",
-      pressKit: "#",
+      steam: undefined,
+      demo: undefined,
+      github: undefined,
+      pressKit: undefined,
     },
 
     media: {
@@ -117,9 +117,10 @@ export const gamesData: GameData[] = [
     heroImage: "/afterlight/HeaderEmpty.png",
     music: "/afterlight/music/Afterlight Piano Solo.wav",
     links: {
-      steam: "",
-      demo: "",
-      pressKit: "",
+      steam: undefined,
+      demo: undefined,
+      github: undefined,
+      pressKit: undefined,
     },
     media: {
       screenshots: ["", "", "", ""],

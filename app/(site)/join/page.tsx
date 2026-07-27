@@ -64,7 +64,7 @@ export default function Join() {
         <div className="absolute inset-0 bg-black" />
         <div className="relative z-10 container mx-auto px-6 sm:px-8 lg:px-16 text-center">
           <div className="mb-6 sm:mb-8">
-            <div className="inline-block border-2 border-white px-6 sm:px-10 py-2 sm:py-3 mt-[120px] sm:mt-[250px]">
+            <div className="inline-block border-2 border-white px-6 sm:px-10 py-2 sm:py-3 mt-30 sm:mt-62.5">
               <p
                 className="text-[9px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                 style={{ fontFamily: "Cinzel" }}
@@ -74,20 +74,20 @@ export default function Join() {
             </div>
           </div>
           <h1
-            className="text-4xl sm:text-7xl md:text-8xl lg:text-[9rem] mb-4 sm:mb-6 tracking-wider leading-tight break-words"
+            className="text-4xl sm:text-7xl md:text-8xl lg:text-[9rem] mb-4 sm:mb-6 tracking-wider leading-tight wrap-break-word"
             style={{ fontFamily: "Rye", fontWeight: 200 }}
           >
             {tt.title}
           </h1>
           <div className="flex items-center justify-center gap-4 sm:gap-6 mb-8 sm:mb-12">
-            <div className="w-12 sm:w-24 h-[2px] bg-white" />
+            <div className="w-12 sm:w-24 h-0.5 bg-white" />
             <div
               className="text-sm sm:text-xl tracking-[0.2em] uppercase"
               style={{ fontFamily: "Cinzel", fontWeight: 200 }}
             >
               {tt.subtitle}
             </div>
-            <div className="w-12 sm:w-24 h-[2px] bg-white" />
+            <div className="w-12 sm:w-24 h-0.5 bg-white" />
           </div>
           <p
             className="text-sm sm:text-base lg:text-lg max-w-xs sm:max-w-xl lg:max-w-3xl mx-auto mb-10 sm:mb-16 leading-relaxed tracking-wide px-2"
@@ -103,7 +103,7 @@ export default function Join() {
       </section>
       <section
         id="conditions"
-        className="scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16"
+        className="scroll-mt-25 relative bg-black text-white pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16"
       >
         <div className="container mx-auto px-6 sm:px-8 lg:px-16">
           <div className="text-center mb-10 sm:mb-16">
@@ -122,14 +122,14 @@ export default function Join() {
               {tt.conditions.title}
             </h2>
             <div className="flex items-center justify-center gap-4 sm:gap-6 mb-6 sm:mb-8">
-              <div className="w-12 sm:w-24 h-[2px] bg-white" />
+              <div className="w-12 sm:w-24 h-0.5 bg-white" />
               <p
                 className="text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                 style={{ fontFamily: "Cinzel" }}
               >
                 {tt.conditions.subtitle}
               </p>
-              <div className="w-12 sm:w-24 h-[2px] bg-white" />
+              <div className="w-12 sm:w-24 h-0.5 bg-white" />
             </div>
           </div>
 
@@ -166,7 +166,7 @@ export default function Join() {
       </section>
       <section
         id="legal"
-        className="scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-20 overflow-hidden pb-12 sm:pb-16"
+        className="scroll-mt-25 relative bg-black text-white pt-16 sm:pt-20 overflow-hidden pb-12 sm:pb-16"
       >
         <div className="container mx-auto px-6 sm:px-8 lg:px-16">
           <div className="max-w-4xl mx-auto border-2 border-white/25 p-6 sm:p-10">
@@ -176,7 +176,7 @@ export default function Join() {
             >
               {tt.legal.title}
             </p>
-            <div className="w-12 h-[1px] bg-white/30 mb-4" />
+            <div className="w-12 h-px bg-white/30 mb-4" />
             <p
               className="text-sm sm:text-base text-white/65 leading-relaxed tracking-wide"
               style={{ fontFamily: "Cinzel", fontWeight: 200 }}
@@ -188,7 +188,7 @@ export default function Join() {
       </section>
       <section
         id="roles"
-        className="scroll-mt-[100px] relative bg-black text-white pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16"
+        className="scroll-mt-25 relative bg-black text-white pt-16 sm:pt-32 overflow-hidden py-12 sm:py-16"
       >
         <div className="container mx-auto px-6 sm:px-8 lg:px-16">
           <div className="text-center mb-10 sm:mb-16">
@@ -207,14 +207,14 @@ export default function Join() {
               {tt.roles.title}
             </h2>
             <div className="flex items-center justify-center gap-4 sm:gap-6 mb-6 sm:mb-8">
-              <div className="w-12 sm:w-24 h-[2px] bg-white" />
+              <div className="w-12 sm:w-24 h-0.5 bg-white" />
               <p
                 className="text-xs sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase"
                 style={{ fontFamily: "Cinzel" }}
               >
                 {tt.roles.subtitle}
               </p>
-              <div className="w-12 sm:w-24 h-[2px] bg-white" />
+              <div className="w-12 sm:w-24 h-0.5 bg-white" />
             </div>
           </div>
           <div className="max-w-6xl mx-auto">
@@ -269,7 +269,7 @@ export default function Join() {
                       key={key}
                       onClick={() => hasRoles && setAreaFilter(key)}
                       disabled={!hasRoles}
-                      className={`text-[9px] sm:text-xs tracking-[0.15em] uppercase px-4 py-2 border-2 transition-all duration-200 ${
+                      className={`cursor-pointer text-[9px] sm:text-xs tracking-[0.15em] uppercase px-4 py-2 border-2 transition-all duration-200 ${
                         isActive
                           ? "border-white bg-white text-black"
                           : !hasRoles

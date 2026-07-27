@@ -94,9 +94,29 @@ export function Games() {
                 onClick={() => setSelectedGame(null)}
               >
                 <div
-                  className="relative max-w-6xl w-full bg-black border-2 border-white/20 p-5 sm:p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center my-auto"
+                  className="relative max-w-6xl w-full bg-black border-2 border-white/20 
+             p-5 sm:p-6 md:p-10 
+             pt-16 sm:pt-10
+             grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center my-auto"
                   onClick={(e) => e.stopPropagation()}
                 >
+                  <button
+                    onClick={() => setSelectedGame(null)}
+                    aria-label="Close modal"
+                    className=" cursor-pointer
+      absolute top-4 right-4
+      w-10 h-10
+      flex items-center justify-center
+      border border-white/40
+      text-white/70
+      hover:text-white hover:border-white
+      transition-all duration-300
+      z-20
+    "
+                  >
+                    <span className="text-2xl leading-none">X</span>
+                  </button>
+
                   <div>
                     <motion.div
                       whileHover={{ scale: 1.05 }}

@@ -20,7 +20,7 @@ export default function NotFound() {
         </h1>
         <button
           onClick={() => router.push(`/#hero`)}
-          className={`inline-flex items-center gap-2 border-2 border-white px-6 sm:px-8 py-3 hover:bg-white hover:text-black transition-all duration-300`}
+          className={`cursor-pointer inline-flex items-center gap-2 border-2 border-white px-6 sm:px-8 py-3 hover:bg-white hover:text-black transition-all duration-300`}
           style={{ fontFamily: "Cinzel" }}
         >
           <ArrowLeft size={18} />

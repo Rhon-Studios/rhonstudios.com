@@ -13,7 +13,7 @@
     "faq": "FAQ"
   },
   "game_menu": {
-    "home": "Home",
+    "home": "All games",
     "vision": "Game",
     "gallery": "Gallery",
     "investment": "Investment",
@@ -28,8 +28,9 @@
     "opportunities": "Opportunities"
   },
   "devblog_menu": {
-    "home": "Home",
-    "devblogs": "Dev Blogs"
+    "home": "All DevBlogs",
+    "devblogs": "DevBlogs",
+    "author": "Written by"
   },
   "hero": {
     "subtitle": "Since 2025",
@@ -83,7 +84,7 @@
     "subtitle": "Behind the Scenes",
     "description": "We don't build in silence. We share the entire journey openly—the decisions, the setbacks, the progress, and the vision that drives us.",
     "button": "Read More",
-    "view_all": "Ver todos los devlogs"
+    "view_all": "View all devlogs"
   },
   "about": {
     "top_title": "Our Story",
@@ -260,7 +261,7 @@
     },
     "roadmap": {
       "title": "Roadmap",
-      "subtitle": "",
+      "subtitle": "Vision and Execution",
       "vision": {
         "title": "General Overview",
         "progress": "Progress",
@@ -282,10 +283,10 @@
       "keys": "Key Highlights for Investors"
     },
     "contact": {
-      "title": "",
-      "description": "",
-      "button": "",
-      "pressKit": ""
+      "title": "Interested in Collaborating?",
+      "description": "We're looking for collaborators, etc.",
+      "button": "Contact Us",
+      "pressKit": "Download Press Kit"
     }
   },
   "gameGallery": {
@@ -389,6 +390,7 @@
     },
     "about": "About",
     "work": "My work",
+    "view": "View",
     "contributions": "Contributions to Rhon Studios",
     "collaborate": {
       "title": "Colaborate with",

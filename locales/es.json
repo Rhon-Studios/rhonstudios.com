@@ -13,7 +13,7 @@
     "faq": "FAQ"
   },
   "game_menu": {
-    "home": "Inicio",
+    "home": "Todos los juegos",
     "vision": "Juego",
     "gallery": "Galería",
     "investment": "Inversión",
@@ -28,8 +28,9 @@
     "opportunities": "Oportunidades"
   },
   "devblog_menu": {
-    "home": "Inicio",
-    "devblogs": "DevBlogs"
+    "home": "Todos los DevBlogs",
+    "devblogs": "DevBlogs",
+    "author": "Escrito por"
   },
   "hero": {
     "subtitle": "Desde 2025",
@@ -389,6 +390,7 @@
     },
     "about": "Sobre",
     "work": "Trabajo",
+    "view": "Ver",
     "contributions": "Contribuciones en Rhon Studios",
     "collaborate": {
       "title": "Colabora con",

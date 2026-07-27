@@ -554,7 +554,7 @@ export function Header() {
                   <button
                     onClick={() => scrollTo("vision")}
                     style={{ fontFamily: game?.theme.fontTitle }}
-                    className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
+                    className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
                   >
                     {t.game_menu.vision}
                   </button>
@@ -563,7 +563,7 @@ export function Header() {
                   <button
                     onClick={() => scrollTo("roadmap")}
                     style={{ fontFamily: game?.theme.fontTitle }}
-                    className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
+                    className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
                   >
                     {t.game_menu.roadmap}
                   </button>
@@ -585,7 +585,7 @@ export function Header() {
                   <button
                     onClick={() => scrollTo("investment")}
                     style={{ fontFamily: game?.theme.fontTitle }}
-                    className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
+                    className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
                   >
                     {t.game_menu.investment}
                   </button>
@@ -594,7 +594,7 @@ export function Header() {
                   <button
                     onClick={() => scrollTo("gallery")}
                     style={{ fontFamily: game?.theme.fontTitle }}
-                    className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
+                    className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
                   >
                     {t.game_menu.gallery}
                   </button>
@@ -603,7 +603,7 @@ export function Header() {
                   <button
                     onClick={() => scrollTo("contact")}
                     style={{ fontFamily: game?.theme.fontTitle }}
-                    className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
+                    className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase hover:opacity-60 transition"
                   >
                     {t.game_menu.contact}
                   </button>
@@ -705,9 +705,9 @@ export function Header() {
             <div className="hidden lg:grid grid-cols-3 items-center">
               <div className="flex justify-end gap-8 xl:gap-12">
                 <button
-                  onClick={() => router.push("/#about")}
+                  onClick={() => router.push("/#devblog")}
                   style={{ fontFamily: "Cinzel" }}
-                  className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase text-white hover:opacity-60 transition"
+                  className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase text-white hover:opacity-60 transition"
                 >
                   {t.devblog_menu.home}
                 </button>
@@ -729,7 +729,7 @@ export function Header() {
                 <button
                   onClick={() => scrollTo("devblog_index")}
                   style={{ fontFamily: "Cinzel" }}
-                  className="text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase text-white hover:opacity-60 transition"
+                  className="cursor-pointer text-base lg:text-[22px] xl:text-[25px] tracking-wider uppercase text-white hover:opacity-60 transition"
                 >
                   {t.devblog_menu.devblogs}
                 </button>
