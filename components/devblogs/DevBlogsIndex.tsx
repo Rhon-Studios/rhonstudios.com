@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, BookOpen, Clock } from "lucide-react";
 import { devBlogPosts, DevBlogPost as DevBlogPostData } from "@/libs/database/devblogsData";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 
 type ProjectFilter = "Todos" | "Rhon Studios" | "Tonkori" | "Afterlight" | "Estudio" | "General";
 const FILTERS: ProjectFilter[] = [
@@ -17,7 +17,7 @@ const FILTERS: ProjectFilter[] = [
   "General",
 ];
 
-export default function DevBlogsIndex() {
+export function DevBlogsIndex() {
   const [filter, setFilter] = useState<ProjectFilter>("Todos");
   const filtered = devBlogPosts.filter((p) => filter === "Todos" || p.project === filter);
 
@@ -90,7 +90,7 @@ export default function DevBlogsIndex() {
 }
 
 function PostCard({ post }: { post: DevBlogPostData }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const devT = t.devblogs[post.id];
   const router = useRouter();
   return (
@@ -140,7 +140,7 @@ function PostCard({ post }: { post: DevBlogPostData }) {
       </div>
       <div className="flex items-center justify-between pt-4 border-t border-white/10">
         <span className="text-xs text-white/30" style={{ fontFamily: "Cinzel" }}>
-          {new Date(post.publishedAt).toLocaleDateString("es-ES", {
+          {new Date(post.publishedAt).toLocaleDateString(language === "en" ? "en-US" : "es-ES", {
             day: "numeric",
             month: "long",
             year: "numeric",
