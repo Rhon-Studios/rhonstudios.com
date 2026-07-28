@@ -45,6 +45,13 @@
       "bio": "Desarrollador web de profesión, sobrepensador profesional y aprendiz de por vida. Disfruto del lado técnico de las cosas: mejorar el rendimiento, perfeccionar la experiencia de usuario y asegurarme de que los pequeños detalles no pasen desapercibidos. Pero lo que realmente me entusiasma de cualquier proyecto es la gente que hay detrás.\nRhon Studios es mucho más que una colección de juegos. Es un grupo de personas ambiciosas construyendo algo en lo que creen de verdad. Los juegos son importantes, pero para mí la mejor parte del camino son las conversaciones, las ideas, las lecciones aprendidas y las personas con las que tengo la oportunidad de construir.",
       "contributions": ["Soporte de Desarrollo Web", "Optimización Web"]
     },
+    "javigarni": {
+      "role": "Art",
+      "subrole": "2D Environment Artist",
+      "tagline": "",
+      "bio": "",
+      "contributions": []
+    },
     "sage": {
       "role": "Arte",
       "subrole": "Artista de Personajes",
@@ -55,6 +62,13 @@
         "Arte de Personajes",
         "Diseño de Personajes"
       ]
+    },
+    "gabi": {
+      "role": "Art",
+      "subrole": "2D Environment Artist",
+      "tagline": "",
+      "bio": "",
+      "contributions": []
     }
   }
 }
