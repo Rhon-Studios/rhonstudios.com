@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
-import { useParams, usePathname, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
+import { useRouter, usePathname } from "@/libs/i18n/navigation";
 import { getGameById } from "@/libs/database/gamesData";
 import Image from "next/image";
 

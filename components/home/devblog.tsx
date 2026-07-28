@@ -2,7 +2,7 @@
 import { devBlogPosts } from "@/libs/database/devblogsData";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 
 export function DevBlog() {
   const { t } = useLanguage();

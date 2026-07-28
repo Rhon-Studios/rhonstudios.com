@@ -4,7 +4,7 @@ import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { opportunitiesData, getTopProjects } from "@/libs/database/oportunitiesData";
 import { motion } from "framer-motion";
 import { ArrowRight, Users } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 
 export function Join() {
   const openCount = opportunitiesData.filter((o) => o.status === "open").length;

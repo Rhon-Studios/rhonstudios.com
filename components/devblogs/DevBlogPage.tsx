@@ -1,7 +1,7 @@
 ﻿"use client";
 
-import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 import { DevBlogPost, getDevBlogBySlug } from "@/libs/database/devblogsData";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { ArrowLeft, Clock } from "lucide-react";

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 import { GameData, gamesData } from "@/libs/database/gamesData";
 import Image from "next/image";
 

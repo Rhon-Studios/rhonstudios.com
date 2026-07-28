@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 import { getGameById } from "@/libs/database/gamesData";
 import {
   ArrowLeft,

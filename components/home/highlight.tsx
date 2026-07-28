@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { gamesData } from "@/libs/database/gamesData";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 
 export function Highlight() {
   const game = gamesData.find((g) => g.id === "afterlight");

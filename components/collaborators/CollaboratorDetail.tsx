@@ -13,12 +13,13 @@ import {
   Youtube,
 } from "lucide-react";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
-import { useParams, useRouter } from "next/navigation";
 import { collaborators } from "@/libs/database/teamData";
 import { gamesData } from "@/libs/database/gamesData";
 import { motion } from "framer-motion";
 import { getCollaboratorMedia } from "@/libs/database/mediaData";
 import Image from "next/image";
+import { useParams } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 
 function getProjectTheme(area: string) {
   const game = gamesData.find((g) => g.title.toLowerCase() === area.toLowerCase());

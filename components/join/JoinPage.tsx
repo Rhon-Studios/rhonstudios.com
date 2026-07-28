@@ -1,6 +1,4 @@
-﻿"use client";
-// Is this needed ? Check if we can remove it and still have the modal working
-import { useLanguage } from "@/libs/utils/LanguageProvider";
+﻿import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { AnimatePresence, motion } from "framer-motion";
 import { Award, Briefcase, Clock, FileText, Monitor, TrendingUp } from "lucide-react";
 import { opportunitiesData, projectsData } from "@/libs/database/oportunitiesData";

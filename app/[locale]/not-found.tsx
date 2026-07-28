@@ -2,7 +2,7 @@
 
 import { ArrowLeft } from "lucide-react";
 import { useLanguage } from "@/libs/utils/LanguageProvider";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/libs/i18n/navigation";
 
 export default function NotFound() {
   const { t } = useLanguage();
