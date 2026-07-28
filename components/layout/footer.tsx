@@ -248,9 +248,15 @@ export function Footer() {
           </div>
         </div>
         <div className="w-full h-0.5 bg-white/30 mb-6 sm:mb-8" />
+        <p
+          className="text-[10px] sm:text-xs italic tracking-wide opacity-60 text-center mx-auto mb-3 sm:mb-4"
+          style={{ fontFamily: "Cinzel", fontWeight: 200 }}
+        >
+          {t.footer.statement}
+        </p>
         <div className="text-center">
           <p
-            className="text-[10px] sm:text-xs tracking-wide opacity-60"
+            className="text-[10px] sm:text-xs tracking-wide opacity-70"
             style={{ fontFamily: "Cinzel", fontWeight: 200 }}
           >
             © {currentYear} Rhon Studios. {t.footer.rights}
