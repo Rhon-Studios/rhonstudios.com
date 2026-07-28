@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, ReactNode } from "react";
 import en from "@/locales/en.json";
 import es from "@/locales/es.json";
 import gamesEn from "@/locales/games/en.json";
@@ -13,6 +13,8 @@ import devblogEn from "@/locales/devblogs/en.json";
 import devblogEs from "@/locales/devblogs/es.json";
 import faqEn from "@/locales/faq/en.json";
 import faqEs from "@/locales/faq/es.json";
+import { useLocale } from "next-intl";
+import { usePathname, useRouter } from "@/libs/i18n/navigation";
 
 type Language = "en" | "es";
 
@@ -50,7 +52,12 @@ const LanguageContext = createContext<LanguageContextProps>({
 });
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState<Language>("es");
+  const language = useLocale() as Language;
+  const router = useRouter();
+  const pathname = usePathname();
+  const setLanguage = (lang: Language) => {
+    router.replace(pathname, { locale: lang, scroll: false });
+  };
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t: translations[language] }}>
