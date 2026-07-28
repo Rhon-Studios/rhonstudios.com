@@ -13,7 +13,7 @@
     "faq": "FAQ"
   },
   "game_menu": {
-    "home": "All games",
+    "home": "Catalog",
     "vision": "Game",
     "gallery": "Gallery",
     "investment": "Investment",
@@ -24,7 +24,7 @@
     "title": "Quick Links",
     "join": "Join Us",
     "home": "Home",
-    "conditions": "Terms and Conditions",
+    "conditions": "Conditions",
     "opportunities": "Opportunities"
   },
   "devblog_menu": {
@@ -239,7 +239,8 @@
   "footer": {
     "links": "Quick Links",
     "follow": "Follow Us",
-    "rights": "All rights reserved"
+    "rights": "All rights reserved",
+    "statement": "We believe creativity carries responsibility. We make games. We stand with people. Dignity, empathy, and honesty, in our games and beyond."
   },
   "gamePage": {
     "notfound": {
@@ -284,7 +285,7 @@
     },
     "contact": {
       "title": "Interested in Collaborating?",
-      "description": "We're looking for collaborators, etc.",
+      "description": "We're always open to connecting with fellow developers, artists, writers, and studios who share our passion for meaningful storytelling. Whether you're looking to partner on a project or just want to say hello, we'd love to hear from you.",
       "button": "Contact Us",
       "pressKit": "Download Press Kit"
     }

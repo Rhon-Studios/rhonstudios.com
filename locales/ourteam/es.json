@@ -44,6 +44,17 @@
       "tagline": "Cuídate, amigo. No te atrevas a volverte Hueco.",
       "bio": "Desarrollador web de profesión, sobrepensador profesional y aprendiz de por vida. Disfruto del lado técnico de las cosas: mejorar el rendimiento, perfeccionar la experiencia de usuario y asegurarme de que los pequeños detalles no pasen desapercibidos. Pero lo que realmente me entusiasma de cualquier proyecto es la gente que hay detrás.\nRhon Studios es mucho más que una colección de juegos. Es un grupo de personas ambiciosas construyendo algo en lo que creen de verdad. Los juegos son importantes, pero para mí la mejor parte del camino son las conversaciones, las ideas, las lecciones aprendidas y las personas con las que tengo la oportunidad de construir.",
       "contributions": ["Soporte de Desarrollo Web", "Optimización Web"]
+    },
+    "sage": {
+      "role": "Arte",
+      "subrole": "Artista de Personajes",
+      "tagline": "Dando vida a personalidades, un personaje a la vez.",
+      "bio": "Me especializo en crear personajes memorables, desde los primeros conceptos hasta ilustraciones completamente terminadas. Con un enfoque en siluetas sólidas, diseños expresivos y narrativa visual, cada personaje está pensado para sentirse único y lleno de vida, integrándose de forma natural en la visión artística del proyecto.",
+      "contributions": [
+        "Arte Conceptual de Personajes",
+        "Arte de Personajes",
+        "Diseño de Personajes"
+      ]
     }
   }
 }

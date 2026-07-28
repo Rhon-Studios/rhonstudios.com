@@ -13,7 +13,7 @@
     "faq": "FAQ"
   },
   "game_menu": {
-    "home": "Todos los juegos",
+    "home": "Catálogo",
     "vision": "Juego",
     "gallery": "Galería",
     "investment": "Inversión",
@@ -239,7 +239,8 @@
   "footer": {
     "links": "Enlaces Rápidos",
     "follow": "Siguenos",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "statement": "Creemos que la creatividad conlleva responsabilidad. Hacemos videojuegos. Luchamos con la gente. Dignidad, empatía y honestidad, en nuestros juegos y más allá."
   },
   "gamePage": {
     "notfound": {
@@ -284,7 +285,7 @@
     },
     "contact": {
       "title": "¿Interesado en Colaborar?",
-      "description": "Estamos buscando etc",
+      "description": "Siempre estamos abiertos a conectar con otros desarrolladores, artistas, escritores y estudios que compartan nuestra pasión por contar historias con sentido. Ya sea para colaborar en un proyecto o simplemente para saludar, nos encantaría saber de ti.",
       "button": "Contactar",
       "pressKit": "Descargar Press Kit"
     }

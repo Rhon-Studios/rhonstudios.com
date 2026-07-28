@@ -1,7 +1,14 @@
 ﻿export type TeamMemberId = "rashri" | "camilo";
 
 export type CollaboratorId =
-  "test" | "angelramirez" | "marielodiard" | "sayyidali" | "tinomhedziso";
+  | "test"
+  | "angelramirez"
+  | "marielodiard"
+  | "sayyidali"
+  | "tinomhedziso"
+  | "javigarni"
+  | "sage"
+  | "gabi";
 
 export interface Person {
   name: string;
@@ -159,5 +166,67 @@ export const collaborators: Collaborator[] = [
     },
     status: "active",
     name: "Tino Mhedziso",
+  },
+  {
+    id: "javigarni",
+    visible: false,
+    role: "",
+    area: "",
+    photo: "/collaborators/sage/photo.jpeg",
+    coverImage: "",
+    links: {
+      portfolio: undefined,
+      web: undefined,
+      github: undefined,
+      linkedin: undefined,
+      twitter: undefined,
+      instagram: undefined,
+      youtube: undefined,
+      buymeacoffee: undefined,
+      email: undefined,
+    },
+    status: "active",
+    name: "",
+  },
+  {
+    id: "sage",
+    visible: true,
+    role: "Artist",
+    area: "Tiny Care",
+    photo: "/collaborators/sage/photo.jpeg",
+    coverImage: "",
+    links: {
+      portfolio: undefined,
+      web: undefined,
+      github: undefined,
+      linkedin: undefined,
+      twitter: undefined,
+      instagram: undefined,
+      youtube: undefined,
+      buymeacoffee: undefined,
+      email: undefined,
+    },
+    status: "active",
+    name: "Sage",
+  },
+  {
+    id: "gabi",
+    visible: false,
+    role: "",
+    area: "",
+    coverImage: "",
+    links: {
+      portfolio: undefined,
+      web: undefined,
+      github: undefined,
+      linkedin: undefined,
+      twitter: undefined,
+      instagram: undefined,
+      youtube: undefined,
+      buymeacoffee: undefined,
+      email: undefined,
+    },
+    status: "active",
+    name: "",
   },
 ];

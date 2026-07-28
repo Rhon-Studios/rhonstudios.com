@@ -78,8 +78,8 @@ export const mediaData: MediaItem[] = [
   // AFTERLIGHT
 
   {
-    id: "angel-estados",
-    url: "/afterlight/collaborators/angel_estados.png",
+    id: "afterlight-states",
+    url: "/afterlight/States.png",
     title: "Estados",
     type: "image",
     category: "screenshot",
@@ -93,6 +93,60 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "afterlight",
+  },
+  {
+    id: "concept-art-enemies2",
+    url: "/afterlight/Concept Art.jpg",
+    title: "Enemies Concept Art",
+    type: "image",
+    category: "characters",
+    gameId: "afterlight",
+    collaboratorId: "gabi",
+  },
+
+  // THE OBSERVER
+  {
+    id: "character-info-concept",
+    url: "/theobserver/CharacterInfo_Concept.png",
+    title: "Character Info Concept",
+    type: "image",
+    category: "concept-art",
+    gameId: "theobserver",
+  },
+  {
+    id: "first-concept-art",
+    url: "/theobserver/FirstConceptArt.png",
+    title: "First Concept Art",
+    type: "image",
+    category: "characters",
+    gameId: "theobserver",
+    collaboratorId: "javigarni",
+  },
+  {
+    id: "ivy-concept-art",
+    url: "/theobserver/Ivy_ConceptArt.png",
+    title: "Ivy-Concept Art",
+    type: "image",
+    category: "characters",
+    gameId: "theobserver",
+    collaboratorId: "javigarni",
+  },
+  {
+    id: "luna-concept-art",
+    url: "/theobserver/Luna_ConceptArt.png",
+    title: "Luna Concept Art",
+    type: "image",
+    category: "characters",
+    gameId: "theobserver",
+    collaboratorId: "javigarni",
+  },
+  {
+    id: "profile-concept",
+    url: "/theobserver/Profile_Concept.png",
+    title: "Profile Concept",
+    type: "image",
+    category: "concept-art",
+    gameId: "theobserver",
   },
 
   // TINY CARE
@@ -111,6 +165,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
   {
     id: "cat",
@@ -119,6 +174,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
   {
     id: "gigaduck",
@@ -127,6 +183,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
   {
     id: "potato",
@@ -135,6 +192,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
   {
     id: "rock",
@@ -143,6 +201,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
   {
     id: "dog",
@@ -151,6 +210,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
   {
     id: "turtle",
@@ -159,6 +219,7 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "tinycare",
+    collaboratorId: "sage",
   },
 ];
 
