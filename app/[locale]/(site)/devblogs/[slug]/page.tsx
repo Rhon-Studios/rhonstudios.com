@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: new Date(post.publishedAt).toISOString(),
       images: [
         {
-          url: post.coverImage ?? "https://rhonstudios.com/og/og-default.png",
+          url: post.coverImage ?? `https://rhonstudios.com/og/og-devblogs-${locale}.png`,
           width: 1200,
           height: 630,
         },

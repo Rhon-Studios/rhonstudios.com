@@ -116,7 +116,7 @@ export async function generateMetadata({
       description: seo.description,
       images: [
         {
-          url: `https://rhonstudios.com/og/og-${gameId}.png`,
+          url: `https://rhonstudios.com/og/og-${gameId}-${locale}.png`,
           width: 1200,
           height: 630,
           alt: seo.title,
@@ -128,7 +128,7 @@ export async function generateMetadata({
       site: "@rhonstudios",
       title: `${seo.title} | Rhon Studios`,
       description: seo.description,
-      images: [`https://rhonstudios.com/og/og-${gameId}.png`],
+      images: [`https://rhonstudios.com/og/og-${gameId}-${locale}.png`],
     },
   };
 }
@@ -153,7 +153,7 @@ export default async function GamePage({
 
   return (
     <>
-      <GameSchema gameId={gameId} />
+      <GameSchema gameId={gameId} locale={locale} />
 
       <BreadcrumbSchema
         items={[

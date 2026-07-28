@@ -5,7 +5,7 @@ import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { team, collaborators } from "@/libs/database/teamData";
-import Link from "next/link";
+import { Link } from "@/libs/i18n/navigation";
 import { gamesData } from "@/libs/database/gamesData";
 import Image from "next/image";
 

@@ -66,14 +66,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Rhon Studios",
       images: [
         {
-          url: collab.photo ?? "https://rhonstudios.com/og/og-default.png",
-          width: 1200,
+          url: `https://rhonstudios.com/api/og/collaborators/${collab.id}?locale=${locale}`,
+          width: 1192,
           height: 630,
           alt: collab.name,
         },
       ],
     },
-    twitter: { card: "summary_large_image", title, description },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`https://rhonstudios.com/api/og/collaborators/${collab.id}?locale=${locale}`],
+    },
   };
 }
 

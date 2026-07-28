@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { LanguageProvider } from "@/libs/utils/LanguageProvider";
-import { routing } from "../../libs/i18n/routing";
+import { routing } from "@/libs/i18n/routing";
 
 import {
   Rye,
@@ -50,9 +50,6 @@ const inter = Inter({ weight: ["400"], variable: "--font-inter" });
 const jua = Jua({ weight: ["400"], variable: "--font-jua" });
 const nunito = Nunito({ weight: ["400"], variable: "--font-nunito" });
 
-// Contenido de metadata por idioma. Si querés, esto se puede mover a los
-// JSON de /locales más adelante (ej. locales/es.json -> "seo": {...}),
-// lo dejo inline por ahora para no tocar más archivos de golpe.
 const metadataByLocale = {
   es: {
     title: "Rhon Studios | Estudio de Videojuegos Indie",
@@ -160,7 +157,7 @@ export async function generateMetadata({
       locale: m.ogLocale,
       images: [
         {
-          url: "https://rhonstudios.com/og/og-default.png",
+          url: `https://rhonstudios.com/og/og-home-${l}.png`,
           width: 1200,
           height: 630,
           alt: m.title,
@@ -175,7 +172,7 @@ export async function generateMetadata({
       title: m.title,
       description: m.twitterDescription,
       images: {
-        url: "https://rhonstudios.com/og/og-default.png",
+        url: `https://rhonstudios.com/og/og-home-${l}.png`,
         alt: m.title,
       },
     },
@@ -235,7 +232,7 @@ export default async function LocaleLayout({
       width: 512,
       height: 512,
     },
-    image: "https://rhonstudios.com/og/og-default.png",
+    image: `https://rhonstudios.com/og/og-home-${l}.png`,
     description: m.orgDescription,
     foundingDate: "2025",
     founders: [

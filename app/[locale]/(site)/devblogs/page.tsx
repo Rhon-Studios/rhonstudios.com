@@ -44,7 +44,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: "https://rhonstudios.com/og/og-default.png",
+          url: `https://rhonstudios.com/og/og-devblogs-${locale}.png`,
           width: 1200,
           height: 630,
           alt: seo.title,
@@ -56,7 +56,7 @@ export async function generateMetadata({
       site: "@rhonstudios",
       title: seo.title,
       description: seo.description,
-      images: ["https://rhonstudios.com/og/og-default.png"],
+      images: [`https://rhonstudios.com/og/og-devblogs-${locale}.png`],
     },
   };
 }

@@ -1,8 +1,10 @@
-﻿import { useLanguage } from "@/libs/utils/LanguageProvider";
+﻿"use client";
+
+import { useLanguage } from "@/libs/utils/LanguageProvider";
 import { AnimatePresence, motion } from "framer-motion";
 import { Award, Briefcase, Clock, FileText, Monitor, TrendingUp } from "lucide-react";
 import { opportunitiesData, projectsData } from "@/libs/database/oportunitiesData";
-import React, { useState } from "react";
+import { useState } from "react";
 import { ApplicationModal } from "@/components/join/ApplicationModal";
 
 interface ModalState {
@@ -20,7 +22,7 @@ interface ConditionItem {
   description: string;
 }
 
-export default function JoinPage() {
+export function JoinIndex() {
   const { t } = useLanguage();
   const tt = t.join_page;
   const areaLabels = {
