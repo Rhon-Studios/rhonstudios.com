@@ -211,23 +211,37 @@ export function GameGallery({ images, gameTitle, theme }: GameGalleryProps) {
                   style={{ borderColor: theme.cardBorderOpacity }}
                 >
                   {isVideo ? (
-                    <video
-                      src={image.url}
-                      poster={image.poster}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                    />
+                    <div
+                      className="absolute inset-0 flex items-center justify-center"
+                      style={{ backgroundColor: image.bgColor ?? theme.bgColor }}
+                    >
+                      <video
+                        src={image.url}
+                        poster={image.poster}
+                        className={`w-full h-full transition-transform duration-700 group-hover:scale-110 ${
+                          image.fit === "contain" ? "object-contain" : "object-cover"
+                        }`}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    </div>
                   ) : (
-                    <Image
-                      src={image.url}
-                      alt={image.title}
-                      fill
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
+                    <div
+                      className="absolute inset-0"
+                      style={{ backgroundColor: image.bgColor ?? theme.bgColor }}
+                    >
+                      <Image
+                        src={image.url}
+                        alt={image.title}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className={`transition-transform duration-700 group-hover:scale-110 ${
+                          image.fit === "contain" ? "object-contain" : "object-cover"
+                        }`}
+                      />
+                    </div>
                   )}
                   <div
                     className="absolute top-3 left-3 sm:top-4 sm:left-4 border bg-black/80 backdrop-blur-sm px-2 sm:px-3 py-0.5 sm:py-1 flex items-center gap-1.5"
@@ -309,7 +323,10 @@ export function GameGallery({ images, gameTitle, theme }: GameGalleryProps) {
                   controls
                 />
               ) : (
-                <div className="relative w-full h-[70vh] sm:h-[80vh]">
+                <div
+                  className="relative w-full h-[70vh] sm:h-[80vh]"
+                  style={{ backgroundColor: selectedImages.bgColor ?? theme.bgColor }}
+                >
                   <Image
                     src={selectedImages.url}
                     alt={selectedImages.title}

@@ -15,6 +15,8 @@ export interface MediaItem {
   poster?: string;
   gameId?: GameId;
   collaboratorId?: CollaboratorId;
+  fit?: "cover" | "contain";
+  bgColor?: string;
 }
 
 export const mediaData: MediaItem[] = [
@@ -37,6 +39,7 @@ export const mediaData: MediaItem[] = [
     category: "environment",
     gameId: "tonkori",
     collaboratorId: "sayyidali",
+    fit: "contain",
   },
   {
     id: "tonkori-sword",
@@ -55,6 +58,8 @@ export const mediaData: MediaItem[] = [
     category: "screenshot",
     gameId: "tonkori",
     collaboratorId: "sayyidali",
+    fit: "contain",
+    bgColor: "#686868",
   },
   {
     id: "tonkori-house-2",
@@ -64,6 +69,8 @@ export const mediaData: MediaItem[] = [
     category: "environment",
     gameId: "tonkori",
     collaboratorId: "sayyidali",
+    fit: "contain",
+    bgColor: "#3F3F3F",
   },
   {
     id: "tonkori-house-3",
@@ -73,6 +80,8 @@ export const mediaData: MediaItem[] = [
     category: "screenshot",
     gameId: "tonkori",
     collaboratorId: "sayyidali",
+    fit: "contain",
+    bgColor: "black",
   },
 
   // AFTERLIGHT
@@ -93,6 +102,8 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "characters",
     gameId: "afterlight",
+    fit: "contain",
+    bgColor: "#B0B0B0",
   },
   {
     id: "concept-art-enemies2",
@@ -157,24 +168,40 @@ export const mediaData: MediaItem[] = [
     type: "image",
     category: "environment",
     gameId: "tinycare",
+    fit: "contain",
   },
   {
     id: "bunny",
-    url: "/tinycare/Bunny.jpeg",
+    url: "/tinycare/Bunny.png",
     title: "Bunny",
     type: "image",
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
   {
     id: "cat",
-    url: "/tinycare/Cat.jpeg",
+    url: "/tinycare/Cat.png",
     title: "Cat",
     type: "image",
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
+  },
+  {
+    id: "duck",
+    url: "/tinycare/Duck.png",
+    title: "Duck",
+    type: "image",
+    category: "characters",
+    gameId: "tinycare",
+    collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
   {
     id: "gigaduck",
@@ -184,6 +211,8 @@ export const mediaData: MediaItem[] = [
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
   {
     id: "potato",
@@ -193,33 +222,74 @@ export const mediaData: MediaItem[] = [
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
   {
     id: "rock",
-    url: "/tinycare/Rock.jpeg",
+    url: "/tinycare/Rock.png",
     title: "Rock",
     type: "image",
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
   {
     id: "dog",
-    url: "/tinycare/Dog.jpg",
+    url: "/tinycare/Dog.png",
     title: "Dog",
     type: "image",
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
   {
     id: "turtle",
-    url: "/tinycare/Turtle.jpg",
+    url: "/tinycare/Turtle.png",
     title: "Turtle",
     type: "image",
     category: "characters",
     gameId: "tinycare",
     collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
+  },
+  {
+    id: "turtle",
+    url: "/tinycare/Turtle_1.png",
+    title: "Turtle",
+    type: "image",
+    category: "characters",
+    gameId: "tinycare",
+    collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
+  },
+  {
+    id: "crab",
+    url: "/tinycare/Crab.png",
+    title: "Orange Crab",
+    type: "image",
+    category: "characters",
+    gameId: "tinycare",
+    collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
+  },
+  {
+    id: "dog_2",
+    url: "/tinycare/Dog_2.png",
+    title: "Dogiana",
+    type: "image",
+    category: "characters",
+    gameId: "tinycare",
+    collaboratorId: "sage",
+    fit: "contain",
+    bgColor: "white",
   },
 ];
 
