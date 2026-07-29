@@ -388,7 +388,9 @@
     }
   },
   "devblogpage": {
-    "writed": "Writed by:"
+    "writed": "Writed by:",
+    "notfound": "Devblog not founded",
+    "back": "Go Back"
   },
   "collaboratorsDetails": {
     "notfound": "Collaborator Not Found",

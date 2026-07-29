@@ -13,7 +13,12 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return devBlogPosts.map((p) => ({ slug: p.slug }));
+  return routing.locales.flatMap((locale) =>
+    devBlogPosts.map((p) => ({
+      locale,
+      slug: p.slug,
+    }))
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -38,6 +43,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     (locale === "en"
       ? `Rhon Studios development diary about ${post.project}.`
       : `Diario de desarrollo de Rhon Studios sobre ${post.project}.`);
+
+  console.log("Slug:", slug);
+  console.log("Post:", post);
 
   return {
     title,

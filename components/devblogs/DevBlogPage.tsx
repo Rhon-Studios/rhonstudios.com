@@ -24,10 +24,30 @@ export default function DevBlogPage() {
   const { slug } = useParams();
   const router = useRouter();
   const { t } = useLanguage();
+  const tt = t.devblogpage;
 
   const post = getDevBlogBySlug(slug as string);
   if (!post) {
-    return <div>Post not found</div>;
+    return (
+      <section
+        id="collaboratorError"
+        className="scroll-mt-40 relative h-screen bg-black text-white overflow-hidden flex items-center justify-center"
+      >
+        <div className="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black" />
+        <div className="relative z-10 text-center">
+          <h1 className="text-3xl sm:text-4xl mb-8" style={{ fontFamily: "Cinzel" }}>
+            {tt.notfound}
+          </h1>
+          <button
+            onClick={() => router.push(`/devblogs`)}
+            className={`cursor-pointer inline-flex items-center gap-2 border border-white/30 px-6 py-3 text-sm tracking-wider hover:border-white transition`}
+            style={{ fontFamily: "Cinzel" }}
+          >
+            {tt.back}
+          </button>
+        </div>
+      </section>
+    );
   }
   const author = getAuthor(post);
   const devT = t.devblogs[post.id];
