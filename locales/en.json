@@ -177,7 +177,6 @@
     "title": "Join Rhon Studios",
     "subtitle": "Join Our World",
     "description": "We're building from passion. If you have talent and want to leave your mark, there's a place for you.",
-    "count": "contributors actively sought",
     "card": {
       "open": "open",
       "open_p": "open",
@@ -309,6 +308,14 @@
     "title": "Our Opportunities",
     "subtitle": "Join Us",
     "description": "At Rhon Studios, we believe great projects are built by great people. We are a growing studio with no revenue yet, but with original IPs in development and a clear vision for the future. These opportunities are voluntary collaborations with no salary but with real and transparent conditions.",
+    "urgent": "Urgent",
+    "seemore": "Show more ↓",
+    "seeless": "Show less ↑",
+    "wantto": "I want to collaborate →",
+    "searching": "What we're looking for",
+    "offering": "What we offer",
+    "open": "● Open",
+    "closed": "○ Filled",
     "conditions": {
       "top_title": "What We Offer",
       "title": "Our Conditions",

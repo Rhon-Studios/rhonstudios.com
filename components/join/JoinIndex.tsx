@@ -321,7 +321,7 @@ export function JoinIndex() {
                               className="text-[9px] sm:text-xs tracking-[0.15em] uppercase px-3 py-1 bg-white text-black"
                               style={{ fontFamily: "Cinzel" }}
                             >
-                              ★ Urgente
+                              {t.join_page.urgent}
                             </span>
                           )}
                           <span
@@ -349,7 +349,7 @@ export function JoinIndex() {
                           }`}
                           style={{ fontFamily: "Cinzel" }}
                         >
-                          {opp.status === "open" ? "● Abierta" : "○ Cubierta"}
+                          {opp.status === "open" ? t.join_page.open : t.join_page.closed}
                         </span>
                       </div>
                       <h4
@@ -379,7 +379,7 @@ export function JoinIndex() {
                                   className="text-[9px] sm:text-xs tracking-[0.2em] uppercase text-white/40 mb-3"
                                   style={{ fontFamily: "Cinzel" }}
                                 >
-                                  Lo que buscamos
+                                  {t.join_page.searching}
                                 </p>
                                 <ul className="space-y-2">
                                   {oppT.requirements.map((r: string, i: number) => (
@@ -399,7 +399,7 @@ export function JoinIndex() {
                                   className="text-[9px] sm:text-xs tracking-[0.2em] uppercase text-white/40 mb-3"
                                   style={{ fontFamily: "Cinzel" }}
                                 >
-                                  Lo que ofrecemos
+                                  {t.join_page.offering}
                                 </p>
                                 <ul className="space-y-2">
                                   {oppT.offer.map((o: string, i: number) => (
@@ -424,7 +424,7 @@ export function JoinIndex() {
                           className="text-[9px] sm:text-xs tracking-[0.2em] uppercase text-white/40 hover:text-white transition-colors duration-300"
                           style={{ fontFamily: "Cinzel" }}
                         >
-                          {isExpanded ? "Ver menos ↑" : "Ver más ↓"}
+                          {isExpanded ? t.join_page.seeless : t.join_page.seemore}
                         </button>
                         {opp.status === "open" && (
                           <button
@@ -434,7 +434,7 @@ export function JoinIndex() {
                             className="ml-auto border-2 border-white/50 px-6 py-2 text-[9px] sm:text-xs tracking-[0.2em] uppercase hover:border-white hover:bg-white hover:text-black transition-all duration-300"
                             style={{ fontFamily: "Cinzel", fontWeight: 300 }}
                           >
-                            Quiero colaborar →
+                            {t.join_page.wantto}
                           </button>
                         )}
                       </div>
