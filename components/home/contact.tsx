@@ -167,8 +167,10 @@ export function Contact() {
                     {t.contact.name}
                   </label>
                   <input
+                    id="name"
                     type="text"
                     name="Name"
+                    autoComplete="name"
                     value={formData.Name}
                     onChange={handleChange}
                     className="w-full bg-transparent border-2 border-white px-4 py-2 focus:outline-none focus:bg-white focus:text-black transition-all duration-300 text-sm sm:text-base"
@@ -185,8 +187,10 @@ export function Contact() {
                     Email
                   </label>
                   <input
+                    id="email"
                     type="email"
                     name="Email"
+                    autoComplete="email"
                     value={formData.Email}
                     onChange={handleChange}
                     className="w-full bg-transparent border-2 border-white px-4 py-2 focus:outline-none focus:bg-white focus:text-black transition-all duration-300 text-sm sm:text-base"
@@ -204,6 +208,7 @@ export function Contact() {
                       {t.contact.company}
                     </label>
                     <input
+                      id="company"
                       type="text"
                       name="Company"
                       value={formData.Company}
@@ -223,6 +228,7 @@ export function Contact() {
                     {t.contact.message.title}
                   </label>
                   <textarea
+                    id="message"
                     name="Message"
                     value={formData.Message}
                     onChange={handleChange}

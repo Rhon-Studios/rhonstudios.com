@@ -44,9 +44,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `Rhon Studios development diary about ${post.project}.`
       : `Diario de desarrollo de Rhon Studios sobre ${post.project}.`);
 
-  console.log("Slug:", slug);
-  console.log("Post:", post);
-
   return {
     title,
     description,

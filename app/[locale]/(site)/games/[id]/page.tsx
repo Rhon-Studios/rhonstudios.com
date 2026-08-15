@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
 import { routing } from "@/libs/i18n/routing";
-import { GameSchema, BreadcrumbSchema } from "@/libs/seo/GameShema";
+import { GameSchema, BreadcrumbSchema } from "@/libs/seo/GameSchema";
 import { GamePageClient } from "@/components/games/GamePageClient";
 
 const VALID_IDS = ["afterlight", "tinycare", "theobserver", "tonkori"] as const;

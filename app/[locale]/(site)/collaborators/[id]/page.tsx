@@ -3,7 +3,7 @@ import { hasLocale } from "next-intl";
 import { routing } from "@/libs/i18n/routing";
 import { collaborators } from "@/libs/database/teamData";
 import CollaboratorDetailClient from "@/components/collaborators/CollaboratorDetail";
-import { BreadcrumbSchema } from "@/libs/seo/GameShema";
+import { BreadcrumbSchema } from "@/libs/seo/GameSchema";
 
 interface Props {
   params: Promise<{ id: string; locale: string }>;

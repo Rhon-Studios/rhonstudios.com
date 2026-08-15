@@ -86,11 +86,7 @@
       {
         "phase": "Pre-production",
         "status": "planned",
-        "items": [
-          "Concept art",
-          "Final 3D engine selection",
-          "Production planning"
-        ]
+        "items": ["Concept art", "Final 3D engine selection", "Production planning"]
       },
       {
         "phase": "Technical prototype",
